@@ -38,7 +38,7 @@
 <details>
   <summary>展开复制节点</summary>
 
-    
+  https://raw.githubusercontent.com/Jason6111/TopFreeProxies/master/EternityQ  
 
 </details>
 
