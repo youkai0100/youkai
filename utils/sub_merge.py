@@ -115,7 +115,7 @@ class merge():
                 while lines[index+4] != '\n':
                     lines.pop(index+4)
 
-                with open(f'{self.merge_dir}sub_q.txt', 'r', encoding='utf-8') as f:
+                with open(f'./sub/sub_q.txt', 'w', encoding='utf-8') as f:
                     proxies_base64 = f.read()
                     proxies = base64_decode(proxies_base64)
                     proxies = proxies.split('\n')
