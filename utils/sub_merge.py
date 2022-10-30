@@ -14,7 +14,6 @@ class merge():
         self.readme_file = file_dir['readme_file']
         self.share_file = file_dir['share_file']
         
-        Ete = './Ete'
 
         self.format_config = {
             'deduplicate': bool(format_config['deduplicate']), 'rename': format_config['rename'],
