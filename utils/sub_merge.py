@@ -71,7 +71,7 @@ class merge():
             file = open(file, 'w+', encoding = 'utf-8')
             file.write(output_type)
             file.close
-        write_list = [f'{share_file}/sub_q.txt', f'{merge_dir}/sub_merge.txt', f'{merge_dir}/sub_merge_base64.txt', f'{merge_dir}/sub_merge_clash.yaml']
+        write_list = [f'{merge_dir}/sub_merge.txt', f'{merge_dir}/sub_merge_base64.txt', f'{merge_dir}/sub_merge_clash.yaml']
         content_type = (content, content_base64, content_clash)
         for index in range(len(write_list)):
             content_write(write_list[index], content_type[index])
