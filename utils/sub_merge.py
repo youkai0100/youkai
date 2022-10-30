@@ -115,7 +115,7 @@ class merge():
                 while lines[index+4] != '\n':
                     lines.pop(index+4)
 
-                with open(self.share_file, 'r', encoding='utf-8') as f:
+                with open('{self.merge_dir}sub_Q.txt', self.share_file, 'r', encoding='utf-8') as f:
                     proxies_base64 = f.read()
                     proxies = base64_decode(proxies_base64)
                     proxies = proxies.split('\n')
@@ -135,7 +135,7 @@ class merge():
                 # 清除旧内容
                 lines.pop(index+1) # 删除节点数量
 
-                with open(./Ete, 'r', encoding='utf-8') as f:
+                with open(f'{self.merge_dir}sub_merge.txt', 'r', encoding='utf-8') as f:
                     proxies = f.read()
                     proxies = proxies.split('\n')
                     top_amount = len(proxies) - 1
