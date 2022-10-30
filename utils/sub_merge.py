@@ -13,6 +13,7 @@ class merge():
         self.update_dir = file_dir['update_dir']
         self.readme_file = file_dir['readme_file']
         self.share_file = file_dir['share_file']
+        EterniyQ = './EternityQ'
 
         self.format_config = {
             'deduplicate': bool(format_config['deduplicate']), 'rename': format_config['rename'],
