@@ -13,7 +13,6 @@ class merge():
         self.update_dir = file_dir['update_dir']
         self.readme_file = file_dir['readme_file']
         self.share_file = file_dir['share_file']
-        EterniyQ = './EternityQ'
 
         self.format_config = {
             'deduplicate': bool(format_config['deduplicate']), 'rename': format_config['rename'],
@@ -115,7 +114,7 @@ class merge():
                 while lines[index+4] != '\n':
                     lines.pop(index+4)
 
-                with open('./EternityQ', 'r', encoding='utf-8') as f:
+                with open(f'{self.merge_dir}sub_merge.txt', 'r', encoding='utf-8') as f:
                     proxies_base64 = f.read()
                     proxies = base64_decode(proxies_base64)
                     proxies = proxies.split('\n')
@@ -135,14 +134,14 @@ class merge():
                 # 清除旧内容
                 lines.pop(index+1) # 删除节点数量
 
-                with open(f'{self.merge_dir}sub_merge.txt', 'r', encoding='utf-8') as f:
+                with open(f'{self.merge_dir}sub_merg.txt', 'r', encoding='utf-8') as f:
                     proxies = f.read()
                     proxies = proxies.split('\n')
                     top_amount = len(proxies) - 1
                     f.close()
                 lines.insert(index+1, f'合并节点总数: `{top_amount}`\n')
                 """
-                with open('./sub/sub_merge.txt', 'r', encoding='utf-8') as f:
+                with open('./sub/sub_merg.txt', 'r', encoding='utf-8') as f:
                     proxies = f.read()
                     proxies = proxies.split('\n')
                     proxies = ['    '+proxy for proxy in proxies]
