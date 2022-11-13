@@ -6,98 +6,96 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16", server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
-  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡_1112297, server: 8.219.58.58, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
   - {name: 🇸🇬 新加坡_1112206, server: sgovh1.v2rayserv.com, port: 80, type: vmess, uuid: 78f936d1-8a72-4b7c-aafa-c8284e15ccaa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: sgovh1.v2rayserv.com}}}
-  - {name: 🇸🇬 新加坡_1112437, server: 8.219.61.74, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: p1.chigua.tk}}}
+  - {name: 🇸🇬 新加坡_1112283, server: 8.219.102.212, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇯🇵 日本_1112634, server: jp1.v2rayserv.com, port: 80, type: vmess, uuid: 317722d3-baf5-4932-bd0d-aaeacb52e0b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: jp1.v2rayserv.com}}}
+  - {name: 🇯🇵 -日本-jp-am48-6.eqnode.net, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇭🇰 -香港-119.237.195.230, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇭🇰 -香港-10.douluos.icu, server: 10.douluos.icu, port: 53010, type: vmess, uuid: 91618f8b-5ebe-33fc-aaa4-a962cb86503d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz, server: v2.sgp.yd.thetruman.xyz, port: 25179, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v2sgplt.thetruman.xyz}}}
-  - {name: 🇭🇰 -香港-bgp.hk.iplcat.com, server: bgp.hk.iplcat.com, port: 33096, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bgphk.iplcat.com}}}
-  - {name: 🇯🇵 -日本-3.112.18.248, server: 3.112.18.248, port: 42365, type: vmess, uuid: b9ee8850-6eab-46bc-92e4-a28773dc2aab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3.112.18.248}}}
-  - {name: 🇯🇵 -日本-43.206.127.213, server: 43.206.127.213, port: 30001, type: vmess, uuid: 934046a1-9d46-42b3-ad38-b754c3f1a42c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustr63.moonfree.top}}}
-  - {name: 🇯🇵 -日本-52.253.116.66, server: 52.253.116.66, port: 8884, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 -日本-139.162.76.118, server: 139.162.76.118, port: 20833, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 -日本-139.162.121.127, server: 139.162.121.127, port: 2053, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇸🇬 -新加坡-139.162.16.115, server: 139.162.16.115, port: 443, type: vmess, uuid: cbd033dc-89cb-4203-86ce-5c1c21cf1d0e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
+  - {name: 🇯🇵 -日本-172.104.91.103, server: 172.104.91.103, port: 2053, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
   - {name: 🇸🇬 -新加坡-23.98.71.171, server: 23.98.71.171, port: 8882, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 -台湾台中市-cn2.tw.thetruman.xyz, server: cn2.tw.thetruman.xyz, port: 39664, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cn2tw.thetruman.xyz}}}
+  - {name: 🇭🇰 -香港-47.87.157.148, server: 47.87.157.148, port: 80, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 -日本-52.253.116.66, server: 52.253.116.66, port: 8884, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 -日本-8.douluos.icu, server: 8.douluos.icu, port: 43008, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 -香港-cdnfrontcn2.iplcat.com, server: cdnfrontcn2.iplcat.com, port: 39210, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: frontcn2.iplcat.com}}}
+  - {name: 🇨🇳 -台湾台中市-cdnhelptop.thetruman.xyz, server: cdnhelptop.thetruman.xyz, port: 32279, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helptop.thetruman.xyz}}}
+  - {name: 🇯🇵 -日本-cdninkr.thetruman.xyz, server: cdninkr.thetruman.xyz, port: 39975, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: inkr.thetruman.xyz}}}
+  - {name: 🇭🇰 -香港-sgpcon2.g2.tvmv.in, server: sgpcon2.g2.tvmv.in, port: 35050, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sgpcon2g2.tvmv.in}}}
+  - {name: 🇯🇵 -日本-ssru.v2.jp03.2yun.win, server: ssru.v2.jp03.2yun.win, port: 13306, type: vmess, uuid: 24c1e891-ec0d-3aac-9d13-9eb9c7682eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ssru.v2.jp03.2yun.win}}}
+  - {name: 🇯🇵 -日本-3.112.18.248, server: 3.112.18.248, port: 42365, type: vmess, uuid: b9ee8850-6eab-46bc-92e4-a28773dc2aab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3.112.18.248}}}
+  - {name: 🇯🇵 -日本-54.168.185.239, server: 54.168.185.239, port: 10254, type: vmess, uuid: b9ee8850-6eab-46bc-92e4-a28773dc2aab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 54.168.185.239}}}
+  - {name: 🇯🇵 -日本-cuii.jp.iplcat.com, server: cuii.jp.iplcat.com, port: 29937, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpcuii.iplcat.com}}}
+  - {name: 🇯🇵 -日本-bgp.jp.iplcat.com, server: bgp.jp.iplcat.com, port: 20443, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bgpjp.iplcat.com}}}
+  - {name: 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz, server: v2.sgp.yd.thetruman.xyz, port: 25179, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v2sgplt.thetruman.xyz}}}
   - {name: 🇨🇳 -台湾台北市-ca.xlkjjs.top, server: ca.xlkjjs.top, port: 18136, type: vmess, uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca.xlkjjs.top}}}
+  - {name: 🇨🇳 -台湾彰化县-landing.thetruman.xyz, server: landing.thetruman.xyz, port: 443, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: landing.thetruman.xyz}}}
   - {name: 🇭🇰 -香港-cdnstart-10.iplcat.com, server: cdnstart-10.iplcat.com, port: 39952, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: start-10.iplcat.com}}}
   - {name: 🇭🇰 -香港-cdntwolayerhk.fastiqiyi.xyz, server: cdntwolayerhk.fastiqiyi.xyz, port: 45299, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: twolayerhk.fastiqiyi.xyz}}}
-  - {name: 🇭🇰 -香港-hkt.xlkjjs.top, server: hkt.xlkjjs.top, port: 18136, type: vmess, uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.xlkjjs.top}}}
-  - {name: 🇭🇰 -香港-sgpcon2.g2.tvmv.in, server: sgpcon2.g2.tvmv.in, port: 35050, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sgpcon2g2.tvmv.in}}}
+  - {name: 🇭🇰 -香港-bgp.hk.iplcat.com, server: bgp.hk.iplcat.com, port: 33096, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bgphk.iplcat.com}}}
   - {name: 🇯🇵 -日本-146.56.166.153, server: 146.56.166.153, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 -日本-172.104.112.66, server: 172.104.112.66, port: 20534, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 -日本-172.104.125.96, server: 172.104.125.96, port: 2053, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇯🇵 -日本-54.238.193.140, server: 54.238.193.140, port: 50236, type: vmess, uuid: ff27adfa-3f1a-412d-a1fc-6593984fe9cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 54.238.193.140}}}
   - {name: 🇯🇵 -日本-v2.usa3.thetruman.xyz, server: v2.usa3.thetruman.xyz, port: 35157, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v2usa3.thetruman.xyz}}}
   - {name: "🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3", server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /admin, headers: {Host: V104.bgpnet.top}}}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4", server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7}
   - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7", server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}}
   - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8", server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
-  - {name: 🇭🇰 -香港-ah.yd01.paopaocloud.cyou, server: ah.yd01.paopaocloud.cyou, port: 10004, type: vmess, uuid: 24c1e891-ec0d-3aac-9d13-9eb9c7682eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jp05.ssru4.fun}}}
+  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10", server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 -日本-cdninkr.thetruman.xyz, server: cdninkr.thetruman.xyz, port: 39975, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: inkr.thetruman.xyz}}}
+  - {name: "🇯🇵 [11-13]-🇯🇵-日本-6250-kr.838501.xyz", server: kr.838501.xyz, port: 15001, type: trojan, password: 09b55e8f-5c7c-461f-bc78-e94da8c5456e, skip-cert-verify: false}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19", server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}}
-  - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20", server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23", server: V203.bgpnet.top, port: 26203, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25", server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: jp-bgp.speedaccelerate.com, skip-cert-verify: true}
-  - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28", server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29", server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40", server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: "🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_1112003, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
-  - {name: 🇨🇳 台湾_1112004, server: 165.154.243.45, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 台湾_1112005, server: 165.154.226.45, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 台湾_1112029, server: 220.130.80.179, port: 443, type: vmess, uuid: 70206490-8292-4242-b263-e7d11589362e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /down}}
-  - {name: 🇨🇳 台湾_1112030, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_1112031, server: tw-tb-b.zc20200426.club, port: 39998, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_1112032, server: 211.72.35.110, port: 443, type: vmess, uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ru.tzccifq.ga}}}
-  - {name: 🇺🇸 -美国-11.douluos.icu, server: 11.douluos.icu, port: 51011, type: vmess, uuid: 94522253-0fbd-3c84-aa3c-5ea83d0348e7, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-111.wgong1.top, server: 111.wgong1.top, port: 52211, type: vmess, uuid: 90a18989-87f3-3f17-ae19-71ce4fba3d88, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-112.wgong1.top, server: 112.wgong1.top, port: 52212, type: vmess, uuid: a0204af6-4e49-3818-9d29-02a75cc8653a, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-16.douluos.icu, server: 16.douluos.icu, port: 53016, type: vmess, uuid: 380118dc-b023-39df-9c05-6228e3ca8280, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-17.mxyun1.top, server: 17.mxyun1.top, port: 41117, type: vmess, uuid: 69f9bdee-9184-33e0-ab16-f4bee196a02f, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-216.73.158.102, server: 216.73.158.102, port: 40004, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇸 -美国-29.douluos.icu, server: 29.douluos.icu, port: 36129, type: vmess, uuid: 91618f8b-5ebe-33fc-aaa4-a962cb86503d, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-aus01.paopaocloud.cyou, server: aus01.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: aus01.paopaocloud.cyou}}}
-  - {name: 🇺🇸 -美国-ger01.cf.paopaocloud.cyou, server: ger01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}
+  - {name: 🇨🇦 -加拿大-165.154.225.94, server: 165.154.225.94, port: 41002, type: ssr, cipher: chacha20-ietf, password: yPKrexXaVMAXFfez, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28084:kf47Xf, obfs-param: 0ec5428084.download.windowsupdate.co%%�}
+  - {name: 🇺🇸 -美国-45.33.88.190, server: 45.33.88.190, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
+  - {name: 🇺🇸 -美国-yc.safetelescope.cc, server: yc.safetelescope.cc, port: 21078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ajax.microsoft.com}
+  - {name: "🇸🇬 [11-13]-🇺🇸-美国-5860-sg.838501.xyz", server: sg.838501.xyz, port: 15001, type: trojan, password: bf0ee501-79f3-4cc8-ab94-f9a9fa1c769c, skip-cert-verify: false}
+  - {name: 🇺🇸 -北美地区-104.166.124.82, server: 104.166.124.82, port: 40000, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 -美国-114.wgong1.top, server: 114.wgong1.top, port: 52214, type: vmess, uuid: 6c0a66ea-22b2-3320-8698-05346881878f, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-116.wgong1.top, server: 116.wgong1.top, port: 52216, type: vmess, uuid: 6c0a66ea-22b2-3320-8698-05346881878f, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-11.douluos.icu, server: 11.douluos.icu, port: 51011, type: vmess, uuid: 91618f8b-5ebe-33fc-aaa4-a962cb86503d, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-11.mxyun1.top, server: 11.mxyun1.top, port: 41111, type: vmess, uuid: 69f9bdee-9184-33e0-ab16-f4bee196a02f, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-111.wgong1.top, server: 111.wgong1.top, port: 52211, type: vmess, uuid: 6c0a66ea-22b2-3320-8698-05346881878f, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-113.wgong1.top, server: 113.wgong1.top, port: 52213, type: vmess, uuid: a60275c0-3f10-3dfe-96a9-97a97777a17d, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-16.163.126.162, server: 16.163.126.162, port: 80, type: vmess, uuid: 8ae99d30-65a6-4f38-8ecc-56c1c3f4d679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}}
-  - {name: 🇺🇸 -美国-20.210.216.35, server: 20.210.216.35, port: 8885, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 -加拿大-can01.paopaocloud.cyou, server: can01.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: 🇺🇸 -美国-16.douluos.icu, server: 16.douluos.icu, port: 53016, type: vmess, uuid: 94522253-0fbd-3c84-aa3c-5ea83d0348e7, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-16.mxyun1.top, server: 16.mxyun1.top, port: 41116, type: vmess, uuid: afa90b7a-f86e-3a0a-b9ad-3644bdb1d109, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-20.214.106.77, server: 20.214.106.77, port: 8867, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-17.mxyun1.top, server: 17.mxyun1.top, port: 41117, type: vmess, uuid: afa90b7a-f86e-3a0a-b9ad-3644bdb1d109, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-20.205.122.35, server: 20.205.122.35, port: 8884, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 -美国-20.210.216.35, server: 20.210.216.35, port: 8885, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-20.247.110.156, server: 20.247.110.156, port: 8886, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-20.247.110.201, server: 20.247.110.201, port: 8884, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-52.140.210.205, server: 52.140.210.205, port: 3359, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 -美国-216.73.158.102, server: 216.73.158.102, port: 40004, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 -美国-29.douluos.icu, server: 29.douluos.icu, port: 36129, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-66.228.34.173, server: 66.228.34.173, port: 8443, type: vmess, uuid: cbd033dc-89cb-4203-86ce-5c1c21cf1d0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583181.xyz}}}
-  - {name: 🇺🇸 -美国-cdnassetname.fastiqiyi.xyz, server: cdnassetname.fastiqiyi.xyz, port: 49381, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: assetname.fastiqiyi.xyz}}}
-  - {name: 🇺🇸 -美国-init.blog, server: init.blog, port: 443, type: vmess, uuid: df6bf859-d846-4d34-8fbc-2fcbb935a40e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: aoop.aoop.eu.org}}}
-  - {name: 🇭🇰 -美国-icook.hk, server: icook.hk, port: 443, type: vmess, uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.aoop.eu.org}}}
-  - {name: 🇺🇸 -美国-ssru.v2.us03.2yun.win, server: ssru.v2.us03.2yun.win, port: 13306, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ssru.v2.us03.2yun.win}}}
-  - {name: 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou, server: paopao.v2.us07.paopaocloud.cyou, port: 3307, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us07.ssru4.fun}}}
-  - {name: 🇺🇸 -美国-www.dynadot.com, server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kz.cloudflare.quest}}}
-  - {name: -浙江省-wz.safetelescope.cc, server: wz.safetelescope.cc, port: 46562, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 124006:JD9M7jawg8, obfs-param: ajax.microsoft.com}
-  - {name: 河南省驻马店市-vc-1.gito.cc, server: vc-1.gito.cc, port: 33666, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 🇷🇺 -俄罗斯-spnl.fastiqiyi.xyz, server: spnl.fastiqiyi.xyz, port: 26204, type: vmess, uuid: 9d2d4cbf-ac76-3e68-96c6-06dd90fd4ddd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: spnl.fastiqiyi.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: yuMqkGIx6Ia0}
-  - {name: 🇫🇮 -芬兰-jps.xlkjjs.top, server: jps.xlkjjs.top, port: 26584, type: vmess, uuid: 0a6b7226-2f9c-393c-bc94-5a34859250c0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jps.xlkjjs.top}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100, server: 185.108.105.129, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 97, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 96.43.91.60}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 141.101.114.120}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 94, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: www.digitalocean.com}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92, server: 198.41.212.144, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 198.41.212.144}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 90, server: 45.64.22.55, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 45.64.22.55}}}
-  - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
-  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 89, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: false}
-  - {name: "🇸🇰 [09-26]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1", server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86, server: 86.106.136.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: "🇬🇧 [09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27", server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true}
-  - {name: 🇭🇰 adi|0703v - dg-hk-node01, server: dg-hk-node01.linkthink.app, port: 10210, type: ssr, cipher: dummy, password: abK09D1FnV, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ajax.microsoft.com}
-  - {name: 公益机场https//bit.ly/3BPeo5G, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V02-付费推荐suo.yt/ssrsub", server: 5.45.94.28, port: 80, type: vmess, uuid: bd3d81c6-9d40-4e75-8a23-7c55d69bf801, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.45.94.28}}}
-  - {name: "@SSRSUB-V04-付费推荐suo.yt/ssrsub", server: suzhihan.eu.org, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: suzhihan.eu.org}}}
+  - {name: 🇺🇸 -美国-can01.cf.paopaocloud.cyou, server: can01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: "[11-13]-🇦🇶-亚太地区-146-103.172.116.5", server: 103.172.116.5, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 59, server: 104.25.52.187, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /y475, headers: {Host: 104.25.52.187}}}
+  - {name: 🇨🇳 广东省广州市-125.94.215.200, server: 125.94.215.200, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 38735:LLLLhgujhjh67786gh, obfs-param: t.me/vpnhat}
+  - {name: 🇩🇪 -德国-136.243.191.85, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 广东省东莞市-14.152.92.77, server: 14.152.92.77, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: ""}
+  - {name: 广东省东莞市-14.152.92.78, server: 14.152.92.78, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: ""}
+  - {name: 广东省东莞市-14.152.92.72, server: 14.152.92.72, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA}
+  - {name: 广东省东莞市-14.152.92.81, server: 14.152.92.81, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%, obfs-param: 0f099600777.v23f7n%}
+  - {name: 🇩🇪 -德国-179.61.154.58, server: 179.61.154.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ZDJhNjIyMjc2My5taWNyb3NvZnQuY29t}
+  - {name: 广东省东莞市-42.157.195.232, server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
+  - {name: 广东省东莞市-42.157.195.241, server: 42.157.195.241, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA}
+  - {name: 广东省东莞市-42.157.195.244, server: 42.157.195.244, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: ""}
+  - {name: 广东省东莞市-42.157.195.245, server: 42.157.195.245, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: ""}
+  - {name: 🇷🇺 -俄罗斯-88.210.37.123, server: 88.210.37.123, port: 41007, type: ssr, cipher: chacha20-ietf, password: yPKrexXaVMAXFfez, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 28084:kf47Xf, obfs-param: 0ec5428084.download.windowsupdate.com}
+  - {name: 🇷🇺 -俄罗斯-88.210.37.124, server: 88.210.37.124, port: 41008, type: ssr, cipher: chacha20-ietf, password: yPKrexXaVMAXFfez, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 0ec5428084.download.windowsupdate.com}
+  - {name: 🇳🇱 -北京市-nl-1.gito.cc, server: nl-1.gito.cc, port: 8330, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇸🇬 广东省佛山市-sg-1.gito.cc, server: sg-1.gito.cc, port: 831, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 🇸🇬 广东省广州市-sg-1.gito.cc, server: sg-1.gito.cc, port: 831, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 浙江省温州市-sh163.safetelescope.cc, server: sh163.safetelescope.cc, port: 10006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 -北京市-rs-2.gito.cc, server: rs-2.gito.cc, port: 33411, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30855:0FvZRy, obfs-param: 940c230855.download.windowsupdate.com}
+  - {name: 浙江省温州市-wz.safetelescope.cc, server: wz.safetelescope.cc, port: 10019, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 124006:JD9M7jawg8, obfs-param: ajax.microsoft.com}
+  - {name: 🇨🇳 广东省广州市-udp-001.gito.cc, server: udp-001.gito.cc, port: 36815, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30855:0FvZRy, obfs-param: 940c230855.download.windowsupdate.com}
+  - {name: 🇨🇳 广东省广州市-udp-003.gito.cc, server: udp-003.gito.cc, port: 36811, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 🇺🇸 安徽省马鞍山市-us-1.gito.cc, server: us-1.gito.cc, port: 551, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -114,98 +112,96 @@ proxy-groups:
     type: select
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
-      - 🇸🇬 新加坡_1112297
       - 🇸🇬 新加坡_1112206
-      - 🇸🇬 新加坡_1112437
+      - 🇸🇬 新加坡_1112283
+      - 🇯🇵 日本_1112634
+      - 🇯🇵 -日本-jp-am48-6.eqnode.net
+      - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-10.douluos.icu
-      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
-      - 🇭🇰 -香港-bgp.hk.iplcat.com
-      - 🇯🇵 -日本-3.112.18.248
-      - 🇯🇵 -日本-43.206.127.213
-      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-139.162.76.118
+      - 🇯🇵 -日本-139.162.121.127
+      - 🇸🇬 -新加坡-139.162.16.115
+      - 🇯🇵 -日本-172.104.91.103
       - 🇸🇬 -新加坡-23.98.71.171
-      - 🇨🇳 -台湾台中市-cn2.tw.thetruman.xyz
+      - 🇭🇰 -香港-47.87.157.148
+      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-8.douluos.icu
+      - 🇭🇰 -香港-cdnfrontcn2.iplcat.com
+      - 🇨🇳 -台湾台中市-cdnhelptop.thetruman.xyz
+      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇯🇵 -日本-ssru.v2.jp03.2yun.win
+      - 🇯🇵 -日本-3.112.18.248
+      - 🇯🇵 -日本-54.168.185.239
+      - 🇯🇵 -日本-cuii.jp.iplcat.com
+      - 🇯🇵 -日本-bgp.jp.iplcat.com
+      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
       - 🇨🇳 -台湾台北市-ca.xlkjjs.top
+      - 🇨🇳 -台湾彰化县-landing.thetruman.xyz
       - 🇭🇰 -香港-cdnstart-10.iplcat.com
       - 🇭🇰 -香港-cdntwolayerhk.fastiqiyi.xyz
-      - 🇭🇰 -香港-hkt.xlkjjs.top
-      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇭🇰 -香港-bgp.hk.iplcat.com
       - 🇯🇵 -日本-146.56.166.153
       - 🇯🇵 -日本-172.104.112.66
       - 🇯🇵 -日本-172.104.125.96
+      - 🇯🇵 -日本-54.238.193.140
       - 🇯🇵 -日本-v2.usa3.thetruman.xyz
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
-      - 🇭🇰 -香港-ah.yd01.paopaocloud.cyou
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇯🇵 [11-13]-🇯🇵-日本-6250-kr.838501.xyz
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
-      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
-      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇨🇳 台湾_1112003
-      - 🇨🇳 台湾_1112004
-      - 🇨🇳 台湾_1112005
-      - 🇨🇳 台湾_1112029
-      - 🇨🇳 台湾_1112030
-      - 🇨🇳 台湾_1112031
-      - 🇨🇳 台湾_1112032
+      - 🇨🇦 -加拿大-165.154.225.94
+      - 🇺🇸 -美国-45.33.88.190
+      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇸🇬 [11-13]-🇺🇸-美国-5860-sg.838501.xyz
+      - 🇺🇸 -北美地区-104.166.124.82
+      - 🇺🇸 -美国-114.wgong1.top
+      - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
+      - 🇺🇸 -美国-11.mxyun1.top
       - 🇺🇸 -美国-111.wgong1.top
-      - 🇺🇸 -美国-112.wgong1.top
-      - 🇺🇸 -美国-16.douluos.icu
-      - 🇺🇸 -美国-17.mxyun1.top
-      - 🇺🇸 -美国-216.73.158.102
-      - 🇺🇸 -美国-29.douluos.icu
-      - 🇺🇸 -美国-aus01.paopaocloud.cyou
-      - 🇺🇸 -美国-ger01.cf.paopaocloud.cyou
+      - 🇺🇸 -美国-113.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-20.210.216.35
-      - 🇨🇦 -加拿大-can01.paopaocloud.cyou
+      - 🇺🇸 -美国-16.douluos.icu
       - 🇺🇸 -美国-16.mxyun1.top
-      - 🇺🇸 -美国-20.214.106.77
+      - 🇺🇸 -美国-17.mxyun1.top
+      - 🇺🇸 -美国-20.205.122.35
+      - 🇺🇸 -美国-20.210.216.35
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-20.247.110.201
-      - 🇺🇸 -美国-52.140.210.205
+      - 🇺🇸 -美国-216.73.158.102
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-66.228.34.173
-      - 🇺🇸 -美国-cdnassetname.fastiqiyi.xyz
-      - 🇺🇸 -美国-init.blog
-      - 🇭🇰 -美国-icook.hk
-      - 🇺🇸 -美国-ssru.v2.us03.2yun.win
-      - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
-      - 🇺🇸 -美国-www.dynadot.com
-      - -浙江省-wz.safetelescope.cc
-      - 河南省驻马店市-vc-1.gito.cc
-      - 🇷🇺 -俄罗斯-spnl.fastiqiyi.xyz
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇫🇮 -芬兰-jps.xlkjjs.top
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
-      - RO_08
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 94
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 90
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 89
-      - 🇸🇰 [09-26]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
-      - 🇬🇧 [09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
-      - 🇭🇰 adi|0703v - dg-hk-node01
-      - 公益机场https//bit.ly/3BPeo5G
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V04-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
+      - "[11-13]-🇦🇶-亚太地区-146-103.172.116.5"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 59
+      - 🇨🇳 广东省广州市-125.94.215.200
+      - 🇩🇪 -德国-136.243.191.85
+      - 广东省东莞市-14.152.92.77
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.72
+      - 广东省东莞市-14.152.92.81
+      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-42.157.195.232
+      - 广东省东莞市-42.157.195.241
+      - 广东省东莞市-42.157.195.244
+      - 广东省东莞市-42.157.195.245
+      - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇳🇱 -北京市-nl-1.gito.cc
+      - 🇸🇬 广东省佛山市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 浙江省温州市-sh163.safetelescope.cc
+      - 🇨🇳 -北京市-rs-2.gito.cc
+      - 浙江省温州市-wz.safetelescope.cc
+      - 🇨🇳 广东省广州市-udp-001.gito.cc
+      - 🇨🇳 广东省广州市-udp-003.gito.cc
+      - 🇺🇸 安徽省马鞍山市-us-1.gito.cc
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -257,98 +253,96 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
-      - 🇸🇬 新加坡_1112297
       - 🇸🇬 新加坡_1112206
-      - 🇸🇬 新加坡_1112437
+      - 🇸🇬 新加坡_1112283
+      - 🇯🇵 日本_1112634
+      - 🇯🇵 -日本-jp-am48-6.eqnode.net
+      - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-10.douluos.icu
-      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
-      - 🇭🇰 -香港-bgp.hk.iplcat.com
-      - 🇯🇵 -日本-3.112.18.248
-      - 🇯🇵 -日本-43.206.127.213
-      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-139.162.76.118
+      - 🇯🇵 -日本-139.162.121.127
+      - 🇸🇬 -新加坡-139.162.16.115
+      - 🇯🇵 -日本-172.104.91.103
       - 🇸🇬 -新加坡-23.98.71.171
-      - 🇨🇳 -台湾台中市-cn2.tw.thetruman.xyz
+      - 🇭🇰 -香港-47.87.157.148
+      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-8.douluos.icu
+      - 🇭🇰 -香港-cdnfrontcn2.iplcat.com
+      - 🇨🇳 -台湾台中市-cdnhelptop.thetruman.xyz
+      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇯🇵 -日本-ssru.v2.jp03.2yun.win
+      - 🇯🇵 -日本-3.112.18.248
+      - 🇯🇵 -日本-54.168.185.239
+      - 🇯🇵 -日本-cuii.jp.iplcat.com
+      - 🇯🇵 -日本-bgp.jp.iplcat.com
+      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
       - 🇨🇳 -台湾台北市-ca.xlkjjs.top
+      - 🇨🇳 -台湾彰化县-landing.thetruman.xyz
       - 🇭🇰 -香港-cdnstart-10.iplcat.com
       - 🇭🇰 -香港-cdntwolayerhk.fastiqiyi.xyz
-      - 🇭🇰 -香港-hkt.xlkjjs.top
-      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇭🇰 -香港-bgp.hk.iplcat.com
       - 🇯🇵 -日本-146.56.166.153
       - 🇯🇵 -日本-172.104.112.66
       - 🇯🇵 -日本-172.104.125.96
+      - 🇯🇵 -日本-54.238.193.140
       - 🇯🇵 -日本-v2.usa3.thetruman.xyz
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
-      - 🇭🇰 -香港-ah.yd01.paopaocloud.cyou
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇯🇵 [11-13]-🇯🇵-日本-6250-kr.838501.xyz
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
-      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
-      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇨🇳 台湾_1112003
-      - 🇨🇳 台湾_1112004
-      - 🇨🇳 台湾_1112005
-      - 🇨🇳 台湾_1112029
-      - 🇨🇳 台湾_1112030
-      - 🇨🇳 台湾_1112031
-      - 🇨🇳 台湾_1112032
+      - 🇨🇦 -加拿大-165.154.225.94
+      - 🇺🇸 -美国-45.33.88.190
+      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇸🇬 [11-13]-🇺🇸-美国-5860-sg.838501.xyz
+      - 🇺🇸 -北美地区-104.166.124.82
+      - 🇺🇸 -美国-114.wgong1.top
+      - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
+      - 🇺🇸 -美国-11.mxyun1.top
       - 🇺🇸 -美国-111.wgong1.top
-      - 🇺🇸 -美国-112.wgong1.top
-      - 🇺🇸 -美国-16.douluos.icu
-      - 🇺🇸 -美国-17.mxyun1.top
-      - 🇺🇸 -美国-216.73.158.102
-      - 🇺🇸 -美国-29.douluos.icu
-      - 🇺🇸 -美国-aus01.paopaocloud.cyou
-      - 🇺🇸 -美国-ger01.cf.paopaocloud.cyou
+      - 🇺🇸 -美国-113.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-20.210.216.35
-      - 🇨🇦 -加拿大-can01.paopaocloud.cyou
+      - 🇺🇸 -美国-16.douluos.icu
       - 🇺🇸 -美国-16.mxyun1.top
-      - 🇺🇸 -美国-20.214.106.77
+      - 🇺🇸 -美国-17.mxyun1.top
+      - 🇺🇸 -美国-20.205.122.35
+      - 🇺🇸 -美国-20.210.216.35
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-20.247.110.201
-      - 🇺🇸 -美国-52.140.210.205
+      - 🇺🇸 -美国-216.73.158.102
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-66.228.34.173
-      - 🇺🇸 -美国-cdnassetname.fastiqiyi.xyz
-      - 🇺🇸 -美国-init.blog
-      - 🇭🇰 -美国-icook.hk
-      - 🇺🇸 -美国-ssru.v2.us03.2yun.win
-      - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
-      - 🇺🇸 -美国-www.dynadot.com
-      - -浙江省-wz.safetelescope.cc
-      - 河南省驻马店市-vc-1.gito.cc
-      - 🇷🇺 -俄罗斯-spnl.fastiqiyi.xyz
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇫🇮 -芬兰-jps.xlkjjs.top
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
-      - RO_08
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 94
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 90
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 89
-      - 🇸🇰 [09-26]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
-      - 🇬🇧 [09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
-      - 🇭🇰 adi|0703v - dg-hk-node01
-      - 公益机场https//bit.ly/3BPeo5G
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V04-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
+      - "[11-13]-🇦🇶-亚太地区-146-103.172.116.5"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 59
+      - 🇨🇳 广东省广州市-125.94.215.200
+      - 🇩🇪 -德国-136.243.191.85
+      - 广东省东莞市-14.152.92.77
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.72
+      - 广东省东莞市-14.152.92.81
+      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-42.157.195.232
+      - 广东省东莞市-42.157.195.241
+      - 广东省东莞市-42.157.195.244
+      - 广东省东莞市-42.157.195.245
+      - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇳🇱 -北京市-nl-1.gito.cc
+      - 🇸🇬 广东省佛山市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 浙江省温州市-sh163.safetelescope.cc
+      - 🇨🇳 -北京市-rs-2.gito.cc
+      - 浙江省温州市-wz.safetelescope.cc
+      - 🇨🇳 广东省广州市-udp-001.gito.cc
+      - 🇨🇳 广东省广州市-udp-003.gito.cc
+      - 🇺🇸 安徽省马鞍山市-us-1.gito.cc
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -356,128 +350,125 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
-      - 🇸🇬 新加坡_1112297
       - 🇸🇬 新加坡_1112206
-      - 🇸🇬 新加坡_1112437
+      - 🇸🇬 新加坡_1112283
+      - 🇯🇵 日本_1112634
+      - 🇯🇵 -日本-jp-am48-6.eqnode.net
+      - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-10.douluos.icu
-      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
-      - 🇭🇰 -香港-bgp.hk.iplcat.com
-      - 🇯🇵 -日本-3.112.18.248
-      - 🇯🇵 -日本-43.206.127.213
-      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-139.162.76.118
+      - 🇯🇵 -日本-139.162.121.127
+      - 🇸🇬 -新加坡-139.162.16.115
+      - 🇯🇵 -日本-172.104.91.103
       - 🇸🇬 -新加坡-23.98.71.171
-      - 🇨🇳 -台湾台中市-cn2.tw.thetruman.xyz
+      - 🇭🇰 -香港-47.87.157.148
+      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-8.douluos.icu
+      - 🇭🇰 -香港-cdnfrontcn2.iplcat.com
+      - 🇨🇳 -台湾台中市-cdnhelptop.thetruman.xyz
+      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇯🇵 -日本-ssru.v2.jp03.2yun.win
+      - 🇯🇵 -日本-3.112.18.248
+      - 🇯🇵 -日本-54.168.185.239
+      - 🇯🇵 -日本-cuii.jp.iplcat.com
+      - 🇯🇵 -日本-bgp.jp.iplcat.com
+      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
       - 🇨🇳 -台湾台北市-ca.xlkjjs.top
+      - 🇨🇳 -台湾彰化县-landing.thetruman.xyz
       - 🇭🇰 -香港-cdnstart-10.iplcat.com
       - 🇭🇰 -香港-cdntwolayerhk.fastiqiyi.xyz
-      - 🇭🇰 -香港-hkt.xlkjjs.top
-      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇭🇰 -香港-bgp.hk.iplcat.com
       - 🇯🇵 -日本-146.56.166.153
       - 🇯🇵 -日本-172.104.112.66
       - 🇯🇵 -日本-172.104.125.96
+      - 🇯🇵 -日本-54.238.193.140
       - 🇯🇵 -日本-v2.usa3.thetruman.xyz
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
-      - 🇭🇰 -香港-ah.yd01.paopaocloud.cyou
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇯🇵 [11-13]-🇯🇵-日本-6250-kr.838501.xyz
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
-      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
-      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇨🇳 台湾_1112003
-      - 🇨🇳 台湾_1112004
-      - 🇨🇳 台湾_1112005
-      - 🇨🇳 台湾_1112029
-      - 🇨🇳 台湾_1112030
-      - 🇨🇳 台湾_1112031
-      - 🇨🇳 台湾_1112032
+      - 🇨🇦 -加拿大-165.154.225.94
+      - 🇺🇸 -美国-45.33.88.190
+      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇸🇬 [11-13]-🇺🇸-美国-5860-sg.838501.xyz
+      - 🇺🇸 -北美地区-104.166.124.82
+      - 🇺🇸 -美国-114.wgong1.top
+      - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
+      - 🇺🇸 -美国-11.mxyun1.top
       - 🇺🇸 -美国-111.wgong1.top
-      - 🇺🇸 -美国-112.wgong1.top
-      - 🇺🇸 -美国-16.douluos.icu
-      - 🇺🇸 -美国-17.mxyun1.top
-      - 🇺🇸 -美国-216.73.158.102
-      - 🇺🇸 -美国-29.douluos.icu
-      - 🇺🇸 -美国-aus01.paopaocloud.cyou
-      - 🇺🇸 -美国-ger01.cf.paopaocloud.cyou
+      - 🇺🇸 -美国-113.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-20.210.216.35
-      - 🇨🇦 -加拿大-can01.paopaocloud.cyou
+      - 🇺🇸 -美国-16.douluos.icu
       - 🇺🇸 -美国-16.mxyun1.top
-      - 🇺🇸 -美国-20.214.106.77
+      - 🇺🇸 -美国-17.mxyun1.top
+      - 🇺🇸 -美国-20.205.122.35
+      - 🇺🇸 -美国-20.210.216.35
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-20.247.110.201
-      - 🇺🇸 -美国-52.140.210.205
+      - 🇺🇸 -美国-216.73.158.102
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-66.228.34.173
-      - 🇺🇸 -美国-cdnassetname.fastiqiyi.xyz
-      - 🇺🇸 -美国-init.blog
-      - 🇭🇰 -美国-icook.hk
-      - 🇺🇸 -美国-ssru.v2.us03.2yun.win
-      - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
-      - 🇺🇸 -美国-www.dynadot.com
-      - -浙江省-wz.safetelescope.cc
-      - 河南省驻马店市-vc-1.gito.cc
-      - 🇷🇺 -俄罗斯-spnl.fastiqiyi.xyz
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇫🇮 -芬兰-jps.xlkjjs.top
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
-      - RO_08
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 94
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 90
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 89
-      - 🇸🇰 [09-26]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
-      - 🇬🇧 [09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
-      - 🇭🇰 adi|0703v - dg-hk-node01
-      - 公益机场https//bit.ly/3BPeo5G
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V04-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
+      - "[11-13]-🇦🇶-亚太地区-146-103.172.116.5"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 59
+      - 🇨🇳 广东省广州市-125.94.215.200
+      - 🇩🇪 -德国-136.243.191.85
+      - 广东省东莞市-14.152.92.77
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.72
+      - 广东省东莞市-14.152.92.81
+      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-42.157.195.232
+      - 广东省东莞市-42.157.195.241
+      - 广东省东莞市-42.157.195.244
+      - 广东省东莞市-42.157.195.245
+      - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇳🇱 -北京市-nl-1.gito.cc
+      - 🇸🇬 广东省佛山市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 浙江省温州市-sh163.safetelescope.cc
+      - 🇨🇳 -北京市-rs-2.gito.cc
+      - 浙江省温州市-wz.safetelescope.cc
+      - 🇨🇳 广东省广州市-udp-001.gito.cc
+      - 🇨🇳 广东省广州市-udp-003.gito.cc
+      - 🇺🇸 安徽省马鞍山市-us-1.gito.cc
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇦 -加拿大-165.154.225.94
+      - 🇺🇸 -美国-45.33.88.190
+      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇸🇬 [11-13]-🇺🇸-美国-5860-sg.838501.xyz
+      - 🇺🇸 -北美地区-104.166.124.82
+      - 🇺🇸 -美国-114.wgong1.top
+      - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
+      - 🇺🇸 -美国-11.mxyun1.top
       - 🇺🇸 -美国-111.wgong1.top
-      - 🇺🇸 -美国-112.wgong1.top
-      - 🇺🇸 -美国-16.douluos.icu
-      - 🇺🇸 -美国-17.mxyun1.top
-      - 🇺🇸 -美国-216.73.158.102
-      - 🇺🇸 -美国-29.douluos.icu
-      - 🇺🇸 -美国-aus01.paopaocloud.cyou
-      - 🇺🇸 -美国-ger01.cf.paopaocloud.cyou
+      - 🇺🇸 -美国-113.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-20.210.216.35
-      - 🇨🇦 -加拿大-can01.paopaocloud.cyou
+      - 🇺🇸 -美国-16.douluos.icu
       - 🇺🇸 -美国-16.mxyun1.top
-      - 🇺🇸 -美国-20.214.106.77
+      - 🇺🇸 -美国-17.mxyun1.top
+      - 🇺🇸 -美国-20.205.122.35
+      - 🇺🇸 -美国-20.210.216.35
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-20.247.110.201
-      - 🇺🇸 -美国-52.140.210.205
+      - 🇺🇸 -美国-216.73.158.102
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-66.228.34.173
-      - 🇺🇸 -美国-cdnassetname.fastiqiyi.xyz
-      - 🇺🇸 -美国-init.blog
-      - 🇭🇰 -美国-icook.hk
-      - 🇺🇸 -美国-ssru.v2.us03.2yun.win
-      - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
-      - 🇺🇸 -美国-www.dynadot.com
+      - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -485,144 +476,138 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
-      - 🇸🇬 新加坡_1112297
       - 🇸🇬 新加坡_1112206
-      - 🇸🇬 新加坡_1112437
+      - 🇸🇬 新加坡_1112283
+      - 🇯🇵 日本_1112634
+      - 🇯🇵 -日本-jp-am48-6.eqnode.net
+      - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-10.douluos.icu
-      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
-      - 🇭🇰 -香港-bgp.hk.iplcat.com
-      - 🇯🇵 -日本-3.112.18.248
-      - 🇯🇵 -日本-43.206.127.213
-      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-139.162.76.118
+      - 🇯🇵 -日本-139.162.121.127
+      - 🇸🇬 -新加坡-139.162.16.115
+      - 🇯🇵 -日本-172.104.91.103
       - 🇸🇬 -新加坡-23.98.71.171
-      - 🇨🇳 -台湾台中市-cn2.tw.thetruman.xyz
+      - 🇭🇰 -香港-47.87.157.148
+      - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-8.douluos.icu
+      - 🇭🇰 -香港-cdnfrontcn2.iplcat.com
+      - 🇨🇳 -台湾台中市-cdnhelptop.thetruman.xyz
+      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇯🇵 -日本-ssru.v2.jp03.2yun.win
+      - 🇯🇵 -日本-3.112.18.248
+      - 🇯🇵 -日本-54.168.185.239
+      - 🇯🇵 -日本-cuii.jp.iplcat.com
+      - 🇯🇵 -日本-bgp.jp.iplcat.com
+      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
       - 🇨🇳 -台湾台北市-ca.xlkjjs.top
+      - 🇨🇳 -台湾彰化县-landing.thetruman.xyz
       - 🇭🇰 -香港-cdnstart-10.iplcat.com
       - 🇭🇰 -香港-cdntwolayerhk.fastiqiyi.xyz
-      - 🇭🇰 -香港-hkt.xlkjjs.top
-      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇭🇰 -香港-bgp.hk.iplcat.com
       - 🇯🇵 -日本-146.56.166.153
       - 🇯🇵 -日本-172.104.112.66
       - 🇯🇵 -日本-172.104.125.96
+      - 🇯🇵 -日本-54.238.193.140
       - 🇯🇵 -日本-v2.usa3.thetruman.xyz
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
-      - 🇭🇰 -香港-ah.yd01.paopaocloud.cyou
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇯🇵 [11-13]-🇯🇵-日本-6250-kr.838501.xyz
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
-      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
-      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇨🇳 台湾_1112003
-      - 🇨🇳 台湾_1112004
-      - 🇨🇳 台湾_1112005
-      - 🇨🇳 台湾_1112029
-      - 🇨🇳 台湾_1112030
-      - 🇨🇳 台湾_1112031
-      - 🇨🇳 台湾_1112032
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - -浙江省-wz.safetelescope.cc
-      - 河南省驻马店市-vc-1.gito.cc
-      - 🇷🇺 -俄罗斯-spnl.fastiqiyi.xyz
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇫🇮 -芬兰-jps.xlkjjs.top
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
-      - RO_08
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 94
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 90
-      - _04
-      - _05
-      - Relay_-🇬🇧GB_06
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 89
-      - 🇸🇰 [09-26]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 86
-      - 🇬🇧 [09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
-      - 🇭🇰 adi|0703v - dg-hk-node01
-      - 公益机场https//bit.ly/3BPeo5G
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V04-付费推荐suo.yt/ssrsub"
+      - "[11-13]-🇦🇶-亚太地区-146-103.172.116.5"
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 59
+      - 🇨🇳 广东省广州市-125.94.215.200
+      - 🇩🇪 -德国-136.243.191.85
+      - 广东省东莞市-14.152.92.77
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.72
+      - 广东省东莞市-14.152.92.81
+      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-42.157.195.232
+      - 广东省东莞市-42.157.195.241
+      - 广东省东莞市-42.157.195.244
+      - 广东省东莞市-42.157.195.245
+      - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇳🇱 -北京市-nl-1.gito.cc
+      - 🇸🇬 广东省佛山市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 浙江省温州市-sh163.safetelescope.cc
+      - 🇨🇳 -北京市-rs-2.gito.cc
+      - 浙江省温州市-wz.safetelescope.cc
+      - 🇨🇳 广东省广州市-udp-001.gito.cc
+      - 🇨🇳 广东省广州市-udp-003.gito.cc
+      - 🇺🇸 安徽省马鞍山市-us-1.gito.cc
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 -美国-45.33.88.190
+      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇸🇬 [11-13]-🇺🇸-美国-5860-sg.838501.xyz
+      - 🇺🇸 -北美地区-104.166.124.82
+      - 🇺🇸 -美国-114.wgong1.top
+      - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
+      - 🇺🇸 -美国-11.mxyun1.top
       - 🇺🇸 -美国-111.wgong1.top
-      - 🇺🇸 -美国-112.wgong1.top
-      - 🇺🇸 -美国-16.douluos.icu
-      - 🇺🇸 -美国-17.mxyun1.top
-      - 🇺🇸 -美国-216.73.158.102
-      - 🇺🇸 -美国-29.douluos.icu
-      - 🇺🇸 -美国-aus01.paopaocloud.cyou
-      - 🇺🇸 -美国-ger01.cf.paopaocloud.cyou
+      - 🇺🇸 -美国-113.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-20.210.216.35
+      - 🇺🇸 -美国-16.douluos.icu
       - 🇺🇸 -美国-16.mxyun1.top
-      - 🇺🇸 -美国-20.214.106.77
+      - 🇺🇸 -美国-17.mxyun1.top
+      - 🇺🇸 -美国-20.205.122.35
+      - 🇺🇸 -美国-20.210.216.35
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-20.247.110.201
-      - 🇺🇸 -美国-52.140.210.205
+      - 🇺🇸 -美国-216.73.158.102
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-66.228.34.173
-      - 🇺🇸 -美国-cdnassetname.fastiqiyi.xyz
-      - 🇺🇸 -美国-init.blog
-      - 🇭🇰 -美国-icook.hk
-      - 🇺🇸 -美国-ssru.v2.us03.2yun.win
-      - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
-      - 🇺🇸 -美国-www.dynadot.com
+      - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-10.douluos.icu
-      - 🇭🇰 -香港-bgp.hk.iplcat.com
+      - 🇭🇰 -香港-47.87.157.148
+      - 🇭🇰 -香港-cdnfrontcn2.iplcat.com
+      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
       - 🇭🇰 -香港-cdnstart-10.iplcat.com
       - 🇭🇰 -香港-cdntwolayerhk.fastiqiyi.xyz
-      - 🇭🇰 -香港-hkt.xlkjjs.top
-      - 🇭🇰 -香港-sgpcon2.g2.tvmv.in
+      - 🇭🇰 -香港-bgp.hk.iplcat.com
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
-      - 🇭🇰 -香港-ah.yd01.paopaocloud.cyou
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
-      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_1112297
       - 🇸🇬 新加坡_1112206
-      - 🇸🇬 新加坡_1112437
-      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
+      - 🇸🇬 新加坡_1112283
+      - 🇸🇬 -新加坡-139.162.16.115
       - 🇸🇬 -新加坡-23.98.71.171
+      - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
-      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -630,39 +615,39 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
-      - 🇯🇵 -日本-3.112.18.248
-      - 🇯🇵 -日本-43.206.127.213
+      - 🇯🇵 日本_1112634
+      - 🇯🇵 -日本-jp-am48-6.eqnode.net
+      - 🇯🇵 -日本-139.162.76.118
+      - 🇯🇵 -日本-139.162.121.127
+      - 🇯🇵 -日本-172.104.91.103
       - 🇯🇵 -日本-52.253.116.66
+      - 🇯🇵 -日本-8.douluos.icu
+      - 🇯🇵 -日本-cdninkr.thetruman.xyz
+      - 🇯🇵 -日本-ssru.v2.jp03.2yun.win
+      - 🇯🇵 -日本-3.112.18.248
+      - 🇯🇵 -日本-54.168.185.239
+      - 🇯🇵 -日本-cuii.jp.iplcat.com
+      - 🇯🇵 -日本-bgp.jp.iplcat.com
       - 🇯🇵 -日本-146.56.166.153
       - 🇯🇵 -日本-172.104.112.66
       - 🇯🇵 -日本-172.104.125.96
+      - 🇯🇵 -日本-54.238.193.140
       - 🇯🇵 -日本-v2.usa3.thetruman.xyz
-      - 🇯🇵 -日本-cdninkr.thetruman.xyz
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
+      - 🇯🇵 [11-13]-🇯🇵-日本-6250-kr.838501.xyz
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 -台湾台中市-cn2.tw.thetruman.xyz
+      - 🇨🇳 -台湾台中市-cdnhelptop.thetruman.xyz
       - 🇨🇳 -台湾台北市-ca.xlkjjs.top
+      - 🇨🇳 -台湾彰化县-landing.thetruman.xyz
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23
-      - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
-      - 🇨🇳 台湾_1112003
-      - 🇨🇳 台湾_1112004
-      - 🇨🇳 台湾_1112005
-      - 🇨🇳 台湾_1112029
-      - 🇨🇳 台湾_1112030
-      - 🇨🇳 台湾_1112031
-      - 🇨🇳 台湾_1112032
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
