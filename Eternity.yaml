@@ -5,11 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 -日本-jp-am48-6.eqnode.net, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇸🇬 新加坡_1112206, server: sgovh1.v2rayserv.com, port: 80, type: vmess, uuid: 78f936d1-8a72-4b7c-aafa-c8284e15ccaa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: sgovh1.v2rayserv.com}}}
-  - {name: 🇯🇵 日本_1112634, server: jp1.v2rayserv.com, port: 80, type: vmess, uuid: 317722d3-baf5-4932-bd0d-aaeacb52e0b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean, headers: {Host: jp1.v2rayserv.com}}}
+  - {name: 🇸🇬 新加坡_1112405, server: 8.219.123.110, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: p3.chigua.tk}}}
+  - {name: 🇸🇬 新加坡_1112310, server: 8.219.173.108, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: 🇯🇵 日本_1112026, server: 43.128.228.119, port: 42517, type: vmess, uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: dC5tZS92cG5oYXQ}
-  - {name: 🇭🇰 -香港-10.douluos.icu, server: 10.douluos.icu, port: 53010, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
   - {name: 🇨🇳 -台湾宜兰县-111.241.107.111, server: 111.241.107.111, port: 39998, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 -日本-139.162.121.127, server: 139.162.121.127, port: 2053, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: true}
   - {name: 🇭🇰 -香港-16.douluos.icu, server: 16.douluos.icu, port: 53016, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
@@ -49,22 +49,23 @@ proxies:
   - {name: 🇨🇳 台湾_1112005, server: 165.154.226.45, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_1112029, server: 220.130.80.179, port: 443, type: vmess, uuid: 70206490-8292-4242-b263-e7d11589362e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /down}}
   - {name: 🇨🇳 台湾_1112030, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-29.douluos.icu, server: 29.douluos.icu, port: 36129, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-116.wgong1.top, server: 116.wgong1.top, port: 52216, type: vmess, uuid: 6c0a66ea-22b2-3320-8698-05346881878f, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-118.wgong1.top, server: 118.wgong1.top, port: 52218, type: vmess, uuid: 6c0a66ea-22b2-3320-8698-05346881878f, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-11.douluos.icu, server: 11.douluos.icu, port: 51011, type: vmess, uuid: 94522253-0fbd-3c84-aa3c-5ea83d0348e7, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-111.wgong1.top, server: 111.wgong1.top, port: 52211, type: vmess, uuid: a0204af6-4e49-3818-9d29-02a75cc8653a, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-16.163.126.162, server: 16.163.126.162, port: 80, type: vmess, uuid: 8ae99d30-65a6-4f38-8ecc-56c1c3f4d679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}}
-  - {name: 🇺🇸 -美国-yc.safetelescope.cc, server: yc.safetelescope.cc, port: 21078, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 114502:RBwYEOmq24, obfs-param: ajax.microsoft.com}
+  - {name: 🇺🇸 -美国-29.douluos.icu, server: 29.douluos.icu, port: 36129, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-8.douluos.icu, server: 8.douluos.icu, port: 43008, type: vmess, uuid: 449e71aa-e89c-375f-97a3-ee718e854d31, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-9.mxyun1.top, server: 9.mxyun1.top, port: 41109, type: vmess, uuid: afa90b7a-f86e-3a0a-b9ad-3644bdb1d109, alterId: 2, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-can01.cf.paopaocloud.cyou, server: can01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
   - {name: 🇨🇦 -加拿大-can01.paopaocloud.cyou, server: can01.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
   - {name: 🇺🇸 -美国-ah.yd01.paopaocloud.cyou, server: ah.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: az01.ssru4.fun}}}
   - {name: 🇺🇸 -美国-init.blog, server: init.blog, port: 443, type: vmess, uuid: df6bf859-d846-4d34-8fbc-2fcbb935a40e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aoop.aoop.eu.org}}}
+  - {name: 🇺🇸 -美国-node.xn--ces488atrj.eu.org, server: node.xn--ces488atrj.eu.org, port: 8443, type: vmess, uuid: 1197321c-eb59-4159-959f-5d81f53c179d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: h1.800876.xyz}}}
   - {name: 🇺🇸 -美国-ssru.v2.jp01.2yun.win, server: ssru.v2.jp01.2yun.win, port: 3306, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ssru.v2.jp01.2yun.win}}}
   - {name: 🇺🇸 -美国-paopao.v2.us06.paopaocloud.cyou, server: paopao.v2.us06.paopaocloud.cyou, port: 3306, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us06.ssru4.fun}}}
   - {name: 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou, server: paopao.v2.us07.paopaocloud.cyou, port: 3307, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us07.ssru4.fun}}}
+  - {name: 🇺🇸 -美国-uk01.cf.paopaocloud.cyou, server: uk01.cf.paopaocloud.cyou, port: 443, type: vmess, uuid: 390dc875-c248-36ec-8df8-79b9e3262cfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
   - {name: 🇺🇸 -美国-20.247.110.156, server: 20.247.110.156, port: 8886, type: vmess, uuid: af7ebe17-95bf-4df8-b489-0c8ca44bd438, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-216.73.158.102, server: 216.73.158.102, port: 40004, type: vmess, uuid: 1225bed2-8444-4ed7-bdfd-521d2cb3d115, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-66.228.34.173, server: 66.228.34.173, port: 8443, type: vmess, uuid: cbd033dc-89cb-4203-86ce-5c1c21cf1d0e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v16.583181.xyz}}}
@@ -72,11 +73,12 @@ proxies:
   - {name: 🇺🇸 -美国-144.126.243.77, server: 144.126.243.77, port: 443, type: vmess, uuid: f630c791-ce3e-36a3-9a72-8eb4ad503ed6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: audi.aaog.buzz}}}
   - {name: 🇺🇸 -美国-165.232.181.149, server: 165.232.181.149, port: 8081, type: vmess, uuid: 0d462296-03e2-4c80-c8ee-8405213ff726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 -美国-172.67.170.105, server: 172.67.170.105, port: 443, type: vmess, uuid: f630c791-ce3e-36a3-9a72-8eb4ad503ed6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: aec.aaec.lol}}}
-  - {name: 🇺🇸 -美国-20.205.62.77, server: 20.205.62.77, port: 443, type: vmess, uuid: f630c791-ce3e-36a3-9a72-8eb4ad503ed6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.ctia.buzz}}}
-  - {name: 🇲🇽 墨西哥_1112001, server: 131.196.253.140, port: 80, type: vmess, uuid: d54226f9-4427-4466-957f-173b0a5b1cbc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean}}
-  - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
-  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 -上海市-223.167.159.34, server: 223.167.159.34, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53924:hjgjuy6t655jjg, obfs-param: ""}
   - {name: 🇷🇺 -俄罗斯-88.210.37.123, server: 88.210.37.123, port: 41007, type: ssr, cipher: chacha20-ietf, password: yPKrexXaVMAXFfez, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 0ec5428084.download.windowsupdate.com}
+  - {name: 🇷🇺 -俄罗斯-88.210.37.124, server: 88.210.37.124, port: 41008, type: ssr, cipher: chacha20-ietf, password: yPKrexXaVMAXFfez, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 0ec5428084.download.windowsupdate.com}
+  - {name: 🇨🇳 广东省广州市-cm01.newcome.xyz, server: cm01.newcome.xyz, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: Vm10a05GVXhVblJXYTFwT1ZrWndWRlpyVm1GVlJteFlUVmR3YkZKc1NsZFdSbEpIWVRGSmQxZHNiRmRTZWxaNldWWlZkMlF3TlZWVGJHaHBWa1phVkZkcldtRmpiVlpXVDFac1ZsVlVNRGs}
+  - {name: -湖南省-cngdcm.debugex.xyz, server: cngdcm.debugex.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52875:Aa112211, obfs-param: ""}
+  - {name: -湖南省-cucshk4.debugex.xyz, server: cucshk4.debugex.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52875:Aa112211, obfs-param: ""}
   - {name: 浙江省嘉兴市桐乡市-bs1.jymzffbquawl.com, server: bs1.jymzffbquawl.com, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 201817:qr7kq3wbfe, obfs-param: 5494e201817.microsoft.com}
   - {name: 🇨🇳 浙江省宁波市-dajbxus.naikonode.top, server: dajbxus.naikonode.top, port: 15106, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: "", obfs-param: Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM}
   - {name: 广东省东莞市-hkt06.clashcloud.tech, server: hkt06.clashcloud.tech, port: 34284, type: ssr, cipher: rc4-md5, password: ePpkb7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
@@ -86,17 +88,15 @@ proxies:
   - {name: -辽宁省-liaoningddns.xyz, server: liaoningddns.xyz, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇸🇬 广东省佛山市-sg-1.gito.cc, server: sg-1.gito.cc, port: 831, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
   - {name: 🇸🇬 广东省广州市-sg-1.gito.cc, server: sg-1.gito.cc, port: 831, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 🇸🇬 广东省广州市-sg-2.gito.cc, server: sg-2.gito.cc, port: 33421, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 🇸🇬 浙江省温州市-sg-2.gito.cc, server: sg-2.gito.cc, port: 33421, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.37}}}
   - {name: 浙江省温州市-sh163.safetelescope.cc, server: sh163.safetelescope.cc, port: 62301, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com}
   - {name: 🇨🇳 -上海市-shzzzhk.eucdurl.me, server: shzzzhk.eucdurl.me, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 -北京市-rs-1.gito.cc, server: rs-1.gito.cc, port: 801, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30855:0FvZRy, obfs-param: 940c230855.download.windowsupdate.com}
   - {name: 浙江省温州市-wz.safetelescope.cc 2, server: wz.safetelescope.cc, port: 10005, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 124006:JD9M7jawg8, obfs-param: ajax.microsoft.com}
   - {name: 🇨🇳 -江苏省-tw-2.gito.cc, server: tw-2.gito.cc, port: 33405, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 🇨🇳 广东省广州市-udp-003.gito.cc, server: udp-003.gito.cc, port: 36811, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 🇺🇸 广东省广州市-us-5.gito.cc, server: us-5.gito.cc, port: 651, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 🇺🇸 广东省广州市-us-5.gito.cc 2, server: us-5.gito.cc, port: 651, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 河南省洛阳市-vc-1.gito.cc, server: vc-1.gito.cc, port: 33666, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 🇨🇳 广东省广州市-vphk-8.gito.cc 2, server: vphk-8.gito.cc, port: 761, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
-  - {name: 安徽省马鞍山市-vphk-1.gito.cc, server: vphk-1.gito.cc, port: 701, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30855:0FvZRy, obfs-param: 940c230855.download.windowsupdate.com}
+  - {name: 🇨🇳 -江苏省-tw-2.gito.cc 2, server: tw-2.gito.cc, port: 33405, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,11 +112,11 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 -日本-jp-am48-6.eqnode.net
       - 🇸🇬 新加坡_1112206
-      - 🇯🇵 日本_1112634
+      - 🇸🇬 新加坡_1112405
+      - 🇸🇬 新加坡_1112310
+      - 🇯🇵 日本_1112026
       - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 -香港-10.douluos.icu
       - 🇨🇳 -台湾宜兰县-111.241.107.111
       - 🇯🇵 -日本-139.162.121.127
       - 🇭🇰 -香港-16.douluos.icu
@@ -156,22 +156,23 @@ proxy-groups:
       - 🇨🇳 台湾_1112005
       - 🇨🇳 台湾_1112029
       - 🇨🇳 台湾_1112030
-      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-118.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
       - 🇺🇸 -美国-111.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-8.douluos.icu
       - 🇺🇸 -美国-9.mxyun1.top
       - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
       - 🇨🇦 -加拿大-can01.paopaocloud.cyou
       - 🇺🇸 -美国-ah.yd01.paopaocloud.cyou
       - 🇺🇸 -美国-init.blog
+      - 🇺🇸 -美国-node.xn--ces488atrj.eu.org
       - 🇺🇸 -美国-ssru.v2.jp01.2yun.win
       - 🇺🇸 -美国-paopao.v2.us06.paopaocloud.cyou
       - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
+      - 🇺🇸 -美国-uk01.cf.paopaocloud.cyou
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-216.73.158.102
       - 🇺🇸 -美国-66.228.34.173
@@ -179,11 +180,12 @@ proxy-groups:
       - 🇺🇸 -美国-144.126.243.77
       - 🇺🇸 -美国-165.232.181.149
       - 🇺🇸 -美国-172.67.170.105
-      - 🇺🇸 -美国-20.205.62.77
-      - 🇲🇽 墨西哥_1112001
-      - _03
-      - _02
+      - 🇨🇳 -上海市-223.167.159.34
       - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇨🇳 广东省广州市-cm01.newcome.xyz
+      - -湖南省-cngdcm.debugex.xyz
+      - -湖南省-cucshk4.debugex.xyz
       - 浙江省嘉兴市桐乡市-bs1.jymzffbquawl.com
       - 🇨🇳 浙江省宁波市-dajbxus.naikonode.top
       - 广东省东莞市-hkt06.clashcloud.tech
@@ -193,17 +195,15 @@ proxy-groups:
       - -辽宁省-liaoningddns.xyz
       - 🇸🇬 广东省佛山市-sg-1.gito.cc
       - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-2.gito.cc
+      - 🇸🇬 浙江省温州市-sg-2.gito.cc
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
       - 浙江省温州市-sh163.safetelescope.cc
       - 🇨🇳 -上海市-shzzzhk.eucdurl.me
       - 🇨🇳 -北京市-rs-1.gito.cc
       - 浙江省温州市-wz.safetelescope.cc 2
       - 🇨🇳 -江苏省-tw-2.gito.cc
-      - 🇨🇳 广东省广州市-udp-003.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc 2
-      - 河南省洛阳市-vc-1.gito.cc
-      - 🇨🇳 广东省广州市-vphk-8.gito.cc 2
-      - 安徽省马鞍山市-vphk-1.gito.cc
+      - 🇨🇳 -江苏省-tw-2.gito.cc 2
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,11 +254,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 -日本-jp-am48-6.eqnode.net
       - 🇸🇬 新加坡_1112206
-      - 🇯🇵 日本_1112634
+      - 🇸🇬 新加坡_1112405
+      - 🇸🇬 新加坡_1112310
+      - 🇯🇵 日本_1112026
       - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 -香港-10.douluos.icu
       - 🇨🇳 -台湾宜兰县-111.241.107.111
       - 🇯🇵 -日本-139.162.121.127
       - 🇭🇰 -香港-16.douluos.icu
@@ -298,22 +298,23 @@ proxy-groups:
       - 🇨🇳 台湾_1112005
       - 🇨🇳 台湾_1112029
       - 🇨🇳 台湾_1112030
-      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-118.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
       - 🇺🇸 -美国-111.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-8.douluos.icu
       - 🇺🇸 -美国-9.mxyun1.top
       - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
       - 🇨🇦 -加拿大-can01.paopaocloud.cyou
       - 🇺🇸 -美国-ah.yd01.paopaocloud.cyou
       - 🇺🇸 -美国-init.blog
+      - 🇺🇸 -美国-node.xn--ces488atrj.eu.org
       - 🇺🇸 -美国-ssru.v2.jp01.2yun.win
       - 🇺🇸 -美国-paopao.v2.us06.paopaocloud.cyou
       - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
+      - 🇺🇸 -美国-uk01.cf.paopaocloud.cyou
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-216.73.158.102
       - 🇺🇸 -美国-66.228.34.173
@@ -321,11 +322,12 @@ proxy-groups:
       - 🇺🇸 -美国-144.126.243.77
       - 🇺🇸 -美国-165.232.181.149
       - 🇺🇸 -美国-172.67.170.105
-      - 🇺🇸 -美国-20.205.62.77
-      - 🇲🇽 墨西哥_1112001
-      - _03
-      - _02
+      - 🇨🇳 -上海市-223.167.159.34
       - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇨🇳 广东省广州市-cm01.newcome.xyz
+      - -湖南省-cngdcm.debugex.xyz
+      - -湖南省-cucshk4.debugex.xyz
       - 浙江省嘉兴市桐乡市-bs1.jymzffbquawl.com
       - 🇨🇳 浙江省宁波市-dajbxus.naikonode.top
       - 广东省东莞市-hkt06.clashcloud.tech
@@ -335,28 +337,26 @@ proxy-groups:
       - -辽宁省-liaoningddns.xyz
       - 🇸🇬 广东省佛山市-sg-1.gito.cc
       - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-2.gito.cc
+      - 🇸🇬 浙江省温州市-sg-2.gito.cc
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
       - 浙江省温州市-sh163.safetelescope.cc
       - 🇨🇳 -上海市-shzzzhk.eucdurl.me
       - 🇨🇳 -北京市-rs-1.gito.cc
       - 浙江省温州市-wz.safetelescope.cc 2
       - 🇨🇳 -江苏省-tw-2.gito.cc
-      - 🇨🇳 广东省广州市-udp-003.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc 2
-      - 河南省洛阳市-vc-1.gito.cc
-      - 🇨🇳 广东省广州市-vphk-8.gito.cc 2
-      - 安徽省马鞍山市-vphk-1.gito.cc
+      - 🇨🇳 -江苏省-tw-2.gito.cc 2
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 -日本-jp-am48-6.eqnode.net
       - 🇸🇬 新加坡_1112206
-      - 🇯🇵 日本_1112634
+      - 🇸🇬 新加坡_1112405
+      - 🇸🇬 新加坡_1112310
+      - 🇯🇵 日本_1112026
       - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 -香港-10.douluos.icu
       - 🇨🇳 -台湾宜兰县-111.241.107.111
       - 🇯🇵 -日本-139.162.121.127
       - 🇭🇰 -香港-16.douluos.icu
@@ -396,22 +396,23 @@ proxy-groups:
       - 🇨🇳 台湾_1112005
       - 🇨🇳 台湾_1112029
       - 🇨🇳 台湾_1112030
-      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-118.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
       - 🇺🇸 -美国-111.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-8.douluos.icu
       - 🇺🇸 -美国-9.mxyun1.top
       - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
       - 🇨🇦 -加拿大-can01.paopaocloud.cyou
       - 🇺🇸 -美国-ah.yd01.paopaocloud.cyou
       - 🇺🇸 -美国-init.blog
+      - 🇺🇸 -美国-node.xn--ces488atrj.eu.org
       - 🇺🇸 -美国-ssru.v2.jp01.2yun.win
       - 🇺🇸 -美国-paopao.v2.us06.paopaocloud.cyou
       - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
+      - 🇺🇸 -美国-uk01.cf.paopaocloud.cyou
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-216.73.158.102
       - 🇺🇸 -美国-66.228.34.173
@@ -419,11 +420,12 @@ proxy-groups:
       - 🇺🇸 -美国-144.126.243.77
       - 🇺🇸 -美国-165.232.181.149
       - 🇺🇸 -美国-172.67.170.105
-      - 🇺🇸 -美国-20.205.62.77
-      - 🇲🇽 墨西哥_1112001
-      - _03
-      - _02
+      - 🇨🇳 -上海市-223.167.159.34
       - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇨🇳 广东省广州市-cm01.newcome.xyz
+      - -湖南省-cngdcm.debugex.xyz
+      - -湖南省-cucshk4.debugex.xyz
       - 浙江省嘉兴市桐乡市-bs1.jymzffbquawl.com
       - 🇨🇳 浙江省宁波市-dajbxus.naikonode.top
       - 广东省东莞市-hkt06.clashcloud.tech
@@ -433,39 +435,38 @@ proxy-groups:
       - -辽宁省-liaoningddns.xyz
       - 🇸🇬 广东省佛山市-sg-1.gito.cc
       - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-2.gito.cc
+      - 🇸🇬 浙江省温州市-sg-2.gito.cc
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
       - 浙江省温州市-sh163.safetelescope.cc
       - 🇨🇳 -上海市-shzzzhk.eucdurl.me
       - 🇨🇳 -北京市-rs-1.gito.cc
       - 浙江省温州市-wz.safetelescope.cc 2
       - 🇨🇳 -江苏省-tw-2.gito.cc
-      - 🇨🇳 广东省广州市-udp-003.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc 2
-      - 河南省洛阳市-vc-1.gito.cc
-      - 🇨🇳 广东省广州市-vphk-8.gito.cc 2
-      - 安徽省马鞍山市-vphk-1.gito.cc
+      - 🇨🇳 -江苏省-tw-2.gito.cc 2
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-118.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
       - 🇺🇸 -美国-111.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-8.douluos.icu
       - 🇺🇸 -美国-9.mxyun1.top
       - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
       - 🇨🇦 -加拿大-can01.paopaocloud.cyou
       - 🇺🇸 -美国-ah.yd01.paopaocloud.cyou
       - 🇺🇸 -美国-init.blog
+      - 🇺🇸 -美国-node.xn--ces488atrj.eu.org
       - 🇺🇸 -美国-ssru.v2.jp01.2yun.win
       - 🇺🇸 -美国-paopao.v2.us06.paopaocloud.cyou
       - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
+      - 🇺🇸 -美国-uk01.cf.paopaocloud.cyou
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-216.73.158.102
       - 🇺🇸 -美国-66.228.34.173
@@ -473,18 +474,17 @@ proxy-groups:
       - 🇺🇸 -美国-144.126.243.77
       - 🇺🇸 -美国-165.232.181.149
       - 🇺🇸 -美国-172.67.170.105
-      - 🇺🇸 -美国-20.205.62.77
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 -日本-jp-am48-6.eqnode.net
       - 🇸🇬 新加坡_1112206
-      - 🇯🇵 日本_1112634
+      - 🇸🇬 新加坡_1112405
+      - 🇸🇬 新加坡_1112310
+      - 🇯🇵 日本_1112026
       - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 -香港-10.douluos.icu
       - 🇨🇳 -台湾宜兰县-111.241.107.111
       - 🇯🇵 -日本-139.162.121.127
       - 🇭🇰 -香港-16.douluos.icu
@@ -530,10 +530,12 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇲🇽 墨西哥_1112001
-      - _03
-      - _02
+      - 🇨🇳 -上海市-223.167.159.34
       - 🇷🇺 -俄罗斯-88.210.37.123
+      - 🇷🇺 -俄罗斯-88.210.37.124
+      - 🇨🇳 广东省广州市-cm01.newcome.xyz
+      - -湖南省-cngdcm.debugex.xyz
+      - -湖南省-cucshk4.debugex.xyz
       - 浙江省嘉兴市桐乡市-bs1.jymzffbquawl.com
       - 🇨🇳 浙江省宁波市-dajbxus.naikonode.top
       - 广东省东莞市-hkt06.clashcloud.tech
@@ -543,38 +545,37 @@ proxy-groups:
       - -辽宁省-liaoningddns.xyz
       - 🇸🇬 广东省佛山市-sg-1.gito.cc
       - 🇸🇬 广东省广州市-sg-1.gito.cc
+      - 🇸🇬 广东省广州市-sg-2.gito.cc
+      - 🇸🇬 浙江省温州市-sg-2.gito.cc
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 68
       - 浙江省温州市-sh163.safetelescope.cc
       - 🇨🇳 -上海市-shzzzhk.eucdurl.me
       - 🇨🇳 -北京市-rs-1.gito.cc
       - 浙江省温州市-wz.safetelescope.cc 2
       - 🇨🇳 -江苏省-tw-2.gito.cc
-      - 🇨🇳 广东省广州市-udp-003.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc
-      - 🇺🇸 广东省广州市-us-5.gito.cc 2
-      - 河南省洛阳市-vc-1.gito.cc
-      - 🇨🇳 广东省广州市-vphk-8.gito.cc 2
-      - 安徽省马鞍山市-vphk-1.gito.cc
+      - 🇨🇳 -江苏省-tw-2.gito.cc 2
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-116.wgong1.top
       - 🇺🇸 -美国-118.wgong1.top
       - 🇺🇸 -美国-11.douluos.icu
       - 🇺🇸 -美国-111.wgong1.top
       - 🇺🇸 -美国-16.163.126.162
-      - 🇺🇸 -美国-yc.safetelescope.cc
+      - 🇺🇸 -美国-29.douluos.icu
       - 🇺🇸 -美国-8.douluos.icu
       - 🇺🇸 -美国-9.mxyun1.top
       - 🇺🇸 -美国-can01.cf.paopaocloud.cyou
       - 🇺🇸 -美国-ah.yd01.paopaocloud.cyou
       - 🇺🇸 -美国-init.blog
+      - 🇺🇸 -美国-node.xn--ces488atrj.eu.org
       - 🇺🇸 -美国-ssru.v2.jp01.2yun.win
       - 🇺🇸 -美国-paopao.v2.us06.paopaocloud.cyou
       - 🇺🇸 -美国-paopao.v2.us07.paopaocloud.cyou
+      - 🇺🇸 -美国-uk01.cf.paopaocloud.cyou
       - 🇺🇸 -美国-20.247.110.156
       - 🇺🇸 -美国-216.73.158.102
       - 🇺🇸 -美国-66.228.34.173
@@ -582,7 +583,6 @@ proxy-groups:
       - 🇺🇸 -美国-144.126.243.77
       - 🇺🇸 -美国-165.232.181.149
       - 🇺🇸 -美国-172.67.170.105
-      - 🇺🇸 -美国-20.205.62.77
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -590,7 +590,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 -香港-10.douluos.icu
       - 🇭🇰 -香港-16.douluos.icu
       - 🇭🇰 -香港-47.87.157.148
       - 🇭🇰 -香港-cdnfrontcn2.iplcat.com
@@ -611,6 +610,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡_1112206
+      - 🇸🇬 新加坡_1112405
+      - 🇸🇬 新加坡_1112310
       - 🇸🇬 -新加坡-23.98.71.171
       - 🇸🇬 -新加坡-v2.sgp.yd.thetruman.xyz
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
@@ -622,8 +623,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 -日本-jp-am48-6.eqnode.net
-      - 🇯🇵 日本_1112634
+      - 🇯🇵 日本_1112026
       - 🇯🇵 -日本-139.162.121.127
       - 🇯🇵 -日本-172.104.112.66
       - 🇯🇵 -日本-ssru.v2.jp03.2yun.win
