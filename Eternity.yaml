@@ -6,32 +6,34 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16", server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true}
+  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true}
   - {name: 🇭🇰 -香港-119.237.195.230, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: ""}
-  - {name: 🇯🇵 -日本-jp.indigo.02.nekocloud.cn, server: jp.indigo.02.nekocloud.cn, port: 19059, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: 2c46b42613.wns.windows.com}
-  - {name: "🇭🇰 [11-30]-🇭🇰-香港-4368-ar.iamnotagoodman.com", server: ar.iamnotagoodman.com, port: 443, type: trojan, password: fab16fff-d149-417c-bdef-4bfcf2333bbe, skip-cert-verify: false}
+  - {name: 🇭🇰 -香港-20.187.70.46, server: 20.187.70.46, port: 80, type: vmess, uuid: 7496964f-b535-4266-903e-85c986a1584a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 -香港-47.52.50.183, server: 47.52.50.183, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.39472028.xyz}}}
+  - {name: 🇭🇰 -香港-8.douluos.icu, server: 8.douluos.icu, port: 43008, type: vmess, uuid: 0202e5d5-4b3e-3d91-a347-070ae45a3843, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇸🇬 -新加坡-sg5.vpnjantit.com, server: sg5.vpnjantit.com, port: 10000, type: vmess, uuid: 12f705fa-59df-11ed-86a4-af81b71ba7b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg5.vpnjantit.com}}}
+  - {name: 🇸🇬 -新加坡-sggs3.vpnjantit.com, server: sggs3.vpnjantit.com, port: 10000, type: vmess, uuid: a835571a-59e0-11ed-8e2c-00163e5de8a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sggs3.vpnjantit.com}}}
+  - {name: 🇯🇵 -日本-18.183.7.142, server: 18.183.7.142, port: 12587, type: vmess, uuid: 10c0bf3e-9d0d-4a32-9e32-151aa8e46330, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 18.183.7.142}}}
+  - {name: 🇭🇰 -日本-hkg.mooooobai.top, server: hkg.mooooobai.top, port: 51222, type: vmess, uuid: 9627c468-64f1-31ac-8f88-bd39e1748aa8, alterId: 0, cipher: auto, tls: false}
   - {name: "🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3", server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /admin, headers: {Host: V104.bgpnet.top}}}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4", server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7}
   - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7", server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}}
   - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8", server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true}
+  - {name: 🇯🇵 -日本-jp.indigo.02.nekocloud.cn, server: jp.indigo.02.nekocloud.cn, port: 19059, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 42613:4gvqxX, obfs-param: 2c46b42613.wns.windows.com}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10", server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 -香港-168.70.92.12, server: 168.70.92.12, port: 443, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ""}
+  - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: ""}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19", server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25", server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: jp-bgp.speedaccelerate.com, skip-cert-verify: true}
   - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28", server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
   - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29", server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false}
   - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40", server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true}
-  - {name: 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: o08.tgfaka.com}}}
   - {name: 🇨🇳 台湾_1130001, server: 104.29.64.2, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}}
-  - {name: 🇨🇳 台湾_1130002, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: 🇨🇳 台湾_1130004, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: 🇨🇳 台湾_1130007, server: http.download.yunzhongzhuan.com, port: 8080, type: vmess, uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: 🇨🇳 台湾_1130009, server: 220.130.80.179, port: 443, type: vmess, uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}}
   - {name: 🇨🇳 台湾_1130010, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇨🇳 台湾_1130012, server: 104.29.64.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
   - {name: 🇨🇳 台湾_1130032, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
   - {name: 🇨🇳 台湾_1130034, server: 165.154.226.45, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_1130035, server: 211.72.35.110, port: 443, type: vmess, uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ru.tzccifq.ga}}}
@@ -48,54 +50,54 @@ proxies:
   - {name: 🇨🇳 台湾_1130135, server: tw2.rovod.top, port: 10000, type: vmess, uuid: ab42ea1f-8e2f-3fff-8a11-d124d62b849e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_1130137, server: tw1.rovod.top, port: 1001, type: vmess, uuid: ab42ea1f-8e2f-3fff-8a11-d124d62b849e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_1130141, server: hgc2.594888.xyz, port: 47550, type: vmess, uuid: 71219567-5125-3eb4-9202-f0683687cca7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: hgc2.594888.xyz}}}
-  - {name: 🇨🇳 台湾_1130166, server: 165.154.246.107, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇺🇸 -美国-45.33.88.190, server: 45.33.88.190, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
+  - {name: "🇨🇦 [11-30]-🇨🇦-加拿大-190-142.202.48.58", server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇺🇸 -美国-45.79.111.214, server: 45.79.111.214, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
   - {name: 🇺🇸 -美国-45.79.79.37, server: 45.79.79.37, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
   - {name: 🇺🇸 -美国华盛顿州西雅图-cdnssr.ssrsub.com, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
-  - {name: 🇺🇸 -美国-us.he.06.nekocloud.cn, server: us.he.06.nekocloud.cn, port: 19035, type: ssr, cipher: aes-128-cfb, password: iluulrzviik, protocol: auth_aes128_md5, obfs: plain, protocol-param: 42613:4gvqxX, obfs-param: 2c46b42613.wns.windows.com}
-  - {name: "🇺🇸 [11-30]-🇺🇸-美国-1934-tr2.tgcunzhang.xyz", server: tr2.tgcunzhang.xyz, port: 54649, type: trojan, password: 431b22e2-d67b-4a41-9c97-773cde0329a4, skip-cert-verify: false}
-  - {name: 🇺🇸 -美国-cacerts.digicert.com, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray2.ssr-free2.xyz}}}
+  - {name: "🇺🇸 [11-30]-🇺🇸-美国-3420-us.2411111.xyz", server: us.2411111.xyz, port: 5000, type: trojan, password: 67d1a96e-76a0-47b1-be11-9fb43fe05512, skip-cert-verify: false}
+  - {name: "🇸🇬 [11-30]-🇺🇸-美国-460-sg.iamnotagoodman.com", server: sg.iamnotagoodman.com, port: 443, type: trojan, password: fab16fff-d149-417c-bdef-4bfcf2333bbe, skip-cert-verify: false}
+  - {name: 🇺🇸 -美国加利福尼亚州洛杉矶-23.224.30.70, server: 23.224.30.70, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.67416562.xyz}}}
+  - {name: 🇺🇸 -美国-cacerts.digicert.com, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: uk2.v2rayserv.com}}}
+  - {name: 🇺🇸 -美国-ah.yd01.ssru7.casa, server: ah.yd01.ssru7.casa, port: 10033, type: vmess, uuid: 96723dfa-6ae4-38c7-ac83-e3bd67b9e12d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: ssru.v2.jp03.2yun.win}}}
   - {name: 🇺🇸 -美国-hk12.sanfen001.pics, server: hk12.sanfen001.pics, port: 443, type: vmess, uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
-  - {name: 🇺🇸 -美国-hk3.sanfen001.pics, server: hk3.sanfen001.pics, port: 443, type: vmess, uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 -美国-main.millionaireaisle.com, server: main.millionaireaisle.com, port: 2053, type: vmess, uuid: ce3f0dd3-8a04-4daa-9416-e67c5d42083a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.wefuckgfw.ga}}}
+  - {name: 🇺🇸 -美国-185.250.220.130, server: 185.250.220.130, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.56759072.xyz}}}
+  - {name: 🇺🇸 -美国-47.254.67.163, server: 47.254.67.163, port: 443, type: vmess, uuid: 5d627f0d-812b-4af4-a95a-e2746d79f488, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: arm1dj.nanke.eu.org}}}
+  - {name: 🇺🇸 -美国-47.251.4.201, server: 47.251.4.201, port: 443, type: vmess, uuid: 5d627f0d-812b-4af4-a95a-e2746d79f488, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: arm3.nanke.eu.org}}}
+  - {name: 🇺🇸 -美国-bgroup.node5.v.nodelist-gfwairport.download, server: bgroup.node5.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: 3494b7de-0dde-42d7-be98-b3d026738cc7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-buyvm.imkcp.eu.org, server: buyvm.imkcp.eu.org, port: 443, type: vmess, uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: buyvm.imkcp.eu.org}}}
+  - {name: 🇺🇸 -美国-hk4.sanfen001.pics, server: hk4.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}}
+  - {name: 🇺🇸 -美国-hk3.sanfen001.pics, server: hk3.sanfen001.pics, port: 443, type: vmess, uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇸 -美国-45.33.88.190, server: 45.33.88.190, port: 443, type: ss, cipher: aes-256-cfb, password: 9d6cceaa373bf2c8acb22e60b6a58be6}
   - {name: 🇺🇸 -美国-ip125.com, server: ip125.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kz.cloudflare.quest}}}
   - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
   - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
   - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
   - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
-  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6", server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11", server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1tGK82lU/}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12", server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13", server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}}
-  - {name: -湖南省-116.162.120.46, server: 116.162.120.46, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ""}
+  - {name: 🇨🇳 -上海市-114.80.32.47, server: 114.80.32.47, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ZEM1dFpTOTJjRzVvWVhR}
+  - {name: -湖南省-116.162.120.27, server: 116.162.120.27, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ""}
+  - {name: -湖南省-116.162.120.29, server: 116.162.120.29, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: -湖南省-116.162.120.31, server: 116.162.120.31, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: -湖南省-116.162.120.32, server: 116.162.120.32, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ""}
+  - {name: -湖南省-116.162.120.43, server: 116.162.120.43, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: -湖南省-116.162.120.47, server: 116.162.120.47, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11314:antihos7, obfs-param: ""}
   - {name: -湖南省-116.162.120.48, server: 116.162.120.48, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ""}
-  - {name: -湖南省-116.162.120.49, server: 116.162.120.49, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: -湖南省-116.162.120.50, server: 116.162.120.50, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: -湖南省-116.162.120.49, server: 116.162.120.49, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52875:Aa112211, obfs-param: dC5tZS92cG5oYXQ}
   - {name: -湖南省-116.162.120.59, server: 116.162.120.59, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: -湖南省-116.162.120.60, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: ""}
+  - {name: -湖南省-116.162.120.60, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇨🇳 -北京市-116.129.253.6, server: 116.129.253.6, port: 39439, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 71002:ob1Kh6, obfs-param: t.me/vpnhat}
   - {name: 广东省东莞市-14.152.92.74, server: 14.152.92.74, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-14.152.92.75, server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-14.152.92.76, server: 14.152.92.76, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
-  - {name: 广东省东莞市-14.152.92.77, server: 14.152.92.77, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: ""}
-  - {name: 广东省东莞市-14.152.92.71, server: 14.152.92.71, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-14.152.92.72, server: 14.152.92.72, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: TUdZd09UazJNREEzTnpjdWRqSXpaamR1VFRB}
-  - {name: 广东省东莞市-14.152.92.73, server: 14.152.92.73, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
+  - {name: 广东省东莞市-14.152.92.75, server: 14.152.92.75, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
+  - {name: 广东省东莞市-14.152.92.78, server: 14.152.92.78, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA%%�}
+  - {name: 广东省东莞市-14.152.92.79, server: 14.152.92.79, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
+  - {name: 广东省东莞市-14.152.92.72, server: 14.152.92.72, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA}
+  - {name: 广东省东莞市-14.152.92.73, server: 14.152.92.73, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
   - {name: 广东省东莞市-14.152.92.80, server: 14.152.92.80, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 🇩🇪 -德国-179.61.154.58, server: 179.61.154.58, port: 53590, type: ssr, cipher: chacha20-ietf, password: VsWqMoSE, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 22763:voVca4JoUspobGg1, obfs-param: ZDJhNjIyMjc2My5taWNyb3NvZnQuY29t}
+  - {name: 广东省东莞市-14.152.92.81, server: 14.152.92.81, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
   - {name: 广东省东莞市-42.157.195.228, server: 42.157.195.228, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
-  - {name: 广东省东莞市-42.157.195.231, server: 42.157.195.231, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA}
+  - {name: 广东省东莞市-42.157.195.231, server: 42.157.195.231, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA}
   - {name: 广东省东莞市-42.157.195.232, server: 42.157.195.232, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-42.157.195.234, server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-42.157.195.235, server: 42.157.195.235, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
-  - {name: 广东省东莞市-42.157.195.238, server: 42.157.195.238, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-42.157.195.239, server: 42.157.195.239, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%�, obfs-param: 0f099600777.v23f7n%�}
-  - {name: 广东省东莞市-42.157.195.240, server: 42.157.195.240, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8%%, obfs-param: 0f099600777.v23f7n%}
+  - {name: 广东省东莞市-42.157.195.234, server: 42.157.195.234, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,32 +114,34 @@ proxy-groups:
     type: select
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 [11-30]-🇭🇰-香港-4368-ar.iamnotagoodman.com
+      - 🇭🇰 -香港-20.187.70.46
       - 🇭🇰 -香港-47.52.50.183
+      - 🇭🇰 -香港-8.douluos.icu
+      - 🇸🇬 -新加坡-sg5.vpnjantit.com
+      - 🇸🇬 -新加坡-sggs3.vpnjantit.com
+      - 🇯🇵 -日本-18.183.7.142
+      - 🇭🇰 -日本-hkg.mooooobai.top
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇭🇰 -香港-168.70.92.12
+      - 🇭🇰 -香港-42.98.27.183
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
       - 🇨🇳 台湾_1130001
-      - 🇨🇳 台湾_1130002
       - 🇨🇳 台湾_1130004
       - 🇨🇳 台湾_1130007
       - 🇨🇳 台湾_1130009
       - 🇨🇳 台湾_1130010
-      - 🇨🇳 台湾_1130012
       - 🇨🇳 台湾_1130032
       - 🇨🇳 台湾_1130034
       - 🇨🇳 台湾_1130035
@@ -154,54 +158,54 @@ proxy-groups:
       - 🇨🇳 台湾_1130135
       - 🇨🇳 台湾_1130137
       - 🇨🇳 台湾_1130141
-      - 🇨🇳 台湾_1130166
-      - 🇺🇸 -美国-45.33.88.190
+      - 🇨🇦 [11-30]-🇨🇦-加拿大-190-142.202.48.58
       - 🇺🇸 -美国-45.79.111.214
       - 🇺🇸 -美国-45.79.79.37
       - 🇺🇸 -美国华盛顿州西雅图-cdnssr.ssrsub.com
-      - 🇺🇸 -美国-us.he.06.nekocloud.cn
-      - 🇺🇸 [11-30]-🇺🇸-美国-1934-tr2.tgcunzhang.xyz
+      - 🇺🇸 [11-30]-🇺🇸-美国-3420-us.2411111.xyz
+      - 🇸🇬 [11-30]-🇺🇸-美国-460-sg.iamnotagoodman.com
+      - 🇺🇸 -美国加利福尼亚州洛杉矶-23.224.30.70
       - 🇺🇸 -美国-cacerts.digicert.com
+      - 🇺🇸 -美国-ah.yd01.ssru7.casa
       - 🇺🇸 -美国-hk12.sanfen001.pics
-      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-main.millionaireaisle.com
+      - 🇺🇸 -美国-185.250.220.130
+      - 🇺🇸 -美国-47.254.67.163
+      - 🇺🇸 -美国-47.251.4.201
+      - 🇺🇸 -美国-bgroup.node5.v.nodelist-gfwairport.download
       - 🇺🇸 -美国-buyvm.imkcp.eu.org
+      - 🇺🇸 -美国-hk4.sanfen001.pics
+      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-45.33.88.190
       - 🇺🇸 -美国-ip125.com
       - US_10
       - US_11
       - Pool_🇺🇸US_12
       - US_14
-      - US_16
-      - US_17
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
-      - -湖南省-116.162.120.46
+      - 🇨🇳 -上海市-114.80.32.47
+      - -湖南省-116.162.120.27
+      - -湖南省-116.162.120.29
+      - -湖南省-116.162.120.31
+      - -湖南省-116.162.120.32
+      - -湖南省-116.162.120.43
+      - -湖南省-116.162.120.47
       - -湖南省-116.162.120.48
       - -湖南省-116.162.120.49
-      - -湖南省-116.162.120.50
       - -湖南省-116.162.120.59
       - -湖南省-116.162.120.60
       - 🇨🇳 -北京市-116.129.253.6
       - 广东省东莞市-14.152.92.74
       - 广东省东莞市-14.152.92.75
-      - 广东省东莞市-14.152.92.76
-      - 广东省东莞市-14.152.92.77
-      - 广东省东莞市-14.152.92.71
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.79
       - 广东省东莞市-14.152.92.72
       - 广东省东莞市-14.152.92.73
       - 广东省东莞市-14.152.92.80
-      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-14.152.92.81
       - 广东省东莞市-42.157.195.228
       - 广东省东莞市-42.157.195.231
       - 广东省东莞市-42.157.195.232
       - 广东省东莞市-42.157.195.234
-      - 广东省东莞市-42.157.195.235
-      - 广东省东莞市-42.157.195.238
-      - 广东省东莞市-42.157.195.239
-      - 广东省东莞市-42.157.195.240
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -253,32 +257,34 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 [11-30]-🇭🇰-香港-4368-ar.iamnotagoodman.com
+      - 🇭🇰 -香港-20.187.70.46
       - 🇭🇰 -香港-47.52.50.183
+      - 🇭🇰 -香港-8.douluos.icu
+      - 🇸🇬 -新加坡-sg5.vpnjantit.com
+      - 🇸🇬 -新加坡-sggs3.vpnjantit.com
+      - 🇯🇵 -日本-18.183.7.142
+      - 🇭🇰 -日本-hkg.mooooobai.top
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇭🇰 -香港-168.70.92.12
+      - 🇭🇰 -香港-42.98.27.183
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
       - 🇨🇳 台湾_1130001
-      - 🇨🇳 台湾_1130002
       - 🇨🇳 台湾_1130004
       - 🇨🇳 台湾_1130007
       - 🇨🇳 台湾_1130009
       - 🇨🇳 台湾_1130010
-      - 🇨🇳 台湾_1130012
       - 🇨🇳 台湾_1130032
       - 🇨🇳 台湾_1130034
       - 🇨🇳 台湾_1130035
@@ -295,54 +301,54 @@ proxy-groups:
       - 🇨🇳 台湾_1130135
       - 🇨🇳 台湾_1130137
       - 🇨🇳 台湾_1130141
-      - 🇨🇳 台湾_1130166
-      - 🇺🇸 -美国-45.33.88.190
+      - 🇨🇦 [11-30]-🇨🇦-加拿大-190-142.202.48.58
       - 🇺🇸 -美国-45.79.111.214
       - 🇺🇸 -美国-45.79.79.37
       - 🇺🇸 -美国华盛顿州西雅图-cdnssr.ssrsub.com
-      - 🇺🇸 -美国-us.he.06.nekocloud.cn
-      - 🇺🇸 [11-30]-🇺🇸-美国-1934-tr2.tgcunzhang.xyz
+      - 🇺🇸 [11-30]-🇺🇸-美国-3420-us.2411111.xyz
+      - 🇸🇬 [11-30]-🇺🇸-美国-460-sg.iamnotagoodman.com
+      - 🇺🇸 -美国加利福尼亚州洛杉矶-23.224.30.70
       - 🇺🇸 -美国-cacerts.digicert.com
+      - 🇺🇸 -美国-ah.yd01.ssru7.casa
       - 🇺🇸 -美国-hk12.sanfen001.pics
-      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-main.millionaireaisle.com
+      - 🇺🇸 -美国-185.250.220.130
+      - 🇺🇸 -美国-47.254.67.163
+      - 🇺🇸 -美国-47.251.4.201
+      - 🇺🇸 -美国-bgroup.node5.v.nodelist-gfwairport.download
       - 🇺🇸 -美国-buyvm.imkcp.eu.org
+      - 🇺🇸 -美国-hk4.sanfen001.pics
+      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-45.33.88.190
       - 🇺🇸 -美国-ip125.com
       - US_10
       - US_11
       - Pool_🇺🇸US_12
       - US_14
-      - US_16
-      - US_17
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
-      - -湖南省-116.162.120.46
+      - 🇨🇳 -上海市-114.80.32.47
+      - -湖南省-116.162.120.27
+      - -湖南省-116.162.120.29
+      - -湖南省-116.162.120.31
+      - -湖南省-116.162.120.32
+      - -湖南省-116.162.120.43
+      - -湖南省-116.162.120.47
       - -湖南省-116.162.120.48
       - -湖南省-116.162.120.49
-      - -湖南省-116.162.120.50
       - -湖南省-116.162.120.59
       - -湖南省-116.162.120.60
       - 🇨🇳 -北京市-116.129.253.6
       - 广东省东莞市-14.152.92.74
       - 广东省东莞市-14.152.92.75
-      - 广东省东莞市-14.152.92.76
-      - 广东省东莞市-14.152.92.77
-      - 广东省东莞市-14.152.92.71
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.79
       - 广东省东莞市-14.152.92.72
       - 广东省东莞市-14.152.92.73
       - 广东省东莞市-14.152.92.80
-      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-14.152.92.81
       - 广东省东莞市-42.157.195.228
       - 广东省东莞市-42.157.195.231
       - 广东省东莞市-42.157.195.232
       - 广东省东莞市-42.157.195.234
-      - 广东省东莞市-42.157.195.235
-      - 广东省东莞市-42.157.195.238
-      - 广东省东莞市-42.157.195.239
-      - 广东省东莞市-42.157.195.240
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -350,32 +356,34 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 [11-30]-🇭🇰-香港-4368-ar.iamnotagoodman.com
+      - 🇭🇰 -香港-20.187.70.46
       - 🇭🇰 -香港-47.52.50.183
+      - 🇭🇰 -香港-8.douluos.icu
+      - 🇸🇬 -新加坡-sg5.vpnjantit.com
+      - 🇸🇬 -新加坡-sggs3.vpnjantit.com
+      - 🇯🇵 -日本-18.183.7.142
+      - 🇭🇰 -日本-hkg.mooooobai.top
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇭🇰 -香港-168.70.92.12
+      - 🇭🇰 -香港-42.98.27.183
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
       - 🇨🇳 台湾_1130001
-      - 🇨🇳 台湾_1130002
       - 🇨🇳 台湾_1130004
       - 🇨🇳 台湾_1130007
       - 🇨🇳 台湾_1130009
       - 🇨🇳 台湾_1130010
-      - 🇨🇳 台湾_1130012
       - 🇨🇳 台湾_1130032
       - 🇨🇳 台湾_1130034
       - 🇨🇳 台湾_1130035
@@ -392,83 +400,84 @@ proxy-groups:
       - 🇨🇳 台湾_1130135
       - 🇨🇳 台湾_1130137
       - 🇨🇳 台湾_1130141
-      - 🇨🇳 台湾_1130166
-      - 🇺🇸 -美国-45.33.88.190
+      - 🇨🇦 [11-30]-🇨🇦-加拿大-190-142.202.48.58
       - 🇺🇸 -美国-45.79.111.214
       - 🇺🇸 -美国-45.79.79.37
       - 🇺🇸 -美国华盛顿州西雅图-cdnssr.ssrsub.com
-      - 🇺🇸 -美国-us.he.06.nekocloud.cn
-      - 🇺🇸 [11-30]-🇺🇸-美国-1934-tr2.tgcunzhang.xyz
+      - 🇺🇸 [11-30]-🇺🇸-美国-3420-us.2411111.xyz
+      - 🇸🇬 [11-30]-🇺🇸-美国-460-sg.iamnotagoodman.com
+      - 🇺🇸 -美国加利福尼亚州洛杉矶-23.224.30.70
       - 🇺🇸 -美国-cacerts.digicert.com
+      - 🇺🇸 -美国-ah.yd01.ssru7.casa
       - 🇺🇸 -美国-hk12.sanfen001.pics
-      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-main.millionaireaisle.com
+      - 🇺🇸 -美国-185.250.220.130
+      - 🇺🇸 -美国-47.254.67.163
+      - 🇺🇸 -美国-47.251.4.201
+      - 🇺🇸 -美国-bgroup.node5.v.nodelist-gfwairport.download
       - 🇺🇸 -美国-buyvm.imkcp.eu.org
+      - 🇺🇸 -美国-hk4.sanfen001.pics
+      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-45.33.88.190
       - 🇺🇸 -美国-ip125.com
       - US_10
       - US_11
       - Pool_🇺🇸US_12
       - US_14
-      - US_16
-      - US_17
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
-      - -湖南省-116.162.120.46
+      - 🇨🇳 -上海市-114.80.32.47
+      - -湖南省-116.162.120.27
+      - -湖南省-116.162.120.29
+      - -湖南省-116.162.120.31
+      - -湖南省-116.162.120.32
+      - -湖南省-116.162.120.43
+      - -湖南省-116.162.120.47
       - -湖南省-116.162.120.48
       - -湖南省-116.162.120.49
-      - -湖南省-116.162.120.50
       - -湖南省-116.162.120.59
       - -湖南省-116.162.120.60
       - 🇨🇳 -北京市-116.129.253.6
       - 广东省东莞市-14.152.92.74
       - 广东省东莞市-14.152.92.75
-      - 广东省东莞市-14.152.92.76
-      - 广东省东莞市-14.152.92.77
-      - 广东省东莞市-14.152.92.71
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.79
       - 广东省东莞市-14.152.92.72
       - 广东省东莞市-14.152.92.73
       - 广东省东莞市-14.152.92.80
-      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-14.152.92.81
       - 广东省东莞市-42.157.195.228
       - 广东省东莞市-42.157.195.231
       - 广东省东莞市-42.157.195.232
       - 广东省东莞市-42.157.195.234
-      - 广东省东莞市-42.157.195.235
-      - 广东省东莞市-42.157.195.238
-      - 广东省东莞市-42.157.195.239
-      - 广东省东莞市-42.157.195.240
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 -美国-45.33.88.190
+      - 🇨🇦 [11-30]-🇨🇦-加拿大-190-142.202.48.58
       - 🇺🇸 -美国-45.79.111.214
       - 🇺🇸 -美国-45.79.79.37
       - 🇺🇸 -美国华盛顿州西雅图-cdnssr.ssrsub.com
-      - 🇺🇸 -美国-us.he.06.nekocloud.cn
-      - 🇺🇸 [11-30]-🇺🇸-美国-1934-tr2.tgcunzhang.xyz
+      - 🇺🇸 [11-30]-🇺🇸-美国-3420-us.2411111.xyz
+      - 🇸🇬 [11-30]-🇺🇸-美国-460-sg.iamnotagoodman.com
+      - 🇺🇸 -美国加利福尼亚州洛杉矶-23.224.30.70
       - 🇺🇸 -美国-cacerts.digicert.com
+      - 🇺🇸 -美国-ah.yd01.ssru7.casa
       - 🇺🇸 -美国-hk12.sanfen001.pics
-      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-main.millionaireaisle.com
+      - 🇺🇸 -美国-185.250.220.130
+      - 🇺🇸 -美国-47.254.67.163
+      - 🇺🇸 -美国-47.251.4.201
+      - 🇺🇸 -美国-bgroup.node5.v.nodelist-gfwairport.download
       - 🇺🇸 -美国-buyvm.imkcp.eu.org
+      - 🇺🇸 -美国-hk4.sanfen001.pics
+      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-45.33.88.190
       - 🇺🇸 -美国-ip125.com
       - US_10
       - US_11
       - Pool_🇺🇸US_12
       - US_14
-      - US_16
-      - US_17
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -476,32 +485,34 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
       - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
-      - 🇭🇰 [11-30]-🇭🇰-香港-4368-ar.iamnotagoodman.com
+      - 🇭🇰 -香港-20.187.70.46
       - 🇭🇰 -香港-47.52.50.183
+      - 🇭🇰 -香港-8.douluos.icu
+      - 🇸🇬 -新加坡-sg5.vpnjantit.com
+      - 🇸🇬 -新加坡-sggs3.vpnjantit.com
+      - 🇯🇵 -日本-18.183.7.142
+      - 🇭🇰 -日本-hkg.mooooobai.top
       - 🇨🇳 [09-26]|openrunner|中国台湾(TW)Taiwan/CityOffice_2
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+      - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇭🇰 -香港-168.70.92.12
+      - 🇭🇰 -香港-42.98.27.183
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
       - 🇨🇳 台湾_1130001
-      - 🇨🇳 台湾_1130002
       - 🇨🇳 台湾_1130004
       - 🇨🇳 台湾_1130007
       - 🇨🇳 台湾_1130009
       - 🇨🇳 台湾_1130010
-      - 🇨🇳 台湾_1130012
       - 🇨🇳 台湾_1130032
       - 🇨🇳 台湾_1130034
       - 🇨🇳 台湾_1130035
@@ -518,66 +529,65 @@ proxy-groups:
       - 🇨🇳 台湾_1130135
       - 🇨🇳 台湾_1130137
       - 🇨🇳 台湾_1130141
-      - 🇨🇳 台湾_1130166
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - -湖南省-116.162.120.46
+      - 🇨🇳 -上海市-114.80.32.47
+      - -湖南省-116.162.120.27
+      - -湖南省-116.162.120.29
+      - -湖南省-116.162.120.31
+      - -湖南省-116.162.120.32
+      - -湖南省-116.162.120.43
+      - -湖南省-116.162.120.47
       - -湖南省-116.162.120.48
       - -湖南省-116.162.120.49
-      - -湖南省-116.162.120.50
       - -湖南省-116.162.120.59
       - -湖南省-116.162.120.60
       - 🇨🇳 -北京市-116.129.253.6
       - 广东省东莞市-14.152.92.74
       - 广东省东莞市-14.152.92.75
-      - 广东省东莞市-14.152.92.76
-      - 广东省东莞市-14.152.92.77
-      - 广东省东莞市-14.152.92.71
+      - 广东省东莞市-14.152.92.78
+      - 广东省东莞市-14.152.92.79
       - 广东省东莞市-14.152.92.72
       - 广东省东莞市-14.152.92.73
       - 广东省东莞市-14.152.92.80
-      - 🇩🇪 -德国-179.61.154.58
+      - 广东省东莞市-14.152.92.81
       - 广东省东莞市-42.157.195.228
       - 广东省东莞市-42.157.195.231
       - 广东省东莞市-42.157.195.232
       - 广东省东莞市-42.157.195.234
-      - 广东省东莞市-42.157.195.235
-      - 广东省东莞市-42.157.195.238
-      - 广东省东莞市-42.157.195.239
-      - 广东省东莞市-42.157.195.240
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 -美国-45.33.88.190
       - 🇺🇸 -美国-45.79.111.214
       - 🇺🇸 -美国-45.79.79.37
       - 🇺🇸 -美国华盛顿州西雅图-cdnssr.ssrsub.com
-      - 🇺🇸 -美国-us.he.06.nekocloud.cn
-      - 🇺🇸 [11-30]-🇺🇸-美国-1934-tr2.tgcunzhang.xyz
+      - 🇺🇸 [11-30]-🇺🇸-美国-3420-us.2411111.xyz
+      - 🇸🇬 [11-30]-🇺🇸-美国-460-sg.iamnotagoodman.com
+      - 🇺🇸 -美国加利福尼亚州洛杉矶-23.224.30.70
       - 🇺🇸 -美国-cacerts.digicert.com
+      - 🇺🇸 -美国-ah.yd01.ssru7.casa
       - 🇺🇸 -美国-hk12.sanfen001.pics
-      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-main.millionaireaisle.com
+      - 🇺🇸 -美国-185.250.220.130
+      - 🇺🇸 -美国-47.254.67.163
+      - 🇺🇸 -美国-47.251.4.201
+      - 🇺🇸 -美国-bgroup.node5.v.nodelist-gfwairport.download
       - 🇺🇸 -美国-buyvm.imkcp.eu.org
+      - 🇺🇸 -美国-hk4.sanfen001.pics
+      - 🇺🇸 -美国-hk3.sanfen001.pics
+      - 🇺🇸 -美国-45.33.88.190
       - 🇺🇸 -美国-ip125.com
       - US_10
       - US_11
       - Pool_🇺🇸US_12
       - US_14
-      - US_16
-      - US_17
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -585,13 +595,13 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 -香港-119.237.195.230
-      - 🇭🇰 -香港-42.98.27.183
-      - 🇭🇰 [11-30]-🇭🇰-香港-4368-ar.iamnotagoodman.com
+      - 🇭🇰 -香港-20.187.70.46
       - 🇭🇰 -香港-47.52.50.183
+      - 🇭🇰 -香港-8.douluos.icu
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
-      - 🇭🇰 -香港-168.70.92.12
+      - 🇭🇰 -香港-42.98.27.183
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
       - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
@@ -601,6 +611,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 -新加坡-sg5.vpnjantit.com
+      - 🇸🇬 -新加坡-sggs3.vpnjantit.com
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
       - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
@@ -611,10 +623,12 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_16
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_9
+      - 🇯🇵 -日本-18.183.7.142
+      - 🇭🇰 -日本-hkg.mooooobai.top
       - 🇯🇵 -日本-jp.indigo.02.nekocloud.cn
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
       - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
-      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -627,12 +641,10 @@ proxy-groups:
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
       - 🇨🇳 台湾_1130001
-      - 🇨🇳 台湾_1130002
       - 🇨🇳 台湾_1130004
       - 🇨🇳 台湾_1130007
       - 🇨🇳 台湾_1130009
       - 🇨🇳 台湾_1130010
-      - 🇨🇳 台湾_1130012
       - 🇨🇳 台湾_1130032
       - 🇨🇳 台湾_1130034
       - 🇨🇳 台湾_1130035
@@ -649,7 +661,6 @@ proxy-groups:
       - 🇨🇳 台湾_1130135
       - 🇨🇳 台湾_1130137
       - 🇨🇳 台湾_1130141
-      - 🇨🇳 台湾_1130166
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -831,7 +842,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -842,7 +852,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -851,7 +860,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -887,7 +895,6 @@ rules:
  - DOMAIN-SUFFIX,applepaysupplies.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applewallet.tv,🍎 苹果服务
- - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.co.id,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.hk,🍎 苹果服务
@@ -899,49 +906,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -975,12 +940,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -1209,11 +1170,9 @@ rules:
  - DOMAIN-SUFFIX,wwwipodlounge.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwmacbookair.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.comscoreresearch.com,🍎 苹果服务
- - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appleenews.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.berlin,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.co,🍎 苹果服务
- - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.com.au,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,applemusic.wang,🍎 苹果服务
@@ -1246,12 +1205,64 @@ rules:
  - DOMAIN-SUFFIX,iphoto.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,musickit.net,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwapplemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemusic.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
@@ -3906,11 +3917,9 @@ rules:
  - DOMAIN,client.amplifi.com,🧱 国内网站
  - DOMAIN,dl.google.com,🧱 国内网站
  - DOMAIN,download.jetbrains.com,🧱 国内网站
- - DOMAIN,geetest.datasink.sensorsdata.cn,🧱 国内网站
  - DOMAIN,images-cn.ssl-images-amazon.com,🧱 国内网站
  - DOMAIN,ip.istatmenus.app,🧱 国内网站
  - DOMAIN,kc.kexinshe.com,🧱 国内网站
- - DOMAIN,moocs.unipus.cn,🧱 国内网站
  - DOMAIN,mtalk.google.com,🧱 国内网站
  - DOMAIN,origin-a.akamaihd.ne,🧱 国内网站
  - DOMAIN,origin-a.akamaihd.net,🧱 国内网站
@@ -3926,13 +3935,8 @@ rules:
  - DOMAIN-SUFFIX,05sun.com,🧱 国内网站
  - DOMAIN-SUFFIX,0759job.com,🧱 国内网站
  - DOMAIN-SUFFIX,10010.com,🧱 国内网站
- - DOMAIN-SUFFIX,10010.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,10044.cn,🧱 国内网站
- - DOMAIN-SUFFIX,10086.cn,🧱 国内网站
- - DOMAIN-SUFFIX,10099.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,100bt.com,🧱 国内网站
  - DOMAIN-SUFFIX,100offer.com,🧱 国内网站
- - DOMAIN-SUFFIX,10jqka.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,11467.com,🧱 国内网站
  - DOMAIN-SUFFIX,114chn.com,🧱 国内网站
  - DOMAIN-SUFFIX,114piaowu.com,🧱 国内网站
@@ -3941,13 +3945,10 @@ rules:
  - DOMAIN-SUFFIX,115cdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,115cdn.net,🧱 国内网站
  - DOMAIN-SUFFIX,115img.com,🧱 国内网站
- - DOMAIN-SUFFIX,116cd.cn,🧱 国内网站
  - DOMAIN-SUFFIX,116cd.com,🧱 国内网站
  - DOMAIN-SUFFIX,116cd.net,🧱 国内网站
  - DOMAIN-SUFFIX,119you.com,🧱 国内网站
- - DOMAIN-SUFFIX,12306.cn,🧱 国内网站
  - DOMAIN-SUFFIX,12306.com,🧱 国内网站
- - DOMAIN-SUFFIX,1234567.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,123juzi.com,🧱 国内网站
  - DOMAIN-SUFFIX,123juzi.net,🧱 国内网站
  - DOMAIN-SUFFIX,123pan.com,🧱 国内网站
@@ -3967,7 +3968,6 @@ rules:
  - DOMAIN-SUFFIX,166.net,🧱 国内网站
  - DOMAIN-SUFFIX,1688.com,🧱 国内网站
  - DOMAIN-SUFFIX,16888.com,🧱 国内网站
- - DOMAIN-SUFFIX,16q.cn,🧱 国内网站
  - DOMAIN-SUFFIX,16rd.com,🧱 国内网站
  - DOMAIN-SUFFIX,17173.com,🧱 国内网站
  - DOMAIN-SUFFIX,178.com,🧱 国内网站
@@ -3977,18 +3977,13 @@ rules:
  - DOMAIN-SUFFIX,17house.com,🧱 国内网站
  - DOMAIN-SUFFIX,17jita.com,🧱 国内网站
  - DOMAIN-SUFFIX,17roco.com,🧱 国内网站
- - DOMAIN-SUFFIX,17u.cn,🧱 国内网站
  - DOMAIN-SUFFIX,17u.net,🧱 国内网站
  - DOMAIN-SUFFIX,17usoft.com,🧱 国内网站
  - DOMAIN-SUFFIX,17usoft.net,🧱 国内网站
- - DOMAIN-SUFFIX,17zuoye.cn,🧱 国内网站
  - DOMAIN-SUFFIX,17zuoye.com,🧱 国内网站
  - DOMAIN-SUFFIX,17zuoye.net,🧱 国内网站
- - DOMAIN-SUFFIX,18.cn,🧱 国内网站
- - DOMAIN-SUFFIX,18.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,18183.com,🧱 国内网站
  - DOMAIN-SUFFIX,188.com,🧱 国内网站
- - DOMAIN-SUFFIX,189.cn,🧱 国内网站
  - DOMAIN-SUFFIX,1905.com,🧱 国内网站
  - DOMAIN-SUFFIX,19yxw.com,🧱 国内网站
  - DOMAIN-SUFFIX,1huizhan.com,🧱 国内网站
@@ -4005,7 +4000,6 @@ rules:
  - DOMAIN-SUFFIX,263.net,🧱 国内网站
  - DOMAIN-SUFFIX,289.com,🧱 国内网站
  - DOMAIN-SUFFIX,2cto.com,🧱 国内网站
- - DOMAIN-SUFFIX,3.cn,🧱 国内网站
  - DOMAIN-SUFFIX,3000.com,🧱 国内网站
  - DOMAIN-SUFFIX,300hu.com,🧱 国内网站
  - DOMAIN-SUFFIX,310win.com,🧱 国内网站
@@ -4024,13 +4018,10 @@ rules:
  - DOMAIN-SUFFIX,3533.com,🧱 国内网站
  - DOMAIN-SUFFIX,356884.com,🧱 国内网站
  - DOMAIN-SUFFIX,360-jr.com,🧱 国内网站
- - DOMAIN-SUFFIX,360.cn,🧱 国内网站
  - DOMAIN-SUFFIX,360.com,🧱 国内网站
  - DOMAIN-SUFFIX,360.net,🧱 国内网站
  - DOMAIN-SUFFIX,360aiyi.com,🧱 国内网站
- - DOMAIN-SUFFIX,360buy.cn,🧱 国内网站
  - DOMAIN-SUFFIX,360buy.com,🧱 国内网站
- - DOMAIN-SUFFIX,360buy.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,360buyimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,360buyinternational.com,🧱 国内网站
  - DOMAIN-SUFFIX,360chou.com,🧱 国内网站
@@ -4044,7 +4035,6 @@ rules:
  - DOMAIN-SUFFIX,360kan.com,🧱 国内网站
  - DOMAIN-SUFFIX,360kuai.com,🧱 国内网站
  - DOMAIN-SUFFIX,360os.com,🧱 国内网站
- - DOMAIN-SUFFIX,360panyun.cn,🧱 国内网站
  - DOMAIN-SUFFIX,360safe.com,🧱 国内网站
  - DOMAIN-SUFFIX,360shouji.com,🧱 国内网站
  - DOMAIN-SUFFIX,360taojin.com,🧱 国内网站
@@ -4079,12 +4069,8 @@ rules:
  - DOMAIN-SUFFIX,3elife.net,🧱 国内网站
  - DOMAIN-SUFFIX,3h3.com,🧱 国内网站
  - DOMAIN-SUFFIX,3songshu.com,🧱 国内网站
- - DOMAIN-SUFFIX,3type.cn,🧱 国内网站
  - DOMAIN-SUFFIX,3yx.com,🧱 国内网站
- - DOMAIN-SUFFIX,40017.cn,🧱 国内网站
  - DOMAIN-SUFFIX,40407.com,🧱 国内网站
- - DOMAIN-SUFFIX,42r.cn,🧱 国内网站
- - DOMAIN-SUFFIX,4399.cn,🧱 国内网站
  - DOMAIN-SUFFIX,4399.com,🧱 国内网站
  - DOMAIN-SUFFIX,4399.net,🧱 国内网站
  - DOMAIN-SUFFIX,4399api.com,🧱 国内网站
@@ -4096,7 +4082,6 @@ rules:
  - DOMAIN-SUFFIX,4399inc.com,🧱 国内网站
  - DOMAIN-SUFFIX,4399mail.com,🧱 国内网站
  - DOMAIN-SUFFIX,4399pk.com,🧱 国内网站
- - DOMAIN-SUFFIX,4399sj.cn,🧱 国内网站
  - DOMAIN-SUFFIX,4399sj.com,🧱 国内网站
  - DOMAIN-SUFFIX,4399swf.com,🧱 国内网站
  - DOMAIN-SUFFIX,4399wanju.com,🧱 国内网站
@@ -4134,7 +4119,6 @@ rules:
  - DOMAIN-SUFFIX,52hxw.com,🧱 国内网站
  - DOMAIN-SUFFIX,52miji.com,🧱 国内网站
  - DOMAIN-SUFFIX,52pk.com,🧱 国内网站
- - DOMAIN-SUFFIX,52pojie.cn,🧱 国内网站
  - DOMAIN-SUFFIX,52z.com,🧱 国内网站
  - DOMAIN-SUFFIX,53kf.com,🧱 国内网站
  - DOMAIN-SUFFIX,55.com,🧱 国内网站
@@ -4144,13 +4128,9 @@ rules:
  - DOMAIN-SUFFIX,56.com,🧱 国内网站
  - DOMAIN-SUFFIX,56che.com,🧱 国内网站
  - DOMAIN-SUFFIX,58.com,🧱 国内网站
- - DOMAIN-SUFFIX,58.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,5858.com,🧱 国内网站
- - DOMAIN-SUFFIX,58antenna.cn,🧱 国内网站
  - DOMAIN-SUFFIX,58antenna.com,🧱 国内网站
- - DOMAIN-SUFFIX,58cdn.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,58che.com,🧱 国内网站
- - DOMAIN-SUFFIX,58control.cn,🧱 国内网站
  - DOMAIN-SUFFIX,58corp.com,🧱 国内网站
  - DOMAIN-SUFFIX,58dns.org,🧱 国内网站
  - DOMAIN-SUFFIX,58ganji-corp.com,🧱 国内网站
@@ -4158,8 +4138,6 @@ rules:
  - DOMAIN-SUFFIX,58lovepet.com,🧱 国内网站
  - DOMAIN-SUFFIX,58pic.com,🧱 国内网站
  - DOMAIN-SUFFIX,58uxd.com,🧱 国内网站
- - DOMAIN-SUFFIX,58v5.cn,🧱 国内网站
- - DOMAIN-SUFFIX,58xinghuo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,58xinghuo.com,🧱 国内网站
  - DOMAIN-SUFFIX,58xueche.com,🧱 国内网站
  - DOMAIN-SUFFIX,5bite.com,🧱 国内网站
@@ -4192,7 +4170,6 @@ rules:
  - DOMAIN-SUFFIX,7po.com,🧱 国内网站
  - DOMAIN-SUFFIX,7x24cc.com,🧱 国内网站
  - DOMAIN-SUFFIX,7xdown.com,🧱 国内网站
- - DOMAIN-SUFFIX,8008205555.cn,🧱 国内网站
  - DOMAIN-SUFFIX,8008205555.com,🧱 国内网站
  - DOMAIN-SUFFIX,818ps.com,🧱 国内网站
  - DOMAIN-SUFFIX,8264.com,🧱 国内网站
@@ -4212,7 +4189,6 @@ rules:
  - DOMAIN-SUFFIX,95516.net,🧱 国内网站
  - DOMAIN-SUFFIX,9553.com,🧱 国内网站
  - DOMAIN-SUFFIX,95588.com,🧱 国内网站
- - DOMAIN-SUFFIX,95588.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,962.net,🧱 国内网站
  - DOMAIN-SUFFIX,9718.com,🧱 国内网站
  - DOMAIN-SUFFIX,97973.com,🧱 国内网站
@@ -4221,25 +4197,19 @@ rules:
  - DOMAIN-SUFFIX,999d.com,🧱 国内网站
  - DOMAIN-SUFFIX,99danji.com,🧱 国内网站
  - DOMAIN-SUFFIX,99fund.com,🧱 国内网站
- - DOMAIN-SUFFIX,9game.cn,🧱 国内网站
  - DOMAIN-SUFFIX,9ht.com,🧱 国内网站
  - DOMAIN-SUFFIX,9xgame.com,🧱 国内网站
  - DOMAIN-SUFFIX,9xu.com,🧱 国内网站
- - DOMAIN-SUFFIX,a.alimama.cn,🧱 国内网站
- - DOMAIN-SUFFIX,a2z.org.cn,🧱 国内网站
  - DOMAIN-SUFFIX,a9vg.com,🧱 国内网站
  - DOMAIN-SUFFIX,aaplimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,aardio.com,🧱 国内网站
  - DOMAIN-SUFFIX,abc-ca.com,🧱 国内网站
  - DOMAIN-SUFFIX,abchina.com,🧱 国内网站
- - DOMAIN-SUFFIX,abchina.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,abhouses.com,🧱 国内网站
- - DOMAIN-SUFFIX,acadn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,acadn.com,🧱 国内网站
  - DOMAIN-SUFFIX,acctdns.com,🧱 国内网站
  - DOMAIN-SUFFIX,acctdns.net,🧱 国内网站
  - DOMAIN-SUFFIX,acetaffy.club,🧱 国内网站
- - DOMAIN-SUFFIX,acfun.cn,🧱 国内网站
  - DOMAIN-SUFFIX,acfun.tv,🧱 国内网站
  - DOMAIN-SUFFIX,acg.rip,🧱 国内网站
  - DOMAIN-SUFFIX,acg.tv,🧱 国内网站
@@ -4259,7 +4229,6 @@ rules:
  - DOMAIN-SUFFIX,afzhan.com,🧱 国内网站
  - DOMAIN-SUFFIX,agconnect.link,🧱 国内网站
  - DOMAIN-SUFFIX,agora.io,🧱 国内网站
- - DOMAIN-SUFFIX,agoraio.cn,🧱 国内网站
  - DOMAIN-SUFFIX,agoralab.co,🧱 国内网站
  - DOMAIN-SUFFIX,agrantsem.com,🧱 国内网站
  - DOMAIN-SUFFIX,ahitv.com,🧱 国内网站
@@ -4277,11 +4246,8 @@ rules:
  - DOMAIN-SUFFIX,air-matters.com,🧱 国内网站
  - DOMAIN-SUFFIX,air-matters.io,🧱 国内网站
  - DOMAIN-SUFFIX,airchangan.com,🧱 国内网站
- - DOMAIN-SUFFIX,airchina.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,airchinacargo.com,🧱 国内网站
  - DOMAIN-SUFFIX,airguilin.com,🧱 国内网站
- - DOMAIN-SUFFIX,airhotels.cn,🧱 国内网站
- - DOMAIN-SUFFIX,airitilibrary.cn,🧱 国内网站
  - DOMAIN-SUFFIX,aisee.tv,🧱 国内网站
  - DOMAIN-SUFFIX,aiskycn.com,🧱 国内网站
  - DOMAIN-SUFFIX,aitransfy.com,🧱 国内网站
@@ -4322,7 +4288,6 @@ rules:
  - DOMAIN-SUFFIX,aliexpress.com,🧱 国内网站
  - DOMAIN-SUFFIX,aliexpress.ru,🧱 国内网站
  - DOMAIN-SUFFIX,alifanyi.com,🧱 国内网站
- - DOMAIN-SUFFIX,alihealth.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,alihealth.hk,🧱 国内网站
  - DOMAIN-SUFFIX,aliimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,alikmd.com,🧱 国内网站
@@ -4330,10 +4295,7 @@ rules:
  - DOMAIN-SUFFIX,alimama.com,🧱 国内网站
  - DOMAIN-SUFFIX,alimebot.com,🧱 国内网站
  - DOMAIN-SUFFIX,alimei.com,🧱 国内网站
- - DOMAIN-SUFFIX,alios.cn,🧱 国内网站
- - DOMAIN-SUFFIX,alipay.cn,🧱 国内网站
  - DOMAIN-SUFFIX,alipay.com,🧱 国内网站
- - DOMAIN-SUFFIX,alipay.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,alipay.hk,🧱 国内网站
  - DOMAIN-SUFFIX,alipaydns.com,🧱 国内网站
  - DOMAIN-SUFFIX,alipaylog.com,🧱 国内网站
@@ -4358,30 +4320,19 @@ rules:
  - DOMAIN-SUFFIX,aliyuncs.com,🧱 国内网站
  - DOMAIN-SUFFIX,aliyundrive.com,🧱 国内网站
  - DOMAIN-SUFFIX,alizhaopin.com,🧱 国内网站
- - DOMAIN-SUFFIX,allflow.cn,🧱 国内网站
  - DOMAIN-SUFFIX,alloyteam.com,🧱 国内网站
  - DOMAIN-SUFFIX,allyes.com,🧱 国内网站
  - DOMAIN-SUFFIX,alphassl.com,🧱 国内网站
- - DOMAIN-SUFFIX,alyms.cn,🧱 国内网站
  - DOMAIN-SUFFIX,amap.com,🧱 国内网站
  - DOMAIN-SUFFIX,amapauto.com,🧱 国内网站
- - DOMAIN-SUFFIX,amazonaws.cn,🧱 国内网站
- - DOMAIN-SUFFIX,amazonaws.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,amazonwebservices.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,amazonworkdocs.cn,🧱 国内网站
- - DOMAIN-SUFFIX,amazonworkdocs.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,amd.com,🧱 国内网站
  - DOMAIN-SUFFIX,amemv.com,🧱 国内网站
  - DOMAIN-SUFFIX,ams.org,🧱 国内网站
- - DOMAIN-SUFFIX,ancientbooks.cn,🧱 国内网站
- - DOMAIN-SUFFIX,andfx.cn,🧱 国内网站
  - DOMAIN-SUFFIX,andfx.net,🧱 国内网站
  - DOMAIN-SUFFIX,anfensi.com,🧱 国内网站
  - DOMAIN-SUFFIX,animebytes.tv,🧱 国内网站
- - DOMAIN-SUFFIX,animetamashi.cn,🧱 国内网站
  - DOMAIN-SUFFIX,animetamashi.com,🧱 国内网站
  - DOMAIN-SUFFIX,animetorrents.me,🧱 国内网站
- - DOMAIN-SUFFIX,anitama.cn,🧱 国内网站
  - DOMAIN-SUFFIX,anitama.net,🧱 国内网站
  - DOMAIN-SUFFIX,anjuke.com,🧱 国内网站
  - DOMAIN-SUFFIX,anjukestatic.com,🧱 国内网站
@@ -4391,12 +4342,10 @@ rules:
  - DOMAIN-SUFFIX,anruan.com,🧱 国内网站
  - DOMAIN-SUFFIX,antfin.com,🧱 国内网站
  - DOMAIN-SUFFIX,antfortune.com,🧱 国内网站
- - DOMAIN-SUFFIX,antgroup-inc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,antgroup.com,🧱 国内网站
  - DOMAIN-SUFFIX,anticheatexpert.com,🧱 国内网站
  - DOMAIN-SUFFIX,antutu.com,🧱 国内网站
  - DOMAIN-SUFFIX,anxia.com,🧱 国内网站
- - DOMAIN-SUFFIX,anzhuo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,aotrip.net,🧱 国内网站
  - DOMAIN-SUFFIX,aoyou.com,🧱 国内网站
  - DOMAIN-SUFFIX,ap-southeast-1.myhuaweicloud.com,🧱 国内网站
@@ -4421,24 +4370,13 @@ rules:
  - DOMAIN-SUFFIX,ascelibrary.org,🧱 国内网站
  - DOMAIN-SUFFIX,asczwa.com,🧱 国内网站
  - DOMAIN-SUFFIX,asczxcefsv.com,🧱 国内网站
- - DOMAIN-SUFFIX,asfiovnxocqpcry.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,asm.org,🧱 国内网站
  - DOMAIN-SUFFIX,asme.org,🧱 国内网站
- - DOMAIN-SUFFIX,asmlink.cn,🧱 国内网站
  - DOMAIN-SUFFIX,astm.org,🧱 国内网站
  - DOMAIN-SUFFIX,atatech.org,🧱 国内网站
- - DOMAIN-SUFFIX,aurorapush.cn,🧱 国内网站
- - DOMAIN-SUFFIX,autohome.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,autonavi.com,🧱 国内网站
- - DOMAIN-SUFFIX,avicfund.cn,🧱 国内网站
  - DOMAIN-SUFFIX,avicsec.com,🧱 国内网站
  - DOMAIN-SUFFIX,awesome-hd.me,🧱 国内网站
- - DOMAIN-SUFFIX,aws-border.cn,🧱 国内网站
- - DOMAIN-SUFFIX,aws-icp-domain-manager.cn,🧱 国内网站
- - DOMAIN-SUFFIX,awsapps.cn,🧱 国内网站
- - DOMAIN-SUFFIX,awsapps.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,awsstatic.cn,🧱 国内网站
- - DOMAIN-SUFFIX,azure.cn,🧱 国内网站
  - DOMAIN-SUFFIX,b23.tv,🧱 国内网站
  - DOMAIN-SUFFIX,b2byao.com,🧱 国内网站
  - DOMAIN-SUFFIX,b3log.org,🧱 国内网站
@@ -4447,9 +4385,7 @@ rules:
  - DOMAIN-SUFFIX,babytree.com,🧱 国内网站
  - DOMAIN-SUFFIX,babytreeimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,baduziyuan.com,🧱 国内网站
- - DOMAIN-SUFFIX,baidu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,baidu.com,🧱 国内网站
- - DOMAIN-SUFFIX,baidu.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,baidubce.com,🧱 国内网站
  - DOMAIN-SUFFIX,baidubcr.com,🧱 国内网站
  - DOMAIN-SUFFIX,baiducontent.com,🧱 国内网站
@@ -4470,7 +4406,6 @@ rules:
  - DOMAIN-SUFFIX,bangongziyuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,bank-of-china.com,🧱 国内网站
  - DOMAIN-SUFFIX,bankcomm.com,🧱 国内网站
- - DOMAIN-SUFFIX,bankofbeijing.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bankofchina.com,🧱 国内网站
  - DOMAIN-SUFFIX,banmaaike.com,🧱 国内网站
  - DOMAIN-SUFFIX,baofeng.com,🧱 国内网站
@@ -4489,13 +4424,11 @@ rules:
  - DOMAIN-SUFFIX,bcyimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdatu.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdcloudapi.com,🧱 国内网站
- - DOMAIN-SUFFIX,bdfund.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bdimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdstatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdtjrcv.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdxiguaimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdxiguastatic.com,🧱 国内网站
- - DOMAIN-SUFFIX,bdydns.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bdydns.com,🧱 国内网站
  - DOMAIN-SUFFIX,bdydns.net,🧱 国内网站
  - DOMAIN-SUFFIX,bearychat.com,🧱 国内网站
@@ -4514,23 +4447,16 @@ rules:
  - DOMAIN-SUFFIX,bibaodao.com,🧱 国内网站
  - DOMAIN-SUFFIX,bidchance.com,🧱 国内网站
  - DOMAIN-SUFFIX,biddingx.com,🧱 国内网站
- - DOMAIN-SUFFIX,bigfun.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bihu.com,🧱 国内网站
  - DOMAIN-SUFFIX,biji.com,🧱 国内网站
- - DOMAIN-SUFFIX,bili22.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili2233.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili23.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bili33.cn,🧱 国内网站
  - DOMAIN-SUFFIX,biliapi.com,🧱 国内网站
  - DOMAIN-SUFFIX,biliapi.net,🧱 国内网站
  - DOMAIN-SUFFIX,bilibili.cc,🧱 国内网站
  - DOMAIN-SUFFIX,bilibili.com,🧱 国内网站
  - DOMAIN-SUFFIX,bilibili.net,🧱 国内网站
  - DOMAIN-SUFFIX,bilibili.tv,🧱 国内网站
- - DOMAIN-SUFFIX,bilibiligame.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bilibiligame.co,🧱 国内网站
  - DOMAIN-SUFFIX,bilibiligame.net,🧱 国内网站
- - DOMAIN-SUFFIX,bilibilipay.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bilibilipay.com,🧱 国内网站
  - DOMAIN-SUFFIX,bilicdn1.com,🧱 国内网站
  - DOMAIN-SUFFIX,bilicdn2.com,🧱 国内网站
@@ -4541,15 +4467,12 @@ rules:
  - DOMAIN-SUFFIX,biligame.com,🧱 国内网站
  - DOMAIN-SUFFIX,biligame.net,🧱 国内网站
  - DOMAIN-SUFFIX,biligo.com,🧱 国内网站
- - DOMAIN-SUFFIX,bilivideo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bilivideo.com,🧱 国内网站
  - DOMAIN-SUFFIX,bilivideo.net,🧱 国内网站
  - DOMAIN-SUFFIX,bio-equip.com,🧱 国内网站
  - DOMAIN-SUFFIX,bio360.net,🧱 国内网站
  - DOMAIN-SUFFIX,bio4p.com,🧱 国内网站
  - DOMAIN-SUFFIX,biodiscover.com,🧱 国内网站
- - DOMAIN-SUFFIX,bisheng.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bishengcompiler.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bishijie.com,🧱 国内网站
  - DOMAIN-SUFFIX,bitauto.com,🧱 国内网站
  - DOMAIN-SUFFIX,bitautoimg.com,🧱 国内网站
@@ -4569,37 +4492,25 @@ rules:
  - DOMAIN-SUFFIX,bmj.com,🧱 国内网站
  - DOMAIN-SUFFIX,bobbns.com,🧱 国内网站
  - DOMAIN-SUFFIX,bobo.com,🧱 国内网站
- - DOMAIN-SUFFIX,boc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bocamchina.com,🧱 国内网站
  - DOMAIN-SUFFIX,bocaviation.com,🧱 国内网站
  - DOMAIN-SUFFIX,boccfc.cc,🧱 国内网站
- - DOMAIN-SUFFIX,boccfc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bocfullertonbank.com,🧱 国内网站
  - DOMAIN-SUFFIX,bocgi.com,🧱 国内网站
  - DOMAIN-SUFFIX,bocgins.com,🧱 国内网站
  - DOMAIN-SUFFIX,bochk.com,🧱 国内网站
- - DOMAIN-SUFFIX,bocichina.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bocichina.com,🧱 国内网站
- - DOMAIN-SUFFIX,bocichina.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,bocifunds.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bocifunds.com,🧱 国内网站
- - DOMAIN-SUFFIX,bocifunds.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bocigroup.com,🧱 国内网站
  - DOMAIN-SUFFIX,bocim.com,🧱 国内网站
- - DOMAIN-SUFFIX,bocservices.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bojianger.com,🧱 国内网站
  - DOMAIN-SUFFIX,bokecc.com,🧱 国内网站
  - DOMAIN-SUFFIX,booking.com,🧱 国内网站
  - DOMAIN-SUFFIX,boosj.com,🧱 国内网站
- - DOMAIN-SUFFIX,bootcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bootcdn.net,🧱 国内网站
  - DOMAIN-SUFFIX,bootcss.com,🧱 国内网站
- - DOMAIN-SUFFIX,bosc.cn,🧱 国内网站
- - DOMAIN-SUFFIX,boscam.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bosera.com,🧱 国内网站
- - DOMAIN-SUFFIX,brawlstars.cn,🧱 国内网站
  - DOMAIN-SUFFIX,broadcasthe.net,🧱 国内网站
- - DOMAIN-SUFFIX,bsb.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,bstatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,btcfans.com,🧱 国内网站
  - DOMAIN-SUFFIX,btgtravel.com,🧱 国内网站
@@ -4609,7 +4520,6 @@ rules:
  - DOMAIN-SUFFIX,bx1k.com,🧱 国内网站
  - DOMAIN-SUFFIX,byodonline.com,🧱 国内网站
  - DOMAIN-SUFFIX,bystack.com,🧱 国内网站
- - DOMAIN-SUFFIX,bytecdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,byted-static.com,🧱 国内网站
  - DOMAIN-SUFFIX,byted.org,🧱 国内网站
  - DOMAIN-SUFFIX,bytedance.com,🧱 国内网站
@@ -4629,14 +4539,11 @@ rules:
  - DOMAIN-SUFFIX,bytexservice.com,🧱 国内网站
  - DOMAIN-SUFFIX,c-ctrip.com,🧱 国内网站
  - DOMAIN-SUFFIX,c-t.work,🧱 国内网站
- - DOMAIN-SUFFIX,caac.gov.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cabbagebox.com,🧱 国内网站
- - DOMAIN-SUFFIX,caijing.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,caijingwu.com,🧱 国内网站
  - DOMAIN-SUFFIX,cailianpress.com,🧱 国内网站
  - DOMAIN-SUFFIX,cainiao-inc.com,🧱 国内网站
  - DOMAIN-SUFFIX,cainiao.com,🧱 国内网站
- - DOMAIN-SUFFIX,cainiao.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,caixin.com,🧱 国内网站
  - DOMAIN-SUFFIX,caiyu.com,🧱 国内网站
  - DOMAIN-SUFFIX,caiyun.com,🧱 国内网站
@@ -4650,147 +4557,78 @@ rules:
  - DOMAIN-SUFFIX,cardbaobao.com,🧱 国内网站
  - DOMAIN-SUFFIX,carnoc.com,🧱 国内网站
  - DOMAIN-SUFFIX,cas.org,🧱 国内网站
- - DOMAIN-SUFFIX,ccb-life.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ccb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccb.com,🧱 国内网站
- - DOMAIN-SUFFIX,ccb.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccbcos.com,🧱 国内网站
- - DOMAIN-SUFFIX,ccbfund.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccbfund.com,🧱 国内网站
- - DOMAIN-SUFFIX,ccbfund.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ccbfutures.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccbfutures.com,🧱 国内网站
  - DOMAIN-SUFFIX,ccbintl.com.hk,🧱 国内网站
  - DOMAIN-SUFFIX,ccbleasing.com,🧱 国内网站
- - DOMAIN-SUFFIX,ccblife-test.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccbseoul.com,🧱 国内网站
- - DOMAIN-SUFFIX,ccbtrust.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccbxt.com,🧱 国内网站
- - DOMAIN-SUFFIX,ccf.org.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ccfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ccgslb.com,🧱 国内网站
  - DOMAIN-SUFFIX,ccgslb.net,🧱 国内网站
  - DOMAIN-SUFFIX,ccnew.com,🧱 国内网站
  - DOMAIN-SUFFIX,cctalk.com,🧱 国内网站
- - DOMAIN-SUFFIX,cctv.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cctv.com,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlib.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlib.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlibrary.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvlibrary.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cctvpic.com,🧱 国内网站
- - DOMAIN-SUFFIX,cctvpro.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cctvpro.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cczq.com,🧱 国内网站
  - DOMAIN-SUFFIX,cczq.net,🧱 国内网站
- - DOMAIN-SUFFIX,cdn-go.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdn20.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdn30.org,🧱 国内网站
  - DOMAIN-SUFFIX,cdndoctor.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdngot.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdngslb.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcaip122.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcajk17.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcaoc115.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcatq08.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcbie120.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcbni108.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcbqs106.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcbvo20.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcbzj102.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcchh18.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwccmz121.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwccvo19.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcdkd21.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcdvg22.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcead111.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcedi10.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcedt124.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwceft18.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwceod109.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcfzp15.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcggk22.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcgnc118.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcgqa21.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcgrb01.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcgvs16.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwchcg02.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcibv122.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcick110.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcidu117.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcjbj05.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcjkl10.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcjlg112.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcjog12.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcjqv17.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcjsb120.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwckbw08.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwckfd24.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwckfz116.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwckon103.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcljk104.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwclkl04.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcllh11.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwclnh23.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwclrd102.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwclsl119.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwclxu105.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwclxw05.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcoem01.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcofl101.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcogx108.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcohm19.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcojn124.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwconz06.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcoph123.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcozb112.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcpcw110.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcpqh13.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcprh113.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcpsd13.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcqgw115.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcqir15.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcqrr114.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcqve117.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcqvk105.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcqwg14.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcrgg07.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcrpp12.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcscc123.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcsjs09.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcsux118.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwctmz11.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwctnm107.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwctxz24.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwctyd116.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcuim119.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcupf06.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcurq03.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcurr103.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcuwd107.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcuxc121.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcvix16.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcwqz113.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcxcy07.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcxsi14.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcywp03.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwcyxb02.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwczba04.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwczic111.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwczid104.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwczjt20.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwczks109.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwczmn114.com,🧱 国内网站
- - DOMAIN-SUFFIX,cdnhwczoy106.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwczth23.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwcztu09.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdnhwczxh101.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdntip.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdntips.com,🧱 国内网站
  - DOMAIN-SUFFIX,cdntips.net,🧱 国内网站
- - DOMAIN-SUFFIX,cdnv1.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnv2.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cdnv3.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ceair.com,🧱 国内网站
  - DOMAIN-SUFFIX,cebbank.com,🧱 国内网站
  - DOMAIN-SUFFIX,ceblease.com,🧱 国内网站
@@ -4798,10 +4636,8 @@ rules:
  - DOMAIN-SUFFIX,cecport.com,🧱 国内网站
  - DOMAIN-SUFFIX,centanet.com,🧱 国内网站
  - DOMAIN-SUFFIX,cerambath.org,🧱 国内网站
- - DOMAIN-SUFFIX,cfsc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cfund108.com,🧱 国内网站
  - DOMAIN-SUFFIX,cfzq.com,🧱 国内网站
- - DOMAIN-SUFFIX,cgbchina.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cgws.com,🧱 国内网站
  - DOMAIN-SUFFIX,ch.com,🧱 国内网站
  - DOMAIN-SUFFIX,chachaba.com,🧱 国内网站
@@ -4822,18 +4658,15 @@ rules:
  - DOMAIN-SUFFIX,checkzeit.com,🧱 国内网站
  - DOMAIN-SUFFIX,cheng.xin,🧱 国内网站
  - DOMAIN-SUFFIX,cheyisou.com,🧱 国内网站
- - DOMAIN-SUFFIX,chicalot.cn,🧱 国内网站
  - DOMAIN-SUFFIX,china-chair.com,🧱 国内网站
  - DOMAIN-SUFFIX,china-nengyuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,china.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinaamc.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinabank.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinabooktrading.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinacache.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinacache.net,🧱 国内网站
  - DOMAIN-SUFFIX,chinachugui.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinadongchu.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinaepg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinaexpressair.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinafph.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinahr.com,🧱 国内网站
@@ -4843,26 +4676,20 @@ rules:
  - DOMAIN-SUFFIX,chinalive.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinamobile.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinamobileltd.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinanature.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinanetcenter.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinanews.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinanews.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinapay.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinapp.net,🧱 国内网站
  - DOMAIN-SUFFIX,chinapubmed.net,🧱 国内网站
  - DOMAIN-SUFFIX,chinaso.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinasspp.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinastock.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinatelecom-h.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinatelecom.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinatelecomglobal.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinatranslation.net,🧱 国内网站
  - DOMAIN-SUFFIX,chinaunicom.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinaunicom.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinaunicom.com.hk,🧱 国内网站
  - DOMAIN-SUFFIX,chinaunicomglobal.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinaunionpay.com,🧱 国内网站
- - DOMAIN-SUFFIX,chinaunionpay.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chinaunionpay.net,🧱 国内网站
  - DOMAIN-SUFFIX,chinaunix.net,🧱 国内网站
  - DOMAIN-SUFFIX,chinauos.com,🧱 国内网站
@@ -4873,7 +4700,6 @@ rules:
  - DOMAIN-SUFFIX,chinazns.com,🧱 国内网站
  - DOMAIN-SUFFIX,chinesemooc.org,🧱 国内网站
  - DOMAIN-SUFFIX,chiphell.com,🧱 国内网站
- - DOMAIN-SUFFIX,chn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,chntel.com,🧱 国内网站
  - DOMAIN-SUFFIX,chongdiantou.com,🧱 国内网站
  - DOMAIN-SUFFIX,chouti.com,🧱 国内网站
@@ -4889,26 +4715,19 @@ rules:
  - DOMAIN-SUFFIX,chunyu.mobi,🧱 国内网站
  - DOMAIN-SUFFIX,chushou.tv,🧱 国内网站
  - DOMAIN-SUFFIX,chuyu.me,🧱 国内网站
- - DOMAIN-SUFFIX,cib-fund.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cib.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cibntv.net,🧱 国内网站
  - DOMAIN-SUFFIX,cicc.com,🧱 国内网站
  - DOMAIN-SUFFIX,ciccwm.com,🧱 国内网站
- - DOMAIN-SUFFIX,cidp.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cignacmb-ipmi.com,🧱 国内网站
  - DOMAIN-SUFFIX,cignacmb.com,🧱 国内网站
  - DOMAIN-SUFFIX,cignacmbamc.com,🧱 国内网站
  - DOMAIN-SUFFIX,cindasc.com,🧱 国内网站
- - DOMAIN-SUFFIX,citibank.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,citic-prudential.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,citicbank.com,🧱 国内网站
  - DOMAIN-SUFFIX,citiccapital.com,🧱 国内网站
  - DOMAIN-SUFFIX,citiciam.com,🧱 国内网站
  - DOMAIN-SUFFIX,citicifh.com,🧱 国内网站
- - DOMAIN-SUFFIX,citicprufunds.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,citics.com.hk,🧱 国内网站
  - DOMAIN-SUFFIX,citicsf.com,🧱 国内网站
- - DOMAIN-SUFFIX,citv.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,city8.com,🧱 国内网站
  - DOMAIN-SUFFIX,cjol.com,🧱 国内网站
  - DOMAIN-SUFFIX,cjsc.com,🧱 国内网站
@@ -4930,7 +4749,6 @@ rules:
  - DOMAIN-SUFFIX,cloud-zhongwei.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudanqing.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudbaoshan.com,🧱 国内网站
- - DOMAIN-SUFFIX,cloudbase.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cloudbase.net,🧱 国内网站
  - DOMAIN-SUFFIX,cloudbeibei.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudbinzhou.com,🧱 国内网站
@@ -4946,11 +4764,8 @@ rules:
  - DOMAIN-SUFFIX,clouddatong.com,🧱 国内网站
  - DOMAIN-SUFFIX,clouddn.com,🧱 国内网站
  - DOMAIN-SUFFIX,clouddongying.com,🧱 国内网站
- - DOMAIN-SUFFIX,cloudeagle.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cloudfoshan.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudfront-cn.net,🧱 国内网站
- - DOMAIN-SUFFIX,cloudfront-test.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cloudfront.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cloudfuqing.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudganzhou.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudguangzhou.com,🧱 国内网站
@@ -5004,19 +4819,13 @@ rules:
  - DOMAIN-SUFFIX,cloudyuxi.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudzhongshan.com,🧱 国内网站
  - DOMAIN-SUFFIX,cloudzhuhai.com,🧱 国内网站
- - DOMAIN-SUFFIX,cls.cn,🧱 国内网站
  - DOMAIN-SUFFIX,clsa.com,🧱 国内网站
  - DOMAIN-SUFFIX,cmb-leasing.com,🧱 国内网站
- - DOMAIN-SUFFIX,cmbc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cmbchina.biz,🧱 国内网站
- - DOMAIN-SUFFIX,cmbchina.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cmbchina.com,🧱 国内网站
  - DOMAIN-SUFFIX,cmbi.com.hk,🧱 国内网站
- - DOMAIN-SUFFIX,cmbimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cmbimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,cmbt.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cmbuat.com,🧱 国内网站
- - DOMAIN-SUFFIX,cmburl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cmbwinglungbank.com,🧱 国内网站
  - DOMAIN-SUFFIX,cmcm.com,🧱 国内网站
  - DOMAIN-SUFFIX,cmcmcdn.com,🧱 国内网站
@@ -5025,10 +4834,7 @@ rules:
  - DOMAIN-SUFFIX,cmf.ltd,🧱 国内网站
  - DOMAIN-SUFFIX,cmfchina.com,🧱 国内网站
  - DOMAIN-SUFFIX,cmfu.com,🧱 国内网站
- - DOMAIN-SUFFIX,cmfunds.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cmicrwx.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cmpassport.com,🧱 国内网站
- - DOMAIN-SUFFIX,cmvideo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cn,🧱 国内网站
  - DOMAIN-SUFFIX,cn-east-2.myhuaweicloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,cn-east-3.myhuaweicloud.com,🧱 国内网站
@@ -5056,22 +4862,15 @@ rules:
  - DOMAIN-SUFFIX,cnfol.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnfolimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnhbstock.com,🧱 国内网站
- - DOMAIN-SUFFIX,cnht.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cninfo.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cnitblog.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnki.net,🧱 国内网站
  - DOMAIN-SUFFIX,cnlang.org,🧱 国内网站
  - DOMAIN-SUFFIX,cnlaw.net,🧱 国内网站
  - DOMAIN-SUFFIX,cnmooc.org,🧱 国内网站
- - DOMAIN-SUFFIX,cnms.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cns.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cnsciedu.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnstock.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnsuning.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnthinkers.com,🧱 国内网站
- - DOMAIN-SUFFIX,cntv.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cntv.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cntvwb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cnweblog.com,🧱 国内网站
  - DOMAIN-SUFFIX,cnzz.com,🧱 国内网站
  - DOMAIN-SUFFIX,cocodiy.com,🧱 国内网站
@@ -5105,17 +4904,12 @@ rules:
  - DOMAIN-SUFFIX,crggcn.com,🧱 国内网站
  - DOMAIN-SUFFIX,crsky.com,🧱 国内网站
  - DOMAIN-SUFFIX,cryuantafund.com,🧱 国内网站
- - DOMAIN-SUFFIX,cs.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,csair.com,🧱 国内网站
  - DOMAIN-SUFFIX,csbew.com,🧱 国内网站
  - DOMAIN-SUFFIX,csc108.com,🧱 国内网站
  - DOMAIN-SUFFIX,csci.hk,🧱 国内网站
- - DOMAIN-SUFFIX,csco.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,csdl.ac.cn,🧱 国内网站
  - DOMAIN-SUFFIX,csdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,csdn.net,🧱 国内网站
- - DOMAIN-SUFFIX,csdn.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,csdnimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,csfounder.com,🧱 国内网站
  - DOMAIN-SUFFIX,csmjzs.com,🧱 国内网站
  - DOMAIN-SUFFIX,cspro.org,🧱 国内网站
@@ -5130,7 +4924,6 @@ rules:
  - DOMAIN-SUFFIX,ctfund.com,🧱 国内网站
  - DOMAIN-SUFFIX,ctiforum.com,🧱 国内网站
  - DOMAIN-SUFFIX,ctoutiao.com,🧱 国内网站
- - DOMAIN-SUFFIX,ctrip.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ctrip.co.id,🧱 国内网站
  - DOMAIN-SUFFIX,ctrip.co.kr,🧱 国内网站
  - DOMAIN-SUFFIX,ctrip.co.th,🧱 国内网站
@@ -5144,9 +4937,6 @@ rules:
  - DOMAIN-SUFFIX,ctsbw.com,🧱 国内网站
  - DOMAIN-SUFFIX,ctsec.com,🧱 国内网站
  - DOMAIN-SUFFIX,cubead.com,🧱 国内网站
- - DOMAIN-SUFFIX,cugbonline.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cup.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,cup62.cn,🧱 国内网站
  - DOMAIN-SUFFIX,cwxzx.com,🧱 国内网站
  - DOMAIN-SUFFIX,cxbiji.com,🧱 国内网站
  - DOMAIN-SUFFIX,cyagen.com,🧱 国内网站
@@ -5164,7 +4954,6 @@ rules:
  - DOMAIN-SUFFIX,dajie.com,🧱 国内网站
  - DOMAIN-SUFFIX,dajieimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,dalongyun.com,🧱 国内网站
- - DOMAIN-SUFFIX,damai.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dandanplay.com,🧱 国内网站
  - DOMAIN-SUFFIX,dandanzan.com,🧱 国内网站
  - DOMAIN-SUFFIX,dangbei.com,🧱 国内网站
@@ -5176,31 +4965,25 @@ rules:
  - DOMAIN-SUFFIX,daocloud.io,🧱 国内网站
  - DOMAIN-SUFFIX,daojia.com,🧱 国内网站
  - DOMAIN-SUFFIX,daovoice.io,🧱 国内网站
- - DOMAIN-SUFFIX,datasea.cn,🧱 国内网站
- - DOMAIN-SUFFIX,daton.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dayu.com,🧱 国内网站
  - DOMAIN-SUFFIX,dayukaoshi.com,🧱 国内网站
  - DOMAIN-SUFFIX,dazijia.com,🧱 国内网站
  - DOMAIN-SUFFIX,dbank.com,🧱 国内网站
  - DOMAIN-SUFFIX,dbankcdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,dbankcloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,dbfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dcarapi.com,🧱 国内网站
  - DOMAIN-SUFFIX,dcarimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,dcarlive.com,🧱 国内网站
  - DOMAIN-SUFFIX,dcarstatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,dcarvod.com,🧱 国内网站
- - DOMAIN-SUFFIX,dccnet.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dcdapp.com,🧱 国内网站
  - DOMAIN-SUFFIX,dcdkjx.com,🧱 国内网站
  - DOMAIN-SUFFIX,dct-cloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,dd373.com,🧱 国内网站
- - DOMAIN-SUFFIX,ddimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ddmogo.com,🧱 国内网站
  - DOMAIN-SUFFIX,ddooo.com,🧱 国内网站
  - DOMAIN-SUFFIX,ddurl.to,🧱 国内网站
  - DOMAIN-SUFFIX,dedecms.com,🧱 国内网站
- - DOMAIN-SUFFIX,deepin.cn,🧱 国内网站
  - DOMAIN-SUFFIX,deepin.com,🧱 国内网站
  - DOMAIN-SUFFIX,deepin.io,🧱 国内网站
  - DOMAIN-SUFFIX,deepin.org,🧱 国内网站
@@ -5211,11 +4994,9 @@ rules:
  - DOMAIN-SUFFIX,dfcfw.com,🧱 国内网站
  - DOMAIN-SUFFIX,dfham.com,🧱 国内网站
  - DOMAIN-SUFFIX,dfkhgj.com,🧱 国内网站
- - DOMAIN-SUFFIX,dfzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dginfo.com,🧱 国内网站
  - DOMAIN-SUFFIX,dgphospital.com,🧱 国内网站
  - DOMAIN-SUFFIX,dgtle.com,🧱 国内网站
- - DOMAIN-SUFFIX,dgzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dianchacha.com,🧱 国内网站
  - DOMAIN-SUFFIX,diandao.org,🧱 国内网站
  - DOMAIN-SUFFIX,diandian.com,🧱 国内网站
@@ -5231,7 +5012,6 @@ rules:
  - DOMAIN-SUFFIX,didimobility.co.jp,🧱 国内网站
  - DOMAIN-SUFFIX,didistatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,dingding.xin,🧱 国内网站
- - DOMAIN-SUFFIX,dingtalk.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dingtalk.com,🧱 国内网站
  - DOMAIN-SUFFIX,dingtalk.net,🧱 国内网站
  - DOMAIN-SUFFIX,dingtalkapps.com,🧱 国内网站
@@ -5242,21 +5022,16 @@ rules:
  - DOMAIN-SUFFIX,diyiyou.com,🧱 国内网站
  - DOMAIN-SUFFIX,dj99.com,🧱 国内网站
  - DOMAIN-SUFFIX,dl-vip.pcfaster.baidu.co.th,🧱 国内网站
- - DOMAIN-SUFFIX,dlgslb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dlgslb.net,🧱 国内网站
  - DOMAIN-SUFFIX,dlnel.com,🧱 国内网站
  - DOMAIN-SUFFIX,dlnel.org,🧱 国内网站
  - DOMAIN-SUFFIX,dmzj.com,🧱 国内网站
  - DOMAIN-SUFFIX,dns.pub,🧱 国内网站
- - DOMAIN-SUFFIX,dnsapi.cn,🧱 国内网站
- - DOMAIN-SUFFIX,dnspod.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dnspod.com,🧱 国内网站
- - DOMAIN-SUFFIX,dnspod.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dnspod.mobi,🧱 国内网站
  - DOMAIN-SUFFIX,dnspod.net,🧱 国内网站
  - DOMAIN-SUFFIX,dnspod.org,🧱 国内网站
  - DOMAIN-SUFFIX,dnsv1.com,🧱 国内网站
- - DOMAIN-SUFFIX,dnsv1.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dnsv2.com,🧱 国内网站
  - DOMAIN-SUFFIX,dnsv3.com,🧱 国内网站
  - DOMAIN-SUFFIX,dnsv4.com,🧱 国内网站
@@ -5268,7 +5043,6 @@ rules:
  - DOMAIN-SUFFIX,dockone.io,🧱 国内网站
  - DOMAIN-SUFFIX,docschina.org,🧱 国内网站
  - DOMAIN-SUFFIX,doctoryou.ai,🧱 国内网站
- - DOMAIN-SUFFIX,doctoryou.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dogedoge.com,🧱 国内网站
  - DOMAIN-SUFFIX,doh.pub,🧱 国内网站
  - DOMAIN-SUFFIX,donews.com,🧱 国内网站
@@ -5278,12 +5052,10 @@ rules:
  - DOMAIN-SUFFIX,dongguantoday.com,🧱 国内网站
  - DOMAIN-SUFFIX,dongting.com,🧱 国内网站
  - DOMAIN-SUFFIX,dopa.com,🧱 国内网站
- - DOMAIN-SUFFIX,dothework.cn,🧱 国内网站
  - DOMAIN-SUFFIX,doticloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,douban.com,🧱 国内网站
  - DOMAIN-SUFFIX,douban.fm,🧱 国内网站
  - DOMAIN-SUFFIX,doubanio.com,🧱 国内网站
- - DOMAIN-SUFFIX,douding.cn,🧱 国内网站
  - DOMAIN-SUFFIX,douxie.com,🧱 国内网站
  - DOMAIN-SUFFIX,douyin.com,🧱 国内网站
  - DOMAIN-SUFFIX,douyincdn.com,🧱 国内网站
@@ -5293,8 +5065,6 @@ rules:
  - DOMAIN-SUFFIX,douyinvod.com,🧱 国内网站
  - DOMAIN-SUFFIX,douyu.com,🧱 国内网站
  - DOMAIN-SUFFIX,douyu.tv,🧱 国内网站
- - DOMAIN-SUFFIX,douyucdn.cn,🧱 国内网站
- - DOMAIN-SUFFIX,douyucdn2.cn,🧱 国内网站
  - DOMAIN-SUFFIX,douyuscdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,douyutv.com,🧱 国内网站
  - DOMAIN-SUFFIX,downcc.com,🧱 国内网站
@@ -5302,17 +5072,14 @@ rules:
  - DOMAIN-SUFFIX,downyi.com,🧱 国内网站
  - DOMAIN-SUFFIX,dpfile.com,🧱 国内网站
  - DOMAIN-SUFFIX,dratio.com,🧱 国内网站
- - DOMAIN-SUFFIX,drcnet.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dreams-travel.com,🧱 国内网站
  - DOMAIN-SUFFIX,drivergenius.com,🧱 国内网站
- - DOMAIN-SUFFIX,dtsbc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dtstatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,duapps.com,🧱 国内网站
  - DOMAIN-SUFFIX,duba.com,🧱 国内网站
  - DOMAIN-SUFFIX,duba.net,🧱 国内网站
  - DOMAIN-SUFFIX,dui.ai,🧱 国内网站
  - DOMAIN-SUFFIX,duiopen.com,🧱 国内网站
- - DOMAIN-SUFFIX,duiou.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,duitang.com,🧱 国内网站
  - DOMAIN-SUFFIX,duoduocdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,duokan.com,🧱 国内网站
@@ -5323,21 +5090,16 @@ rules:
  - DOMAIN-SUFFIX,duowan.com,🧱 国内网站
  - DOMAIN-SUFFIX,duxiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,dwion.com,🧱 国内网站
- - DOMAIN-SUFFIX,dwjq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dwstatic.com,🧱 国内网站
- - DOMAIN-SUFFIX,dwz.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dxpmedia.com,🧱 国内网站
  - DOMAIN-SUFFIX,dxycdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,dxzq.net,🧱 国内网站
  - DOMAIN-SUFFIX,dyhjw.com,🧱 国内网站
  - DOMAIN-SUFFIX,dytt8.net,🧱 国内网站
  - DOMAIN-SUFFIX,dzdvip.com,🧱 国内网站
- - DOMAIN-SUFFIX,dzh.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,dzsc.com,🧱 国内网站
  - DOMAIN-SUFFIX,dzw3.com,🧱 国内网站
  - DOMAIN-SUFFIX,dzwww.com,🧱 国内网站
- - DOMAIN-SUFFIX,e0n.cn,🧱 国内网站
- - DOMAIN-SUFFIX,easec.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,easesale.com,🧱 国内网站
  - DOMAIN-SUFFIX,easiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,easou.com,🧱 国内网站
@@ -5351,7 +5113,6 @@ rules:
  - DOMAIN-SUFFIX,ebasset.com,🧱 国内网站
  - DOMAIN-SUFFIX,ebchina.com,🧱 国内网站
  - DOMAIN-SUFFIX,ebchinaintl.com,🧱 国内网站
- - DOMAIN-SUFFIX,ebf.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ebfcn.com,🧱 国内网站
  - DOMAIN-SUFFIX,ebfortune.com,🧱 国内网站
  - DOMAIN-SUFFIX,ebico.com,🧱 国内网站
@@ -5363,18 +5124,12 @@ rules:
  - DOMAIN-SUFFIX,ecitic.com,🧱 国内网站
  - DOMAIN-SUFFIX,ecitic.net,🧱 国内网站
  - DOMAIN-SUFFIX,ecjobhome.com,🧱 国内网站
- - DOMAIN-SUFFIX,ecns.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ectencent.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ectencent.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,edu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,edu4399.com,🧱 国内网站
  - DOMAIN-SUFFIX,eduei.com,🧱 国内网站
  - DOMAIN-SUFFIX,eeyy.com,🧱 国内网站
  - DOMAIN-SUFFIX,eflycloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,efunds.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ele.me,🧱 国内网站
  - DOMAIN-SUFFIX,elecfans.com,🧱 国内网站
- - DOMAIN-SUFFIX,eleme.cn,🧱 国内网站
  - DOMAIN-SUFFIX,elemecdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,elong.com,🧱 国内网站
  - DOMAIN-SUFFIX,elongstatic.com,🧱 国内网站
@@ -5391,7 +5146,6 @@ rules:
  - DOMAIN-SUFFIX,er07.com,🧱 国内网站
  - DOMAIN-SUFFIX,erji.net,🧱 国内网站
  - DOMAIN-SUFFIX,ersjk.com,🧱 国内网站
- - DOMAIN-SUFFIX,essence.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,essurl.com,🧱 国内网站
  - DOMAIN-SUFFIX,etao.com,🧱 国内网站
  - DOMAIN-SUFFIX,ets100.com,🧱 国内网站
@@ -5399,7 +5153,6 @@ rules:
  - DOMAIN-SUFFIX,eudic.net,🧱 国内网站
  - DOMAIN-SUFFIX,everbright.com,🧱 国内网站
  - DOMAIN-SUFFIX,ewqcxz.com,🧱 国内网站
- - DOMAIN-SUFFIX,ewww.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ex.puata.info,🧱 国内网站
  - DOMAIN-SUFFIX,excelhome.net,🧱 国内网站
  - DOMAIN-SUFFIX,exmailgz.com,🧱 国内网站
@@ -5417,15 +5170,10 @@ rules:
  - DOMAIN-SUFFIX,fanxian.com,🧱 国内网站
  - DOMAIN-SUFFIX,fastapi.net,🧱 国内网站
  - DOMAIN-SUFFIX,fastcdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,fastcdn.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,fcsc.cn,🧱 国内网站
- - DOMAIN-SUFFIX,feelgood.cn,🧱 国内网站
  - DOMAIN-SUFFIX,feihuo.com,🧱 国内网站
  - DOMAIN-SUFFIX,feiliao.com,🧱 国内网站
  - DOMAIN-SUFFIX,feiniaomy.com,🧱 国内网站
- - DOMAIN-SUFFIX,feishu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,feishucdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,feizhu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,feizhu.com,🧱 国内网站
  - DOMAIN-SUFFIX,feng.com,🧱 国内网站
  - DOMAIN-SUFFIX,feng1.com,🧱 国内网站
@@ -5449,22 +5197,16 @@ rules:
  - DOMAIN-SUFFIX,fjhps.com,🧱 国内网站
  - DOMAIN-SUFFIX,fliggy.com,🧱 国内网站
  - DOMAIN-SUFFIX,fliggy.hk,🧱 国内网站
- - DOMAIN-SUFFIX,flowus.cn,🧱 国内网站
- - DOMAIN-SUFFIX,flxdns.cn,🧱 国内网站
  - DOMAIN-SUFFIX,flxdns.com,🧱 国内网站
  - DOMAIN-SUFFIX,flycua.com,🧱 国内网站
  - DOMAIN-SUFFIX,flyert.com,🧱 国内网站
- - DOMAIN-SUFFIX,flyme.cn,🧱 国内网站
- - DOMAIN-SUFFIX,fm.p0y.cn,🧱 国内网站
  - DOMAIN-SUFFIX,fm3838.com,🧱 国内网站
  - DOMAIN-SUFFIX,fofa.info,🧱 国内网站
- - DOMAIN-SUFFIX,fontstar.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ford.com,🧱 国内网站
  - DOMAIN-SUFFIX,foresightfund.com,🧱 国内网站
  - DOMAIN-SUFFIX,founderff.com,🧱 国内网站
  - DOMAIN-SUFFIX,foundertype.com,🧱 国内网站
  - DOMAIN-SUFFIX,foxmail.com,🧱 国内网站
- - DOMAIN-SUFFIX,foxmail.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,fqjob.net,🧱 国内网站
  - DOMAIN-SUFFIX,frdic.com,🧱 国内网站
  - DOMAIN-SUFFIX,freebuf.com,🧱 国内网站
@@ -5473,14 +5215,10 @@ rules:
  - DOMAIN-SUFFIX,frontjs.com,🧱 国内网站
  - DOMAIN-SUFFIX,frontwize.com,🧱 国内网站
  - DOMAIN-SUFFIX,fsfund.com,🧱 国内网站
- - DOMAIN-SUFFIX,fsphere.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ftfund.com,🧱 国内网站
  - DOMAIN-SUFFIX,fugetech.com,🧱 国内网站
- - DOMAIN-SUFFIX,fullgoal.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,funcdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,fund123.cn,🧱 国内网站
  - DOMAIN-SUFFIX,funnycore.com,🧱 国内网站
- - DOMAIN-SUFFIX,furamc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,futu5.com,🧱 国内网站
  - DOMAIN-SUFFIX,futunn.com,🧱 国内网站
  - DOMAIN-SUFFIX,fuwai.com,🧱 国内网站
@@ -5511,7 +5249,6 @@ rules:
  - DOMAIN-SUFFIX,fzaqjy.com,🧱 国内网站
  - DOMAIN-SUFFIX,fzfinancing.com,🧱 国内网站
  - DOMAIN-SUFFIX,g-cores.com,🧱 国内网站
- - DOMAIN-SUFFIX,g.tbcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gaapqcloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,galaxyasset.com,🧱 国内网站
  - DOMAIN-SUFFIX,game234.com,🧱 国内网站
@@ -5530,7 +5267,6 @@ rules:
  - DOMAIN-SUFFIX,gaoxiaojob.com,🧱 国内网站
  - DOMAIN-SUFFIX,garmin.com,🧱 国内网站
  - DOMAIN-SUFFIX,gazellegames.net,🧱 国内网站
- - DOMAIN-SUFFIX,gcable.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gcloudcs.com,🧱 国内网站
  - DOMAIN-SUFFIX,gcloudcstest.com,🧱 国内网站
  - DOMAIN-SUFFIX,gcloudcstestonly.com,🧱 国内网站
@@ -5543,40 +5279,22 @@ rules:
  - DOMAIN-SUFFIX,gdtimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,geekpark.net,🧱 国内网站
  - DOMAIN-SUFFIX,geetest.com,🧱 国内网站
- - DOMAIN-SUFFIX,gefund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,geilicdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,getui.com,🧱 国内网站
  - DOMAIN-SUFFIX,gezida.com,🧱 国内网站
- - DOMAIN-SUFFIX,gf.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gfan.com,🧱 国内网站
- - DOMAIN-SUFFIX,gffunds.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gfund.com,🧱 国内网站
- - DOMAIN-SUFFIX,ghsl.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ghzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gifshow.com,🧱 国内网站
  - DOMAIN-SUFFIX,giocdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,gitbook.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gitchat.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gitcode.com,🧱 国内网站
  - DOMAIN-SUFFIX,gitcode.net,🧱 国内网站
- - DOMAIN-SUFFIX,gitdrone.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gitee.com,🧱 国内网站
  - DOMAIN-SUFFIX,gitee.io,🧱 国内网站
- - DOMAIN-SUFFIX,gitv.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gitv.tv,🧱 国内网站
- - DOMAIN-SUFFIX,gjgbdszt.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gjgbdszt.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gjgbdszt.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gjzq.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,gkzq.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,globalcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,globrand.com,🧱 国内网站
- - DOMAIN-SUFFIX,glsc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gm86.com,🧱 国内网站
- - DOMAIN-SUFFIX,gmedev.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gmz88.com,🧱 国内网站
  - DOMAIN-SUFFIX,gneec.com,🧱 国内网站
- - DOMAIN-SUFFIX,gneec.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gneec3.com,🧱 国内网站
  - DOMAIN-SUFFIX,gneec4.com,🧱 国内网站
  - DOMAIN-SUFFIX,gneec7.com,🧱 国内网站
@@ -5584,25 +5302,21 @@ rules:
  - DOMAIN-SUFFIX,gobasearcher.com,🧱 国内网站
  - DOMAIN-SUFFIX,godic.net,🧱 国内网站
  - DOMAIN-SUFFIX,gogokid.com,🧱 国内网站
- - DOMAIN-SUFFIX,gogokid.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gold678.com,🧱 国内网站
  - DOMAIN-SUFFIX,golue.com,🧱 国内网站
  - DOMAIN-SUFFIX,gongxiangcj.com,🧱 国内网站
  - DOMAIN-SUFFIX,gongyi.xin,🧱 国内网站
  - DOMAIN-SUFFIX,goodread.com,🧱 国内网站
  - DOMAIN-SUFFIX,goofish.com,🧱 国内网站
- - DOMAIN-SUFFIX,google.cn,🧱 国内网站
  - DOMAIN-SUFFIX,googletraveladservices.com,🧱 国内网站
  - DOMAIN-SUFFIX,goosail.com,🧱 国内网站
  - DOMAIN-SUFFIX,goselling.com,🧱 国内网站
  - DOMAIN-SUFFIX,goto-game.com,🧱 国内网站
  - DOMAIN-SUFFIX,goto-game.mobi,🧱 国内网站
- - DOMAIN-SUFFIX,goto-game.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,goto-game.org,🧱 国内网站
  - DOMAIN-SUFFIX,gotokeep.com,🧱 国内网站
  - DOMAIN-SUFFIX,gotolink.net,🧱 国内网站
  - DOMAIN-SUFFIX,goufw.com,🧱 国内网站
- - DOMAIN-SUFFIX,gov.cn,🧱 国内网站
  - DOMAIN-SUFFIX,govqcloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,gowinamc.com,🧱 国内网站
  - DOMAIN-SUFFIX,gree.com,🧱 国内网站
@@ -5610,38 +5324,31 @@ rules:
  - DOMAIN-SUFFIX,growingio.com,🧱 国内网站
  - DOMAIN-SUFFIX,grzq.com,🧱 国内网站
  - DOMAIN-SUFFIX,gsadds.com,🧱 国内网站
- - DOMAIN-SUFFIX,gsgh.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gszq.com,🧱 国内网站
  - DOMAIN-SUFFIX,gtags.net,🧱 国内网站
  - DOMAIN-SUFFIX,gtarsc.com,🧱 国内网站
  - DOMAIN-SUFFIX,gtgres.com,🧱 国内网站
- - DOMAIN-SUFFIX,gtimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gtimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,gtimg.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gtja.com,🧱 国内网站
  - DOMAIN-SUFFIX,gtm.pub,🧱 国内网站
  - DOMAIN-SUFFIX,guabu.com,🧱 国内网站
  - DOMAIN-SUFFIX,guaiguai.com,🧱 国内网站
  - DOMAIN-SUFFIX,guanaitong.com,🧱 国内网站
  - DOMAIN-SUFFIX,guanhaobio.com,🧱 国内网站
- - DOMAIN-SUFFIX,guba.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gucheng.com,🧱 国内网站
  - DOMAIN-SUFFIX,guigu.org,🧱 国内网站
  - DOMAIN-SUFFIX,guodu.com,🧱 国内网站
  - DOMAIN-SUFFIX,guokr.com,🧱 国内网站
  - DOMAIN-SUFFIX,guoping123.com,🧱 国内网站
- - DOMAIN-SUFFIX,guosen.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,guoxinmac.com,🧱 国内网站
  - DOMAIN-SUFFIX,guoxuedashi.com,🧱 国内网站
  - DOMAIN-SUFFIX,guoxuemi.com,🧱 国内网站
  - DOMAIN-SUFFIX,gupzs.com,🧱 国内网站
  - DOMAIN-SUFFIX,gushiwen.org,🧱 国内网站
  - DOMAIN-SUFFIX,guzhangting.com,🧱 国内网站
- - DOMAIN-SUFFIX,gw.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gwdang.com,🧱 国内网站
  - DOMAIN-SUFFIX,gxairlines.com,🧱 国内网站
  - DOMAIN-SUFFIX,gxb.io,🧱 国内网站
- - DOMAIN-SUFFIX,gyzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,gzwanju.com,🧱 国内网站
  - DOMAIN-SUFFIX,h2os.com,🧱 国内网站
  - DOMAIN-SUFFIX,h5uc.com,🧱 国内网站
@@ -5657,7 +5364,6 @@ rules:
  - DOMAIN-SUFFIX,hanboshi.com,🧱 国内网站
  - DOMAIN-SUFFIX,handanjob.com,🧱 国内网站
  - DOMAIN-SUFFIX,hangjiayun.com,🧱 国内网站
- - DOMAIN-SUFFIX,hanyi.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hao123.com,🧱 国内网站
  - DOMAIN-SUFFIX,hao123img.com,🧱 国内网站
  - DOMAIN-SUFFIX,hao222.com,🧱 国内网站
@@ -5666,17 +5372,13 @@ rules:
  - DOMAIN-SUFFIX,haolietou.com,🧱 国内网站
  - DOMAIN-SUFFIX,haoso.com,🧱 国内网站
  - DOMAIN-SUFFIX,haosou.com,🧱 国内网站
- - DOMAIN-SUFFIX,haosou.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,haosou.net,🧱 国内网站
  - DOMAIN-SUFFIX,haote.com,🧱 国内网站
  - DOMAIN-SUFFIX,haowu.link,🧱 国内网站
  - DOMAIN-SUFFIX,haoyouyinxiang.com,🧱 国内网站
  - DOMAIN-SUFFIX,happyhlddz.com,🧱 国内网站
  - DOMAIN-SUFFIX,harmonyos.com,🧱 国内网站
- - DOMAIN-SUFFIX,haydaypop.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hazq.com,🧱 国内网站
- - DOMAIN-SUFFIX,hbhk.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hc-cdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hczq.com,🧱 国内网站
  - DOMAIN-SUFFIX,hdbits.org,🧱 国内网站
  - DOMAIN-SUFFIX,hdchina.org,🧱 国内网站
@@ -5691,12 +5393,9 @@ rules:
  - DOMAIN-SUFFIX,heisha.net,🧱 国内网站
  - DOMAIN-SUFFIX,hello-inc.com,🧱 国内网站
  - DOMAIN-SUFFIX,hellobike.com,🧱 国内网站
- - DOMAIN-SUFFIX,hellofont.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hellowebfont.com,🧱 国内网站
- - DOMAIN-SUFFIX,helpothers.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hemamax.com,🧱 国内网站
  - DOMAIN-SUFFIX,hemaos.com,🧱 国内网站
- - DOMAIN-SUFFIX,hemashare.cn,🧱 国内网站
  - DOMAIN-SUFFIX,henha.com,🧱 国内网站
  - DOMAIN-SUFFIX,henkuai.com,🧱 国内网站
  - DOMAIN-SUFFIX,herostart.com,🧱 国内网站
@@ -5707,12 +5406,9 @@ rules:
  - DOMAIN-SUFFIX,heytapimage.com,🧱 国内网站
  - DOMAIN-SUFFIX,heytapmobi.com,🧱 国内网站
  - DOMAIN-SUFFIX,heytea.com,🧱 国内网站
- - DOMAIN-SUFFIX,hffunds.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hftfund.com,🧱 国内网站
- - DOMAIN-SUFFIX,hfzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hhtravel.com,🧱 国内网站
  - DOMAIN-SUFFIX,hhtravel.com.tw,🧱 国内网站
- - DOMAIN-SUFFIX,hiascend.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hiascend.com,🧱 国内网站
  - DOMAIN-SUFFIX,hichina.com,🧱 国内网站
  - DOMAIN-SUFFIX,hiclc.com,🧱 国内网站
@@ -5720,16 +5416,12 @@ rules:
  - DOMAIN-SUFFIX,hihocoder.com,🧱 国内网站
  - DOMAIN-SUFFIX,hihonor.com,🧱 国内网站
  - DOMAIN-SUFFIX,hiido.com,🧱 国内网站
- - DOMAIN-SUFFIX,hikunpeng.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hikunpeng.com,🧱 国内网站
- - DOMAIN-SUFFIX,hikunpeng.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hikunpeng.net,🧱 国内网站
  - DOMAIN-SUFFIX,hisilicon.com,🧱 国内网站
- - DOMAIN-SUFFIX,hisilicon.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hitv.com,🧱 国内网站
  - DOMAIN-SUFFIX,hiyd.com,🧱 国内网站
  - DOMAIN-SUFFIX,hjapi.com,🧱 国内网站
- - DOMAIN-SUFFIX,hjfile.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hkgcloudcs.com,🧱 国内网站
  - DOMAIN-SUFFIX,hkserversolution.com,🧱 国内网站
  - DOMAIN-SUFFIX,hktheone.com,🧱 国内网站
@@ -5746,14 +5438,11 @@ rules:
  - DOMAIN-SUFFIX,homekoo.com,🧱 国内网站
  - DOMAIN-SUFFIX,hongbo100.com,🧱 国内网站
  - DOMAIN-SUFFIX,hongdefund.com,🧱 国内网站
- - DOMAIN-SUFFIX,hongdunwang.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hongen.com,🧱 国内网站
  - DOMAIN-SUFFIX,hongsanban.com,🧱 国内网站
  - DOMAIN-SUFFIX,hongtastock.com,🧱 国内网站
  - DOMAIN-SUFFIX,hongxiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,hongyuanqh.com,🧱 国内网站
- - DOMAIN-SUFFIX,honor.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hoopchina.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hori-gz.com,🧱 国内网站
  - DOMAIN-SUFFIX,hostbuf.com,🧱 国内网站
  - DOMAIN-SUFFIX,hotmail.com,🧱 国内网站
@@ -5762,43 +5451,28 @@ rules:
  - DOMAIN-SUFFIX,houyuantuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,howbuy.com,🧱 国内网站
  - DOMAIN-SUFFIX,hr-welink.com,🧱 国内网站
- - DOMAIN-SUFFIX,hrsec.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hsbc.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hsbcqh.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hsfund.com,🧱 国内网站
  - DOMAIN-SUFFIX,htcases.com,🧱 国内网站
  - DOMAIN-SUFFIX,hteacher.net,🧱 国内网站
- - DOMAIN-SUFFIX,htsc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,htsec.com,🧱 国内网站
- - DOMAIN-SUFFIX,huaan.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huajingsec.com,🧱 国内网站
- - DOMAIN-SUFFIX,huajinsc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huanqiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,huashengdaili.com,🧱 国内网站
  - DOMAIN-SUFFIX,huatu.com,🧱 国内网站
- - DOMAIN-SUFFIX,huawei.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huawei.com,🧱 国内网站
- - DOMAIN-SUFFIX,huawei.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweiacad.com,🧱 国内网站
  - DOMAIN-SUFFIX,huaweiapaas.com,🧱 国内网站
- - DOMAIN-SUFFIX,huaweicloud-dns.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloud-dns.com,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloud-dns.net,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloud-dns.org,🧱 国内网站
- - DOMAIN-SUFFIX,huaweicloud-smn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloud-smn.com,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloud-smn.net,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,huaweicloudapis.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloudapis.com,🧱 国内网站
  - DOMAIN-SUFFIX,huaweicloudlive.com,🧱 国内网站
- - DOMAIN-SUFFIX,huaweiief.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweiief.com,🧱 国内网站
  - DOMAIN-SUFFIX,huaweimarketplace.com,🧱 国内网站
- - DOMAIN-SUFFIX,huaweisafedns.cn,🧱 国内网站
- - DOMAIN-SUFFIX,huaweisafehub.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweistatic.com,🧱 国内网站
- - DOMAIN-SUFFIX,huaweiyun.cn,🧱 国内网站
  - DOMAIN-SUFFIX,huaweiyun.com,🧱 国内网站
  - DOMAIN-SUFFIX,huaxiong.com,🧱 国内网站
  - DOMAIN-SUFFIX,huayingsc.com,🧱 国内网站
@@ -5818,33 +5492,22 @@ rules:
  - DOMAIN-SUFFIX,huxiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,huxiucdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,huya.com,🧱 国内网站
- - DOMAIN-SUFFIX,hwccpc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hwccpc.com,🧱 国内网站
  - DOMAIN-SUFFIX,hwcdnsre.com,🧱 国内网站
- - DOMAIN-SUFFIX,hwclouds-dns.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hwclouds-dns.com,🧱 国内网站
  - DOMAIN-SUFFIX,hwclouds-dns.net,🧱 国内网站
- - DOMAIN-SUFFIX,hwclouds.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hwclouds.mobi,🧱 国内网站
- - DOMAIN-SUFFIX,hwclouds.org.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hwcloudvis.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hwcloudvis.com,🧱 国内网站
- - DOMAIN-SUFFIX,hwht.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hwocloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,hwshu.com,🧱 国内网站
  - DOMAIN-SUFFIX,hwtrip.com,🧱 国内网站
- - DOMAIN-SUFFIX,hx168.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hxb.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hxcdn.net,🧱 国内网站
  - DOMAIN-SUFFIX,hxfy888.com,🧱 国内网站
  - DOMAIN-SUFFIX,hxsd.com,🧱 国内网站
- - DOMAIN-SUFFIX,hxzq.cn,🧱 国内网站
- - DOMAIN-SUFFIX,hytung.cn,🧱 国内网站
  - DOMAIN-SUFFIX,hz.pre.tbusergw.taobao.net,🧱 国内网站
  - DOMAIN-SUFFIX,hz.tbusergw.taobao.net,🧱 国内网站
  - DOMAIN-SUFFIX,i360mall.com,🧱 国内网站
  - DOMAIN-SUFFIX,i3839.com,🧱 国内网站
- - DOMAIN-SUFFIX,i618.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ialicdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,iask.com,🧱 国内网站
  - DOMAIN-SUFFIX,ibaotu.com,🧱 国内网站
@@ -5865,7 +5528,6 @@ rules:
  - DOMAIN-SUFFIX,icbc.co.kr,🧱 国内网站
  - DOMAIN-SUFFIX,icbc.co.nl,🧱 国内网站
  - DOMAIN-SUFFIX,icbc.com.au,🧱 国内网站
- - DOMAIN-SUFFIX,icbc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,icbc.com.es,🧱 国内网站
  - DOMAIN-SUFFIX,icbc.com.kh,🧱 国内网站
  - DOMAIN-SUFFIX,icbc.com.kw,🧱 国内网站
@@ -5884,14 +5546,11 @@ rules:
  - DOMAIN-SUFFIX,icbcalmaty.kz,🧱 国内网站
  - DOMAIN-SUFFIX,icbcasia.com,🧱 国内网站
  - DOMAIN-SUFFIX,icbcbr.com.br,🧱 国内网站
- - DOMAIN-SUFFIX,icbccs.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,icbccstz.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,icbci.com.hk,🧱 国内网站
  - DOMAIN-SUFFIX,icbcina.com,🧱 国内网站
  - DOMAIN-SUFFIX,icbcindia.com,🧱 国内网站
  - DOMAIN-SUFFIX,icbcit.com,🧱 国内网站
  - DOMAIN-SUFFIX,icbclondon.com,🧱 国内网站
- - DOMAIN-SUFFIX,icbcmanila.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,icbcme.ae,🧱 国内网站
  - DOMAIN-SUFFIX,icbcmoscow.ru,🧱 国内网站
  - DOMAIN-SUFFIX,icbcmy.com,🧱 国内网站
@@ -5912,9 +5571,7 @@ rules:
  - DOMAIN-SUFFIX,icevirtuallibrary.com,🧱 国内网站
  - DOMAIN-SUFFIX,ichangtou.com,🧱 国内网站
  - DOMAIN-SUFFIX,iciba.com,🧱 国内网站
- - DOMAIN-SUFFIX,iconfont.cn,🧱 国内网站
  - DOMAIN-SUFFIX,icourse163.org,🧱 国内网站
- - DOMAIN-SUFFIX,icourses.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ics.design,🧱 国内网站
  - DOMAIN-SUFFIX,idcgcloudcs.com,🧱 国内网站
  - DOMAIN-SUFFIX,idcquan.com,🧱 国内网站
@@ -5933,11 +5590,9 @@ rules:
  - DOMAIN-SUFFIX,iflytek.com,🧱 国内网站
  - DOMAIN-SUFFIX,igamecj.com,🧱 国内网站
  - DOMAIN-SUFFIX,igao7.com,🧱 国内网站
- - DOMAIN-SUFFIX,igetget.cn,🧱 国内网站
  - DOMAIN-SUFFIX,igetget.com,🧱 国内网站
  - DOMAIN-SUFFIX,igtm.pub,🧱 国内网站
  - DOMAIN-SUFFIX,igwfmc.com,🧱 国内网站
- - DOMAIN-SUFFIX,ihappystudio.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ihappystudio.com,🧱 国内网站
  - DOMAIN-SUFFIX,iheima.com,🧱 国内网站
  - DOMAIN-SUFFIX,ihuman.com,🧱 国内网站
@@ -5949,11 +5604,8 @@ rules:
  - DOMAIN-SUFFIX,im2maker.com,🧱 国内网站
  - DOMAIN-SUFFIX,im9.com,🧱 国内网站
  - DOMAIN-SUFFIX,images-amazon.com,🧱 国内网站
- - DOMAIN-SUFFIX,imc-oneaccess.cn,🧱 国内网站
  - DOMAIN-SUFFIX,imcapptest.com,🧱 国内网站
  - DOMAIN-SUFFIX,imedao.com,🧱 国内网站
- - DOMAIN-SUFFIX,img.taotaosou.cn,🧱 国内网站
- - DOMAIN-SUFFIX,img01.taotaosou.cn,🧱 国内网站
  - DOMAIN-SUFFIX,img4399.com,🧱 国内网站
  - DOMAIN-SUFFIX,img4me.com,🧱 国内网站
  - DOMAIN-SUFFIX,imgo.tv,🧱 国内网站
@@ -5971,9 +5623,7 @@ rules:
  - DOMAIN-SUFFIX,ip-cdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,ip.la,🧱 国内网站
  - DOMAIN-SUFFIX,ip138.com,🧱 国内网站
- - DOMAIN-SUFFIX,ipanda.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ipanda.com,🧱 国内网站
- - DOMAIN-SUFFIX,ipanda.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ipanda.net,🧱 国内网站
  - DOMAIN-SUFFIX,ipinyou.com,🧱 国内网站
  - DOMAIN-SUFFIX,ipip.net,🧱 国内网站
@@ -5984,7 +5634,6 @@ rules:
  - DOMAIN-SUFFIX,iqiyipic.com,🧱 国内网站
  - DOMAIN-SUFFIX,iranshao.com,🧱 国内网站
  - DOMAIN-SUFFIX,irs01.com,🧱 国内网站
- - DOMAIN-SUFFIX,iscas.ac.cn,🧱 国内网站
  - DOMAIN-SUFFIX,isd.com,🧱 国内网站
  - DOMAIN-SUFFIX,ishumei.com,🧱 国内网站
  - DOMAIN-SUFFIX,ispqcloud.com,🧱 国内网站
@@ -5994,8 +5643,6 @@ rules:
  - DOMAIN-SUFFIX,it165.net,🧱 国内网站
  - DOMAIN-SUFFIX,it168.com,🧱 国内网站
  - DOMAIN-SUFFIX,it610.com,🧱 国内网站
- - DOMAIN-SUFFIX,itc.cn,🧱 国内网站
- - DOMAIN-SUFFIX,itdog.cn,🧱 国内网站
  - DOMAIN-SUFFIX,iteye.com,🧱 国内网站
  - DOMAIN-SUFFIX,ithome.com,🧱 国内网站
  - DOMAIN-SUFFIX,itjuzi.com,🧱 国内网站
@@ -6017,7 +5664,6 @@ rules:
  - DOMAIN-SUFFIX,j-test.com,🧱 国内网站
  - DOMAIN-SUFFIX,jamanetwork.com,🧱 国内网站
  - DOMAIN-SUFFIX,jandan.net,🧱 国内网站
- - DOMAIN-SUFFIX,japps.cn,🧱 国内网站
  - DOMAIN-SUFFIX,java.com,🧱 国内网站
  - DOMAIN-SUFFIX,jb51.com,🧱 国内网站
  - DOMAIN-SUFFIX,jbcz.tv,🧱 国内网站
@@ -6055,14 +5701,10 @@ rules:
  - DOMAIN-SUFFIX,jcloudvideo.net,🧱 国内网站
  - DOMAIN-SUFFIX,jclps.com,🧱 国内网站
  - DOMAIN-SUFFIX,jd-app.com,🧱 国内网站
- - DOMAIN-SUFFIX,jd-ex.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jd-ex.com,🧱 国内网站
- - DOMAIN-SUFFIX,jd-ex.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jd-ex.net,🧱 国内网站
- - DOMAIN-SUFFIX,jd.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jd.co.th,🧱 国内网站
  - DOMAIN-SUFFIX,jd.com,🧱 国内网站
- - DOMAIN-SUFFIX,jd.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jd.hk,🧱 国内网站
  - DOMAIN-SUFFIX,jd.id,🧱 国内网站
  - DOMAIN-SUFFIX,jd.ru,🧱 国内网站
@@ -6112,10 +5754,7 @@ rules:
  - DOMAIN-SUFFIX,jdgslb.com,🧱 国内网站
  - DOMAIN-SUFFIX,jdgslb.net,🧱 国内网站
  - DOMAIN-SUFFIX,jdjinrong.com,🧱 国内网站
- - DOMAIN-SUFFIX,jdl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jdl.com,🧱 国内网站
- - DOMAIN-SUFFIX,jdl.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,jdlike.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jdpay.com,🧱 国内网站
  - DOMAIN-SUFFIX,jdpaydns.com,🧱 国内网站
  - DOMAIN-SUFFIX,jdwl.com,🧱 国内网站
@@ -6123,7 +5762,6 @@ rules:
  - DOMAIN-SUFFIX,jhgtgb.com,🧱 国内网站
  - DOMAIN-SUFFIX,jhscm.com,🧱 国内网站
  - DOMAIN-SUFFIX,jhu.edu,🧱 国内网站
- - DOMAIN-SUFFIX,jhzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jia.com,🧱 国内网站
  - DOMAIN-SUFFIX,jiameng.com,🧱 国内网站
  - DOMAIN-SUFFIX,jianbihua.com,🧱 国内网站
@@ -6144,8 +5782,6 @@ rules:
  - DOMAIN-SUFFIX,jidian.im,🧱 国内网站
  - DOMAIN-SUFFIX,jiemeng8.com,🧱 国内网站
  - DOMAIN-SUFFIX,jiemian.com,🧱 国内网站
- - DOMAIN-SUFFIX,jiemian.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,jiguang.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jikexueyuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,jikipedia.com,🧱 国内网站
  - DOMAIN-SUFFIX,jindidata.com,🧱 国内网站
@@ -6180,24 +5816,17 @@ rules:
  - DOMAIN-SUFFIX,joybuy.es,🧱 国内网站
  - DOMAIN-SUFFIX,jpmorganchina.com,🧱 国内网站
  - DOMAIN-SUFFIX,jpopsuki.eu,🧱 国内网站
- - DOMAIN-SUFFIX,jpush.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jpush.io,🧱 国内网站
  - DOMAIN-SUFFIX,jpushoa.com,🧱 国内网站
- - DOMAIN-SUFFIX,jrj.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,jrjimg.cn,🧱 国内网站
- - DOMAIN-SUFFIX,jrzk.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jsbc.com,🧱 国内网站
  - DOMAIN-SUFFIX,jsboxbbs.com,🧱 国内网站
- - DOMAIN-SUFFIX,jsfund.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jsrdgg.com,🧱 国内网站
  - DOMAIN-SUFFIX,jstor.org,🧱 国内网站
  - DOMAIN-SUFFIX,jstucdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,jstv.com,🧱 国内网站
- - DOMAIN-SUFFIX,jsurvey.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jsyks.com,🧱 国内网站
  - DOMAIN-SUFFIX,jtamc.com,🧱 国内网站
  - DOMAIN-SUFFIX,juefeng.com,🧱 国内网站
- - DOMAIN-SUFFIX,juejin.cn,🧱 国内网站
  - DOMAIN-SUFFIX,juejin.im,🧱 国内网站
  - DOMAIN-SUFFIX,juhuasuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,julive.com,🧱 国内网站
@@ -6205,12 +5834,10 @@ rules:
  - DOMAIN-SUFFIX,juneyaoair.com,🧱 国内网站
  - DOMAIN-SUFFIX,juwan.com,🧱 国内网站
  - DOMAIN-SUFFIX,juxia.com,🧱 国内网站
- - DOMAIN-SUFFIX,jvoice.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jxedt.com,🧱 国内网站
  - DOMAIN-SUFFIX,jxksw.net,🧱 国内网站
  - DOMAIN-SUFFIX,jxlog.istreamsche.com,🧱 国内网站
  - DOMAIN-SUFFIX,jyimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,jyzq.cn,🧱 国内网站
  - DOMAIN-SUFFIX,jzsec.com,🧱 国内网站
  - DOMAIN-SUFFIX,k366.com,🧱 国内网站
  - DOMAIN-SUFFIX,kaifayun.com,🧱 国内网站
@@ -6227,8 +5854,6 @@ rules:
  - DOMAIN-SUFFIX,kaopu001.com,🧱 国内网站
  - DOMAIN-SUFFIX,karger.com,🧱 国内网站
  - DOMAIN-SUFFIX,kaspersky-labs.com,🧱 国内网站
- - DOMAIN-SUFFIX,kc9.cn,🧱 国内网站
- - DOMAIN-SUFFIX,kdocs.cn,🧱 国内网站
  - DOMAIN-SUFFIX,keboyunxiao.com,🧱 国内网站
  - DOMAIN-SUFFIX,kechuang.org,🧱 国内网站
  - DOMAIN-SUFFIX,keepcdn.com,🧱 国内网站
@@ -6237,7 +5862,6 @@ rules:
  - DOMAIN-SUFFIX,ketangpai.com,🧱 国内网站
  - DOMAIN-SUFFIX,kf5.com,🧱 国内网站
  - DOMAIN-SUFFIX,kgimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,kimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,kimiss.com,🧱 国内网站
  - DOMAIN-SUFFIX,kingdee.com,🧱 国内网站
  - DOMAIN-SUFFIX,kingsoft.com,🧱 国内网站
@@ -6245,10 +5869,6 @@ rules:
  - DOMAIN-SUFFIX,kkmh.com,🧱 国内网站
  - DOMAIN-SUFFIX,kkzj.com,🧱 国内网站
  - DOMAIN-SUFFIX,klpbbs.com,🧱 国内网站
- - DOMAIN-SUFFIX,km6g.cn,🧱 国内网站
- - DOMAIN-SUFFIX,km7g.cn,🧱 国内网站
- - DOMAIN-SUFFIX,km8g.cn,🧱 国内网站
- - DOMAIN-SUFFIX,km9g.cn,🧱 国内网站
  - DOMAIN-SUFFIX,knewone.com,🧱 国内网站
  - DOMAIN-SUFFIX,kongfz.com,🧱 国内网站
  - DOMAIN-SUFFIX,koocdn.com,🧱 国内网站
@@ -6303,10 +5923,8 @@ rules:
  - DOMAIN-SUFFIX,kuqin.com,🧱 国内网站
  - DOMAIN-SUFFIX,kuyiso.com,🧱 国内网站
  - DOMAIN-SUFFIX,kuyunbo.club,🧱 国内网站
- - DOMAIN-SUFFIX,kysec.cn,🧱 国内网站
  - DOMAIN-SUFFIX,la-north-2.myhuaweicloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,la-south-2.myhuaweicloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,labycore.cn,🧱 国内网站
  - DOMAIN-SUFFIX,lady8844.com,🧱 国内网站
  - DOMAIN-SUFFIX,lagou.com,🧱 国内网站
  - DOMAIN-SUFFIX,laiwang.com,🧱 国内网站
@@ -6342,7 +5960,6 @@ rules:
  - DOMAIN-SUFFIX,larksuite.com,🧱 国内网站
  - DOMAIN-SUFFIX,larksuitecdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,larsonlimited.com,🧱 国内网站
- - DOMAIN-SUFFIX,las.ac.cn,🧱 国内网站
  - DOMAIN-SUFFIX,lascn.net,🧱 国内网站
  - DOMAIN-SUFFIX,lawxp.com,🧱 国内网站
  - DOMAIN-SUFFIX,lawyee.org,🧱 国内网站
@@ -6379,7 +5996,6 @@ rules:
  - DOMAIN-SUFFIX,liba.com,🧱 国内网站
  - DOMAIN-SUFFIX,libaclub.com,🧱 国内网站
  - DOMAIN-SUFFIX,libguides.com,🧱 国内网站
- - DOMAIN-SUFFIX,liebao.cn,🧱 国内网站
  - DOMAIN-SUFFIX,liepin.com,🧱 国内网站
  - DOMAIN-SUFFIX,lietou-static.com,🧱 国内网站
  - DOMAIN-SUFFIX,lietou.com,🧱 国内网站
@@ -6397,12 +6013,9 @@ rules:
  - DOMAIN-SUFFIX,liulishuo.com,🧱 国内网站
  - DOMAIN-SUFFIX,liuxiaoer.com,🧱 国内网站
  - DOMAIN-SUFFIX,live800.com,🧱 国内网站
- - DOMAIN-SUFFIX,livechina.cn,🧱 国内网站
  - DOMAIN-SUFFIX,livechina.com,🧱 国内网站
- - DOMAIN-SUFFIX,livehwc3.cn,🧱 国内网站
  - DOMAIN-SUFFIX,liweijia.com,🧱 国内网站
  - DOMAIN-SUFFIX,lixinger.com,🧱 国内网站
- - DOMAIN-SUFFIX,liyuans.com,🧱 国内网站
  - DOMAIN-SUFFIX,lizhi.fm,🧱 国内网站
  - DOMAIN-SUFFIX,lizhi.io,🧱 国内网站
  - DOMAIN-SUFFIX,lizhifm.com,🧱 国内网站
@@ -6417,7 +6030,6 @@ rules:
  - DOMAIN-SUFFIX,logiseasy.com,🧱 国内网站
  - DOMAIN-SUFFIX,loli.net,🧱 国内网站
  - DOMAIN-SUFFIX,longhoo.net,🧱 国内网站
- - DOMAIN-SUFFIX,longone.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,longre.com,🧱 国内网站
  - DOMAIN-SUFFIX,longtugame.com,🧱 国内网站
  - DOMAIN-SUFFIX,longzhu.com,🧱 国内网站
@@ -6431,13 +6043,11 @@ rules:
  - DOMAIN-SUFFIX,lucifr.com,🧱 国内网站
  - DOMAIN-SUFFIX,luckyair.net,🧱 国内网站
  - DOMAIN-SUFFIX,ludashi.com,🧱 国内网站
- - DOMAIN-SUFFIX,ludosuperstar.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ludoworld.net,🧱 国内网站
  - DOMAIN-SUFFIX,lufax.com,🧱 国内网站
  - DOMAIN-SUFFIX,lufaxcdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,lufunds.com,🧱 国内网站
  - DOMAIN-SUFFIX,lunwengo.net,🧱 国内网站
- - DOMAIN-SUFFIX,luogu.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,luojilab.com,🧱 国内网站
  - DOMAIN-SUFFIX,luoo.net,🧱 国内网站
  - DOMAIN-SUFFIX,luyouqi.com,🧱 国内网站
@@ -6451,18 +6061,15 @@ rules:
  - DOMAIN-SUFFIX,lxjapp.com,🧱 国内网站
  - DOMAIN-SUFFIX,lxway.com,🧱 国内网站
  - DOMAIN-SUFFIX,ly.com,🧱 国内网站
- - DOMAIN-SUFFIX,m-now.cn,🧱 国内网站
  - DOMAIN-SUFFIX,m1.run,🧱 国内网站
  - DOMAIN-SUFFIX,m6.run,🧱 国内网站
  - DOMAIN-SUFFIX,m9.run,🧱 国内网站
  - DOMAIN-SUFFIX,ma.run,🧱 国内网站
  - DOMAIN-SUFFIX,madsrevolution.net,🧱 国内网站
- - DOMAIN-SUFFIX,mafengwo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mafengwo.com,🧱 国内网站
  - DOMAIN-SUFFIX,mafengwo.net,🧱 国内网站
  - DOMAIN-SUFFIX,magedu.com,🧱 国内网站
  - DOMAIN-SUFFIX,mahjongai.net,🧱 国内网站
- - DOMAIN-SUFFIX,mahjongcup.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mahjongcup.com,🧱 国内网站
  - DOMAIN-SUFFIX,mahjongcup.net,🧱 国内网站
  - DOMAIN-SUFFIX,mai.tn,🧱 国内网站
@@ -6477,10 +6084,8 @@ rules:
  - DOMAIN-SUFFIX,maoyan.com,🧱 国内网站
  - DOMAIN-SUFFIX,maoyun.com,🧱 国内网站
  - DOMAIN-SUFFIX,maoyun.tv,🧱 国内网站
- - DOMAIN-SUFFIX,maoyuncloud.cn,🧱 国内网站
  - DOMAIN-SUFFIX,maoyuncloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,mapbar.com,🧱 国内网站
- - DOMAIN-SUFFIX,mashort.cn,🧱 国内网站
  - DOMAIN-SUFFIX,material.istreamsche.com,🧱 国内网站
  - DOMAIN-SUFFIX,matpool.com,🧱 国内网站
  - DOMAIN-SUFFIX,matpool.net,🧱 国内网站
@@ -6489,10 +6094,8 @@ rules:
  - DOMAIN-SUFFIX,mayshijia.com,🧱 国内网站
  - DOMAIN-SUFFIX,mbalib.com,🧱 国内网站
  - DOMAIN-SUFFIX,mbcloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,mcadn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mcbang.com,🧱 国内网站
  - DOMAIN-SUFFIX,mcbbs.net,🧱 国内网站
- - DOMAIN-SUFFIX,mcmod.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mdeer.com,🧱 国内网站
  - DOMAIN-SUFFIX,mdpda.com,🧱 国内网站
  - DOMAIN-SUFFIX,me.com,🧱 国内网站
@@ -6516,16 +6119,13 @@ rules:
  - DOMAIN-SUFFIX,meitudata.com,🧱 国内网站
  - DOMAIN-SUFFIX,meitustat.com,🧱 国内网站
  - DOMAIN-SUFFIX,meixincdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,meizu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,meizu.com,🧱 国内网站
  - DOMAIN-SUFFIX,mengtuoshi.wang,🧱 国内网站
  - DOMAIN-SUFFIX,metalrevolution.com,🧱 国内网站
  - DOMAIN-SUFFIX,metatrader4.com,🧱 国内网站
  - DOMAIN-SUFFIX,metatrader5.com,🧱 国内网站
  - DOMAIN-SUFFIX,mfcteda.com,🧱 国内网站
- - DOMAIN-SUFFIX,mfuns.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mgtv.com,🧱 国内网站
- - DOMAIN-SUFFIX,mhyurl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mi-img.com,🧱 国内网站
  - DOMAIN-SUFFIX,mi.com,🧱 国内网站
  - DOMAIN-SUFFIX,miaobolive.com,🧱 国内网站
@@ -6538,8 +6138,6 @@ rules:
  - DOMAIN-SUFFIX,microsoftonline.com,🧱 国内网站
  - DOMAIN-SUFFIX,midasbuy.com,🧱 国内网站
  - DOMAIN-SUFFIX,miercn.com,🧱 国内网站
- - DOMAIN-SUFFIX,mifile.cn,🧱 国内网站
- - DOMAIN-SUFFIX,migu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,migucloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,miguvideo.com,🧱 国内网站
  - DOMAIN-SUFFIX,mihayo.com,🧱 国内网站
@@ -6552,7 +6150,6 @@ rules:
  - DOMAIN-SUFFIX,mikecrm.com,🧱 国内网站
  - DOMAIN-SUFFIX,minapp.com,🧱 国内网站
  - DOMAIN-SUFFIX,mincdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,mindspore.cn,🧱 国内网站
  - DOMAIN-SUFFIX,minhangshi.com,🧱 国内网站
  - DOMAIN-SUFFIX,minitiao.com,🧱 国内网站
  - DOMAIN-SUFFIX,mipcdn.com,🧱 国内网站
@@ -6573,7 +6170,6 @@ rules:
  - DOMAIN-SUFFIX,mob.com,🧱 国内网站
  - DOMAIN-SUFFIX,mobike.com,🧱 国内网站
  - DOMAIN-SUFFIX,mobmore.com,🧱 国内网站
- - DOMAIN-SUFFIX,moegirl.org.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mofang.com,🧱 国内网站
  - DOMAIN-SUFFIX,mofazhu.com,🧱 国内网站
  - DOMAIN-SUFFIX,mogoo.com,🧱 国内网站
@@ -6586,7 +6182,6 @@ rules:
  - DOMAIN-SUFFIX,mokahr.com,🧱 国内网站
  - DOMAIN-SUFFIX,moke.com,🧱 国内网站
  - DOMAIN-SUFFIX,moleecel.com,🧱 国内网站
- - DOMAIN-SUFFIX,mooc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,moocollege.com,🧱 国内网站
  - DOMAIN-SUFFIX,mop.com,🧱 国内网站
  - DOMAIN-SUFFIX,morethan.tv,🧱 国内网站
@@ -6599,10 +6194,8 @@ rules:
  - DOMAIN-SUFFIX,mscbsc.com,🧱 国内网站
  - DOMAIN-SUFFIX,msecnd.net,🧱 国内网站
  - DOMAIN-SUFFIX,mshare.cc,🧱 国内网站
- - DOMAIN-SUFFIX,msjyfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,msocdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,msstatic.com,🧱 国内网站
- - DOMAIN-SUFFIX,mszdld.cn,🧱 国内网站
  - DOMAIN-SUFFIX,mszdld.com,🧱 国内网站
  - DOMAIN-SUFFIX,mszdld.net,🧱 国内网站
  - DOMAIN-SUFFIX,mszq.com,🧱 国内网站
@@ -6626,8 +6219,6 @@ rules:
  - DOMAIN-SUFFIX,mydown.com,🧱 国内网站
  - DOMAIN-SUFFIX,mydrivers.com,🧱 国内网站
  - DOMAIN-SUFFIX,myelasticsearch.com,🧱 国内网站
- - DOMAIN-SUFFIX,myhuaweicloud.cn,🧱 国内网站
- - DOMAIN-SUFFIX,myhwcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,myhwcdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,myhwcloudlive.com,🧱 国内网站
  - DOMAIN-SUFFIX,myhwclouds.com,🧱 国内网站
@@ -6637,26 +6228,20 @@ rules:
  - DOMAIN-SUFFIX,myqcloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,myshow360.net,🧱 国内网站
  - DOMAIN-SUFFIX,mysiteres.com,🧱 国内网站
- - DOMAIN-SUFFIX,mysxl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,myunlu.com,🧱 国内网站
  - DOMAIN-SUFFIX,myyx618.com,🧱 国内网站
  - DOMAIN-SUFFIX,myzaker.com,🧱 国内网站
  - DOMAIN-SUFFIX,mzres.com,🧱 国内网站
  - DOMAIN-SUFFIX,mzstatic.com,🧱 国内网站
- - DOMAIN-SUFFIX,n0q.cn,🧱 国内网站
  - DOMAIN-SUFFIX,na-mexico-1.myhuaweicloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,nagcloudcs.com,🧱 国内网站
  - DOMAIN-SUFFIX,naixuecha.com,🧱 国内网站
  - DOMAIN-SUFFIX,nanyangpt.com,🧱 国内网站
  - DOMAIN-SUFFIX,nattest-china.com,🧱 国内网站
  - DOMAIN-SUFFIX,nature.com,🧱 国内网站
- - DOMAIN-SUFFIX,nbd.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ncore.cc,🧱 国内网站
- - DOMAIN-SUFFIX,nearme.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,nease.net,🧱 国内网站
- - DOMAIN-SUFFIX,neixin.cn,🧱 国内网站
  - DOMAIN-SUFFIX,neohytung.com,🧱 国内网站
- - DOMAIN-SUFFIX,nesc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,netbian.com,🧱 国内网站
  - DOMAIN-SUFFIX,netease-inc.com,🧱 国内网站
  - DOMAIN-SUFFIX,netease.com,🧱 国内网站
@@ -6664,26 +6249,19 @@ rules:
  - DOMAIN-SUFFIX,newasp.net,🧱 国内网站
  - DOMAIN-SUFFIX,newbandeng.com,🧱 国内网站
  - DOMAIN-SUFFIX,newcoder.com,🧱 国内网站
- - DOMAIN-SUFFIX,news.cn,🧱 国内网站
  - DOMAIN-SUFFIX,newyx.net,🧱 国内网站
  - DOMAIN-SUFFIX,nextstudios.com,🧱 国内网站
  - DOMAIN-SUFFIX,nextworkshop.net,🧱 国内网站
  - DOMAIN-SUFFIX,nffund.com,🧱 国内网站
  - DOMAIN-SUFFIX,nfoservers.com,🧱 国内网站
- - DOMAIN-SUFFIX,nga.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ngabbs.com,🧱 国内网站
  - DOMAIN-SUFFIX,ngacn.cc,🧱 国内网站
  - DOMAIN-SUFFIX,nic.xin,🧱 国内网站
  - DOMAIN-SUFFIX,nicaifu.com,🧱 国内网站
  - DOMAIN-SUFFIX,nihaoafrica.org,🧱 国内网站
- - DOMAIN-SUFFIX,nihaorwanda.cn,🧱 国内网站
  - DOMAIN-SUFFIX,nim-lang-cn.org,🧱 国内网站
- - DOMAIN-SUFFIX,njcb.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,njzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,nmrdata.com,🧱 国内网站
  - DOMAIN-SUFFIX,nnthink.com,🧱 国内网站
- - DOMAIN-SUFFIX,noi.cn,🧱 国内网站
- - DOMAIN-SUFFIX,noknok.cn,🧱 国内网站
  - DOMAIN-SUFFIX,nomuraoi-sec.com,🧱 国内网站
  - DOMAIN-SUFFIX,novipnoad.com,🧱 国内网站
  - DOMAIN-SUFFIX,nowcoder.com,🧱 国内网站
@@ -6692,22 +6270,16 @@ rules:
  - DOMAIN-SUFFIX,nowscore.com,🧱 国内网站
  - DOMAIN-SUFFIX,npmmirror.com,🧱 国内网站
  - DOMAIN-SUFFIX,nruan.com,🧱 国内网站
- - DOMAIN-SUFFIX,nssd.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ntalker.com,🧱 国内网站
  - DOMAIN-SUFFIX,nuomi.com,🧱 国内网站
  - DOMAIN-SUFFIX,nvidia.com,🧱 国内网站
  - DOMAIN-SUFFIX,nvsheng.com,🧱 国内网站
- - DOMAIN-SUFFIX,nwcdcloud.cn,🧱 国内网站
- - DOMAIN-SUFFIX,nwcdcloud.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,nwcddns.cn,🧱 国内网站
- - DOMAIN-SUFFIX,nwcdinfosec.cn,🧱 国内网站
  - DOMAIN-SUFFIX,nx-sc.com,🧱 国内网站
  - DOMAIN-SUFFIX,nzbdw.com,🧱 国内网站
  - DOMAIN-SUFFIX,nzsiteres.com,🧱 国内网站
  - DOMAIN-SUFFIX,nzwgs.com,🧱 国内网站
  - DOMAIN-SUFFIX,oadz.com,🧱 国内网站
  - DOMAIN-SUFFIX,oascentral.sina.com.hk,🧱 国内网站
- - DOMAIN-SUFFIX,ocfund.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ocwms.com,🧱 国内网站
  - DOMAIN-SUFFIX,oecd-ilibrary.org,🧱 国内网站
  - DOMAIN-SUFFIX,oeeee.com,🧱 国内网站
@@ -6721,12 +6293,10 @@ rules:
  - DOMAIN-SUFFIX,ol-cdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,ol-img.com,🧱 国内网站
  - DOMAIN-SUFFIX,oldboyedu.com,🧱 国内网站
- - DOMAIN-SUFFIX,olympicchannelchina.cn,🧱 国内网站
  - DOMAIN-SUFFIX,oncdp.com,🧱 国内网站
  - DOMAIN-SUFFIX,oneapm.com,🧱 国内网站
  - DOMAIN-SUFFIX,onegreen.net,🧱 国内网站
  - DOMAIN-SUFFIX,onenote.net,🧱 国内网站
- - DOMAIN-SUFFIX,oneplus.cn,🧱 国内网站
  - DOMAIN-SUFFIX,oneplus.com,🧱 国内网站
  - DOMAIN-SUFFIX,oneplus.net,🧱 国内网站
  - DOMAIN-SUFFIX,oneplusbbs.com,🧱 国内网站
@@ -6739,24 +6309,18 @@ rules:
  - DOMAIN-SUFFIX,opdown.com,🧱 国内网站
  - DOMAIN-SUFFIX,open.cd,🧱 国内网站
  - DOMAIN-SUFFIX,openapp.run,🧱 国内网站
- - DOMAIN-SUFFIX,openjudge.cn,🧱 国内网站
  - DOMAIN-SUFFIX,openkylin.top,🧱 国内网站
  - DOMAIN-SUFFIX,openlearning.com,🧱 国内网站
  - DOMAIN-SUFFIX,openmidas.com,🧱 国内网站
- - DOMAIN-SUFFIX,oppo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,oppo.com,🧱 国内网站
  - DOMAIN-SUFFIX,oppo.mobi,🧱 国内网站
  - DOMAIN-SUFFIX,oppodigital.com,🧱 国内网站
  - DOMAIN-SUFFIX,oppoer.me,🧱 国内网站
  - DOMAIN-SUFFIX,oppomobile.com,🧱 国内网站
  - DOMAIN-SUFFIX,oppopay.com,🧱 国内网站
- - DOMAIN-SUFFIX,opposhop.cn,🧱 国内网站
  - DOMAIN-SUFFIX,opstatics.com,🧱 国内网站
- - DOMAIN-SUFFIX,oracle-tencent.cn,🧱 国内网站
  - DOMAIN-SUFFIX,oracle-tencent.com,🧱 国内网站
- - DOMAIN-SUFFIX,oracle-tencent.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,oracle-tencent.net,🧱 国内网站
- - DOMAIN-SUFFIX,oracle-tencent.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,oracle.com,🧱 国内网站
  - DOMAIN-SUFFIX,oray.com,🧱 国内网站
  - DOMAIN-SUFFIX,orient-fund.com,🧱 国内网站
@@ -6780,9 +6344,7 @@ rules:
  - DOMAIN-SUFFIX,p2peye.com,🧱 国内网站
  - DOMAIN-SUFFIX,p4pfile.com,🧱 国内网站
  - DOMAIN-SUFFIX,p5w.net,🧱 国内网站
- - DOMAIN-SUFFIX,pagescube.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pagescube.com,🧱 国内网站
- - DOMAIN-SUFFIX,paidaojia.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pailitao.com,🧱 国内网站
  - DOMAIN-SUFFIX,paipai.com,🧱 国内网站
  - DOMAIN-SUFFIX,paipaibang.com,🧱 国内网站
@@ -6799,25 +6361,18 @@ rules:
  - DOMAIN-SUFFIX,pcpop.com,🧱 国内网站
  - DOMAIN-SUFFIX,pddpic.com,🧱 国内网站
  - DOMAIN-SUFFIX,peccn.com,🧱 国内网站
- - DOMAIN-SUFFIX,people.cn,🧱 国内网站
- - DOMAIN-SUFFIX,people.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,pg0.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pgyer.com,🧱 国内网站
  - DOMAIN-SUFFIX,pgzs.com,🧱 国内网站
  - DOMAIN-SUFFIX,pharmacodia.com,🧱 国内网站
- - DOMAIN-SUFFIX,phfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,philanthropy.xin,🧱 国内网站
- - DOMAIN-SUFFIX,phoenixcenter.cn,🧱 国内网站
  - DOMAIN-SUFFIX,phpcomposer.com,🧱 国内网站
  - DOMAIN-SUFFIX,phpweblog.net,🧱 国内网站
  - DOMAIN-SUFFIX,phpwind.com,🧱 国内网站
  - DOMAIN-SUFFIX,phpwind.net,🧱 国内网站
  - DOMAIN-SUFFIX,piaoliang.com,🧱 国内网站
- - DOMAIN-SUFFIX,picself.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pigai.org,🧱 国内网站
  - DOMAIN-SUFFIX,pinduoduo.com,🧱 国内网站
  - DOMAIN-SUFFIX,pingan.com,🧱 国内网站
- - DOMAIN-SUFFIX,pingan.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pingan.com.hk,🧱 国内网站
  - DOMAIN-SUFFIX,pingplusplus.com,🧱 国内网站
  - DOMAIN-SUFFIX,pingwest.com,🧱 国内网站
@@ -6826,9 +6381,7 @@ rules:
  - DOMAIN-SUFFIX,pipaw.com,🧱 国内网站
  - DOMAIN-SUFFIX,pipaw.net,🧱 国内网站
  - DOMAIN-SUFFIX,pipix.com,🧱 国内网站
- - DOMAIN-SUFFIX,pishu.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pkoplink.com,🧱 国内网站
- - DOMAIN-SUFFIX,pkuh6.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pkulaw.com,🧱 国内网站
  - DOMAIN-SUFFIX,playstation.com,🧱 国内网站
  - DOMAIN-SUFFIX,playstation.net,🧱 国内网站
@@ -6838,29 +6391,22 @@ rules:
  - DOMAIN-SUFFIX,pnas.org,🧱 国内网站
  - DOMAIN-SUFFIX,pniao.com,🧱 国内网站
  - DOMAIN-SUFFIX,polyv.net,🧱 国内网站
- - DOMAIN-SUFFIX,postfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,powerapp.io,🧱 国内网站
- - DOMAIN-SUFFIX,pplive.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pplive.com,🧱 国内网站
  - DOMAIN-SUFFIX,pps.tv,🧱 国内网站
  - DOMAIN-SUFFIX,ppsimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,pptbest.com,🧱 国内网站
  - DOMAIN-SUFFIX,pptv.com,🧱 国内网站
  - DOMAIN-SUFFIX,prestodb-china.com,🧱 国内网站
- - DOMAIN-SUFFIX,prestodb.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,privatehd.to,🧱 国内网站
- - DOMAIN-SUFFIX,programmer.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,programmer.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,proquest.com,🧱 国内网站
  - DOMAIN-SUFFIX,proximabeta.com,🧱 国内网站
  - DOMAIN-SUFFIX,psbc.com,🧱 国内网站
  - DOMAIN-SUFFIX,pstatp.com,🧱 国内网站
  - DOMAIN-SUFFIX,pterclub.com,🧱 国内网站
  - DOMAIN-SUFFIX,pubghelper.com,🧱 国内网站
- - DOMAIN-SUFFIX,pubgno1.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pubgtool.com,🧱 国内网站
  - DOMAIN-SUFFIX,pubyun.com,🧱 国内网站
- - DOMAIN-SUFFIX,puh3.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,pushcfg.com,🧱 国内网站
  - DOMAIN-SUFFIX,py-axa.com,🧱 国内网站
  - DOMAIN-SUFFIX,qbox.me,🧱 国内网站
@@ -6872,11 +6418,8 @@ rules:
  - DOMAIN-SUFFIX,qcloud.la,🧱 国内网站
  - DOMAIN-SUFFIX,qcloudapps.com,🧱 国内网站
  - DOMAIN-SUFFIX,qcloudcdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,qcloudcdntest.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qcloudclass.com,🧱 国内网站
- - DOMAIN-SUFFIX,qcloudcos.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qcloudcos.com,🧱 国内网站
- - DOMAIN-SUFFIX,qcloudcos.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qclouder.com,🧱 国内网站
  - DOMAIN-SUFFIX,qcloudgme.com,🧱 国内网站
  - DOMAIN-SUFFIX,qcloudimg.com,🧱 国内网站
@@ -6923,7 +6466,6 @@ rules:
  - DOMAIN-SUFFIX,qifeiye.com,🧱 国内网站
  - DOMAIN-SUFFIX,qihoo.com,🧱 国内网站
  - DOMAIN-SUFFIX,qihoo.net,🧱 国内网站
- - DOMAIN-SUFFIX,qihuapi.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qihucdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,qijiayoudao.net,🧱 国内网站
  - DOMAIN-SUFFIX,qikucdn.com,🧱 国内网站
@@ -6951,13 +6493,10 @@ rules:
  - DOMAIN-SUFFIX,qiyipic.com,🧱 国内网站
  - DOMAIN-SUFFIX,qiyukf.com,🧱 国内网站
  - DOMAIN-SUFFIX,qizuang.com,🧱 国内网站
- - DOMAIN-SUFFIX,qlogo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qnsdk.com,🧱 国内网站
  - DOMAIN-SUFFIX,qnssl.com,🧱 国内网站
- - DOMAIN-SUFFIX,qpic.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qq.cn.com,🧱 国内网站
  - DOMAIN-SUFFIX,qq.com,🧱 国内网站
- - DOMAIN-SUFFIX,qq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qq.design,🧱 国内网站
  - DOMAIN-SUFFIX,qq.wang,🧱 国内网站
  - DOMAIN-SUFFIX,qq.xn--fiqs8s,🧱 国内网站
@@ -6968,14 +6507,12 @@ rules:
  - DOMAIN-SUFFIX,qqgamedesign.com,🧱 国内网站
  - DOMAIN-SUFFIX,qqgexingqianming.com,🧱 国内网站
  - DOMAIN-SUFFIX,qqmail.com,🧱 国内网站
- - DOMAIN-SUFFIX,qqmra.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qqmra.com,🧱 国内网站
  - DOMAIN-SUFFIX,qqrizhi.com,🧱 国内网站
  - DOMAIN-SUFFIX,qqshuoshuo.com,🧱 国内网站
  - DOMAIN-SUFFIX,qqurl.com,🧱 国内网站
  - DOMAIN-SUFFIX,qschou.com,🧱 国内网站
  - DOMAIN-SUFFIX,qtmojo.com,🧱 国内网站
- - DOMAIN-SUFFIX,quark.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qudong.com,🧱 国内网站
  - DOMAIN-SUFFIX,qugame.com,🧱 国内网站
  - DOMAIN-SUFFIX,qunar.com,🧱 国内网站
@@ -6986,7 +6523,6 @@ rules:
  - DOMAIN-SUFFIX,qyer.com,🧱 国内网站
  - DOMAIN-SUFFIX,qyerstatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,qyunapp.com,🧱 国内网站
- - DOMAIN-SUFFIX,qyyjt.cn,🧱 国内网站
  - DOMAIN-SUFFIX,qzone.com,🧱 国内网站
  - DOMAIN-SUFFIX,rarbg.to,🧱 国内网站
  - DOMAIN-SUFFIX,raychase.net,🧱 国内网站
@@ -7000,23 +6536,17 @@ rules:
  - DOMAIN-SUFFIX,renren-inc.com,🧱 国内网站
  - DOMAIN-SUFFIX,renren.com,🧱 国内网站
  - DOMAIN-SUFFIX,resset.com,🧱 国内网站
- - DOMAIN-SUFFIX,rexpos.cn,🧱 国内网站
  - DOMAIN-SUFFIX,rfchost.com,🧱 国内网站
  - DOMAIN-SUFFIX,rj.m.taobao.co,🧱 国内网站
  - DOMAIN-SUFFIX,rmwxgame.com,🧱 国内网站
- - DOMAIN-SUFFIX,roblox.cn,🧱 国内网站
- - DOMAIN-SUFFIX,robloxdev.cn,🧱 国内网站
  - DOMAIN-SUFFIX,rockyenglish.com,🧱 国内网站
  - DOMAIN-SUFFIX,rong360.com,🧱 国内网站
  - DOMAIN-SUFFIX,rongechain.com,🧱 国内网站
  - DOMAIN-SUFFIX,ronghub.com,🧱 国内网站
- - DOMAIN-SUFFIX,roomeet.cn,🧱 国内网站
- - DOMAIN-SUFFIX,route53.cn,🧱 国内网站
  - DOMAIN-SUFFIX,routewize.com,🧱 国内网站
  - DOMAIN-SUFFIX,rrmj.tv,🧱 国内网站
  - DOMAIN-SUFFIX,rsc.org,🧱 国内网站
  - DOMAIN-SUFFIX,rtbasia.com,🧱 国内网站
- - DOMAIN-SUFFIX,rtx.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ru-northwest-2.myhuaweicloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,ruan8.com,🧱 国内网站
  - DOMAIN-SUFFIX,ruanmei.com,🧱 国内网站
@@ -7028,34 +6558,24 @@ rules:
  - DOMAIN-SUFFIX,rzrc114.com,🧱 国内网站
  - DOMAIN-SUFFIX,s-microsoft.com,🧱 国内网站
  - DOMAIN-SUFFIX,s-reader.com,🧱 国内网站
- - DOMAIN-SUFFIX,s0n.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sa-brazil-1.myhuaweicloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,saasops.tech,🧱 国内网站
  - DOMAIN-SUFFIX,saayaa.com,🧱 国内网站
- - DOMAIN-SUFFIX,saee.org.cn,🧱 国内网站
- - DOMAIN-SUFFIX,sagemaker.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sagepub.com,🧱 国内网站
  - DOMAIN-SUFFIX,saibo.com,🧱 国内网站
  - DOMAIN-SUFFIX,sandai.net,🧱 国内网站
  - DOMAIN-SUFFIX,sanguosha.com,🧱 国内网站
  - DOMAIN-SUFFIX,sankuai.com,🧱 国内网站
  - DOMAIN-SUFFIX,sanwen.net,🧱 国内网站
- - DOMAIN-SUFFIX,sao.cn,🧱 国内网站
  - DOMAIN-SUFFIX,saolife.com,🧱 国内网站
  - DOMAIN-SUFFIX,saraba1st.com,🧱 国内网站
  - DOMAIN-SUFFIX,sbsjk.com,🧱 国内网站
  - DOMAIN-SUFFIX,sc96655.com,🧱 国内网站
- - DOMAIN-SUFFIX,sccreator.cn,🧱 国内网站
- - DOMAIN-SUFFIX,sccreators.cn,🧱 国内网站
  - DOMAIN-SUFFIX,scdng.com,🧱 国内网站
- - DOMAIN-SUFFIX,scescdn.cn,🧱 国内网站
- - DOMAIN-SUFFIX,scid.cn,🧱 国内网站
- - DOMAIN-SUFFIX,sciencechina.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sciencedirect.com,🧱 国内网站
  - DOMAIN-SUFFIX,scomper.me,🧱 国内网站
  - DOMAIN-SUFFIX,scopus.com,🧱 国内网站
  - DOMAIN-SUFFIX,scoregg.com,🧱 国内网站
- - DOMAIN-SUFFIX,scsentry.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sczsxx.com,🧱 国内网站
  - DOMAIN-SUFFIX,sdgdwljt.com,🧱 国内网站
  - DOMAIN-SUFFIX,sdo.com,🧱 国内网站
@@ -7067,17 +6587,14 @@ rules:
  - DOMAIN-SUFFIX,sencdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,seniverse.com,🧱 国内网站
  - DOMAIN-SUFFIX,senlinjimore.com,🧱 国内网站
- - DOMAIN-SUFFIX,serverlesscloud.cn,🧱 国内网站
  - DOMAIN-SUFFIX,servicewechat.com,🧱 国内网站
  - DOMAIN-SUFFIX,sf-airlines.com,🧱 国内网站
  - DOMAIN-SUFFIX,sf-cityrush.com,🧱 国内网站
  - DOMAIN-SUFFIX,sf-express.com,🧱 国内网站
  - DOMAIN-SUFFIX,sf-financial.com,🧱 国内网站
  - DOMAIN-SUFFIX,sf-saas.com,🧱 国内网站
- - DOMAIN-SUFFIX,sf-tech.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sfacg.com,🧱 国内网站
  - DOMAIN-SUFFIX,sfcar.hk,🧱 国内网站
- - DOMAIN-SUFFIX,sffix.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sfgy.org,🧱 国内网站
  - DOMAIN-SUFFIX,sgamer.com,🧱 国内网站
  - DOMAIN-SUFFIX,sgsic.com,🧱 国内网站
@@ -7102,7 +6619,6 @@ rules:
  - DOMAIN-SUFFIX,shhxzq.com,🧱 国内网站
  - DOMAIN-SUFFIX,shidianbaike.com,🧱 国内网站
  - DOMAIN-SUFFIX,shifen.com,🧱 国内网站
- - DOMAIN-SUFFIX,shihuo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,shijiexia.com,🧱 国内网站
  - DOMAIN-SUFFIX,shimo.im,🧱 国内网站
  - DOMAIN-SUFFIX,shixiseng.com,🧱 国内网站
@@ -7114,7 +6630,6 @@ rules:
  - DOMAIN-SUFFIX,shuidichou.com,🧱 国内网站
  - DOMAIN-SUFFIX,shuidihuzhu.com,🧱 国内网站
  - DOMAIN-SUFFIX,shumensy.com,🧱 国内网站
- - DOMAIN-SUFFIX,shuntu.cn,🧱 国内网站
  - DOMAIN-SUFFIX,shuoshuokong.com,🧱 国内网站
  - DOMAIN-SUFFIX,shuqi.com,🧱 国内网站
  - DOMAIN-SUFFIX,shuqireader.com,🧱 国内网站
@@ -7126,36 +6641,27 @@ rules:
  - DOMAIN-SUFFIX,sifou.com,🧱 国内网站
  - DOMAIN-SUFFIX,simei8.com,🧱 国内网站
  - DOMAIN-SUFFIX,simuwang.com,🧱 国内网站
- - DOMAIN-SUFFIX,sina.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sina.com,🧱 国内网站
- - DOMAIN-SUFFIX,sina.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sina.net,🧱 国内网站
  - DOMAIN-SUFFIX,sinaapp.com,🧱 国内网站
  - DOMAIN-SUFFIX,sinaedge.com,🧱 国内网站
- - DOMAIN-SUFFIX,sinaimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sinaimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,sinajs.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sinajs.com,🧱 国内网站
  - DOMAIN-SUFFIX,sinesafe.com,🧱 国内网站
  - DOMAIN-SUFFIX,sinopec-usa.com,🧱 国内网站
  - DOMAIN-SUFFIX,sinopec.com,🧱 国内网站
  - DOMAIN-SUFFIX,sinopecgroup.com,🧱 国内网站
- - DOMAIN-SUFFIX,sinopecnews.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sinopecsales.com,🧱 国内网站
  - DOMAIN-SUFFIX,sjwyx.com,🧱 国内网站
  - DOMAIN-SUFFIX,skycn.com,🧱 国内网站
- - DOMAIN-SUFFIX,skydweller.cn,🧱 国内网站
  - DOMAIN-SUFFIX,skysea.com,🧱 国内网站
  - DOMAIN-SUFFIX,sllssrq.com,🧱 国内网站
- - DOMAIN-SUFFIX,sm.cn,🧱 国内网站
- - DOMAIN-SUFFIX,smartapps.cn,🧱 国内网站
  - DOMAIN-SUFFIX,smartisan.com,🧱 国内网站
  - DOMAIN-SUFFIX,smtcdns.com,🧱 国内网站
  - DOMAIN-SUFFIX,smtcdns.net,🧱 国内网站
  - DOMAIN-SUFFIX,smzdm.com,🧱 国内网站
  - DOMAIN-SUFFIX,snapdrop.net,🧱 国内网站
  - DOMAIN-SUFFIX,snimay.com,🧱 国内网站
- - DOMAIN-SUFFIX,snodehome.cn,🧱 国内网站
  - DOMAIN-SUFFIX,snodehome.com,🧱 国内网站
  - DOMAIN-SUFFIX,snowballsecurities.com,🧱 国内网站
  - DOMAIN-SUFFIX,snssdk.com,🧱 国内网站
@@ -7189,7 +6695,6 @@ rules:
  - DOMAIN-SUFFIX,spcdntipbak.com,🧱 国内网站
  - DOMAIN-SUFFIX,spcloudhw.com,🧱 国内网站
  - DOMAIN-SUFFIX,spcloudhw.net,🧱 国内网站
- - DOMAIN-SUFFIX,spdb.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,speedws.info,🧱 国内网站
  - DOMAIN-SUFFIX,speedws.org,🧱 国内网站
  - DOMAIN-SUFFIX,speiyou.com,🧱 国内网站
@@ -7199,19 +6704,11 @@ rules:
  - DOMAIN-SUFFIX,springsunday.net,🧱 国内网站
  - DOMAIN-SUFFIX,springtour.com,🧱 国内网站
  - DOMAIN-SUFFIX,sq.cc,🧱 国内网站
- - DOMAIN-SUFFIX,srmkp.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ssajax.cn,🧱 国内网站
- - DOMAIN-SUFFIX,sse.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sseinfo.com,🧱 国内网站
- - DOMAIN-SUFFIX,ssimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sslawy.com,🧱 国内网站
  - DOMAIN-SUFFIX,sslibrary.com,🧱 国内网站
  - DOMAIN-SUFFIX,sspai.com,🧱 国内网站
  - DOMAIN-SUFFIX,ssports.com,🧱 国内网站
- - DOMAIN-SUFFIX,ssreader.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ssreader.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ssvideo.cn,🧱 国内网站
- - DOMAIN-SUFFIX,ssvideo.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,starbaby.cc,🧱 国内网站
  - DOMAIN-SUFFIX,starbaby.com,🧱 国内网站
  - DOMAIN-SUFFIX,starlakelab.com,🧱 国内网站
@@ -7220,10 +6717,7 @@ rules:
  - DOMAIN-SUFFIX,staticfile.org,🧱 国内网站
  - DOMAIN-SUFFIX,stcn.com,🧱 国内网站
  - DOMAIN-SUFFIX,steampp.net,🧱 国内网站
- - DOMAIN-SUFFIX,stocke.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,stockstar.com,🧱 国内网站
- - DOMAIN-SUFFIX,study360.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,suanya.cn,🧱 国内网站
  - DOMAIN-SUFFIX,suanya.com,🧱 国内网站
  - DOMAIN-SUFFIX,sun0769.com,🧱 国内网站
  - DOMAIN-SUFFIX,suning.com,🧱 国内网站
@@ -7233,8 +6727,6 @@ rules:
  - DOMAIN-SUFFIX,sunlife-everbright.com,🧱 国内网站
  - DOMAIN-SUFFIX,sunrtb.com,🧱 国内网站
  - DOMAIN-SUFFIX,supercell.com,🧱 国内网站
- - DOMAIN-SUFFIX,supercellcommunity.cn,🧱 国内网站
- - DOMAIN-SUFFIX,supercellsupport.cn,🧱 国内网站
  - DOMAIN-SUFFIX,superlib.com,🧱 国内网站
  - DOMAIN-SUFFIX,superlib.net,🧱 国内网站
  - DOMAIN-SUFFIX,supermap.com,🧱 国内网站
@@ -7242,18 +6734,13 @@ rules:
  - DOMAIN-SUFFIX,supet.com,🧱 国内网站
  - DOMAIN-SUFFIX,suzuki-china.com,🧱 国内网站
  - DOMAIN-SUFFIX,swhysc.com,🧱 国内网站
- - DOMAIN-SUFFIX,swsc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,swsmu.com,🧱 国内网站
- - DOMAIN-SUFFIX,sxl.cn,🧱 国内网站
- - DOMAIN-SUFFIX,sxlcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,sys321.com,🧱 国内网站
  - DOMAIN-SUFFIX,syxlgame.com,🧱 国内网站
  - DOMAIN-SUFFIX,szbdyd.com,🧱 国内网站
  - DOMAIN-SUFFIX,szfw.org,🧱 国内网站
  - DOMAIN-SUFFIX,szhk.com,🧱 国内网站
- - DOMAIN-SUFFIX,szse.cn,🧱 国内网站
  - DOMAIN-SUFFIX,szzfgjj.com,🧱 国内网站
- - DOMAIN-SUFFIX,t.cn,🧱 国内网站
  - DOMAIN-SUFFIX,t.tt,🧱 国内网站
  - DOMAIN-SUFFIX,t1y5.com,🧱 国内网站
  - DOMAIN-SUFFIX,taihe.com,🧱 国内网站
@@ -7261,7 +6748,6 @@ rules:
  - DOMAIN-SUFFIX,taikang.com,🧱 国内网站
  - DOMAIN-SUFFIX,taikanglife.com,🧱 国内网站
  - DOMAIN-SUFFIX,taikangzhijia.com,🧱 国内网站
- - DOMAIN-SUFFIX,taipingfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,takungpao.com,🧱 国内网站
  - DOMAIN-SUFFIX,tamaegis.com,🧱 国内网站
  - DOMAIN-SUFFIX,tandfonline.com,🧱 国内网站
@@ -7276,12 +6762,10 @@ rules:
  - DOMAIN-SUFFIX,taoche.com,🧱 国内网站
  - DOMAIN-SUFFIX,taomee.com,🧱 国内网站
  - DOMAIN-SUFFIX,taopiaopiao.com,🧱 国内网站
- - DOMAIN-SUFFIX,tapd.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tapimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,taptap.com,🧱 国内网站
  - DOMAIN-SUFFIX,tawk.link,🧱 国内网站
  - DOMAIN-SUFFIX,tawk.to,🧱 国内网站
- - DOMAIN-SUFFIX,tb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tbcache.com,🧱 国内网站
  - DOMAIN-SUFFIX,tburl.in,🧱 国内网站
  - DOMAIN-SUFFIX,tcdlive.com,🧱 国内网站
@@ -7312,7 +6796,6 @@ rules:
  - DOMAIN-SUFFIX,teambition.com,🧱 国内网站
  - DOMAIN-SUFFIX,teambition.net,🧱 国内网站
  - DOMAIN-SUFFIX,teambitionapis.com,🧱 国内网站
- - DOMAIN-SUFFIX,tebon.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,techo.chat,🧱 国内网站
  - DOMAIN-SUFFIX,tefscloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,tefscloud.net,🧱 国内网站
@@ -7322,19 +6805,14 @@ rules:
  - DOMAIN-SUFFIX,tencent-cloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencent-cloud.net,🧱 国内网站
  - DOMAIN-SUFFIX,tencent-gcloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencent.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencent.co.id,🧱 国内网站
  - DOMAIN-SUFFIX,tencent.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencent.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencent.com.hk,🧱 国内网站
  - DOMAIN-SUFFIX,tencent.design,🧱 国内网站
  - DOMAIN-SUFFIX,tencent.net,🧱 国内网站
- - DOMAIN-SUFFIX,tencent.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencentapps.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentbyod.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencentcdb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcdb.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencentcdb.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencentclb.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcloud-aiot.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcloudapi.com,🧱 国内网站
@@ -7344,9 +6822,7 @@ rules:
  - DOMAIN-SUFFIX,tencentcloudns.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcloudsec.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcloudses.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencentcos.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcos.com,🧱 国内网站
- - DOMAIN-SUFFIX,tencentcos.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tencentcs.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentdayu.com,🧱 国内网站
  - DOMAIN-SUFFIX,tencentdb.com,🧱 国内网站
@@ -7372,20 +6848,14 @@ rules:
  - DOMAIN-SUFFIX,test-cignacmb.com,🧱 国内网站
  - DOMAIN-SUFFIX,test-ipv4.com,🧱 国内网站
  - DOMAIN-SUFFIX,test-ipv6.com,🧱 国内网站
- - DOMAIN-SUFFIX,testjrzk.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,testmeet.cn,🧱 国内网站
- - DOMAIN-SUFFIX,testplus.cn,🧱 国内网站
  - DOMAIN-SUFFIX,testwaf.com,🧱 国内网站
- - DOMAIN-SUFFIX,texasholdemcup.cn,🧱 国内网站
  - DOMAIN-SUFFIX,texasholdemcup.com,🧱 国内网站
  - DOMAIN-SUFFIX,texasholdemcup.net,🧱 国内网站
  - DOMAIN-SUFFIX,tfzq.com,🧱 国内网站
  - DOMAIN-SUFFIX,tgbus.com,🧱 国内网站
  - DOMAIN-SUFFIX,tgovcloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,themisweeps.com,🧱 国内网站
- - DOMAIN-SUFFIX,thfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ths123.com,🧱 国内网站
- - DOMAIN-SUFFIX,thsi.cn,🧱 国内网站
  - DOMAIN-SUFFIX,thundercdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,thunderurl.com,🧱 国内网站
  - DOMAIN-SUFFIX,tiancity.com,🧱 国内网站
@@ -7395,18 +6865,15 @@ rules:
  - DOMAIN-SUFFIX,tianlailive.com,🧱 国内网站
  - DOMAIN-SUFFIX,tianqi.com,🧱 国内网站
  - DOMAIN-SUFFIX,tianyancha.com,🧱 国内网站
- - DOMAIN-SUFFIX,tibetairlines.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tidaas.com,🧱 国内网站
  - DOMAIN-SUFFIX,tieba.com,🧱 国内网站
  - DOMAIN-SUFFIX,tiebaimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,tietuku.com,🧱 国内网站
  - DOMAIN-SUFFIX,tiexue.net,🧱 国内网站
  - DOMAIN-SUFFIX,tieyou.com,🧱 国内网站
- - DOMAIN-SUFFIX,tigeek.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tiktok.com,🧱 国内网站
  - DOMAIN-SUFFIX,tiktokcdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,tiktokv.com,🧱 国内网站
- - DOMAIN-SUFFIX,timatrix.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,timedoo.com,🧱 国内网站
  - DOMAIN-SUFFIX,timibase.com,🧱 国内网站
  - DOMAIN-SUFFIX,timmerse.com,🧱 国内网站
@@ -7418,7 +6885,6 @@ rules:
  - DOMAIN-SUFFIX,tjjt360.com,🧱 国内网站
  - DOMAIN-SUFFIX,tjupt.org,🧱 国内网站
  - DOMAIN-SUFFIX,tkhealthcare.com,🧱 国内网站
- - DOMAIN-SUFFIX,tlgslb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tlgslb.com,🧱 国内网站
  - DOMAIN-SUFFIX,tlivecdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,tmall.com,🧱 国内网站
@@ -7432,7 +6898,6 @@ rules:
  - DOMAIN-SUFFIX,tmtsmartrun.com,🧱 国内网站
  - DOMAIN-SUFFIX,tmzvps.com,🧱 国内网站
  - DOMAIN-SUFFIX,tobosu.com,🧱 国内网站
- - DOMAIN-SUFFIX,tokyotrial.cn,🧱 国内网站
  - DOMAIN-SUFFIX,tom.com,🧱 国内网站
  - DOMAIN-SUFFIX,tongdun.net,🧱 国内网站
  - DOMAIN-SUFFIX,tongji.linezing.com,🧱 国内网站
@@ -7441,10 +6906,7 @@ rules:
  - DOMAIN-SUFFIX,tophub.today,🧱 国内网站
  - DOMAIN-SUFFIX,toplife.com,🧱 国内网站
  - DOMAIN-SUFFIX,topthink.com,🧱 国内网站
- - DOMAIN-SUFFIX,toptown.cn,🧱 国内网站
  - DOMAIN-SUFFIX,touqikan.com,🧱 国内网站
- - DOMAIN-SUFFIX,tourismshow.cn,🧱 国内网站
- - DOMAIN-SUFFIX,tourismuser.cn,🧱 国内网站
  - DOMAIN-SUFFIX,toursbms.com,🧱 国内网站
  - DOMAIN-SUFFIX,toutiao.com,🧱 国内网站
  - DOMAIN-SUFFIX,toutiaocdn.com,🧱 国内网站
@@ -7452,7 +6914,6 @@ rules:
  - DOMAIN-SUFFIX,toutiaocloud.net,🧱 国内网站
  - DOMAIN-SUFFIX,toutiaohao.com,🧱 国内网站
  - DOMAIN-SUFFIX,toutiaohao.net,🧱 国内网站
- - DOMAIN-SUFFIX,toutiaoimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,toutiaoimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,toutiaoimg.net,🧱 国内网站
  - DOMAIN-SUFFIX,toutiaopage.com,🧱 国内网站
@@ -7481,8 +6942,6 @@ rules:
  - DOMAIN-SUFFIX,tutuapp.com,🧱 国内网站
  - DOMAIN-SUFFIX,tuwan.com,🧱 国内网站
  - DOMAIN-SUFFIX,tuwanjun.com,🧱 国内网站
- - DOMAIN-SUFFIX,tvcc.cn,🧱 国内网站
- - DOMAIN-SUFFIX,tvcc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,twscholar.com,🧱 国内网站
  - DOMAIN-SUFFIX,tx-exhibition.com,🧱 国内网站
  - DOMAIN-SUFFIX,txbyod.com,🧱 国内网站
@@ -7498,9 +6957,7 @@ rules:
  - DOMAIN-SUFFIX,uat1.bfsspadserver.8le8le.com,🧱 国内网站
  - DOMAIN-SUFFIX,ubssdic.com,🧱 国内网站
  - DOMAIN-SUFFIX,ubuntukylin.com,🧱 国内网站
- - DOMAIN-SUFFIX,uc.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ucbug.com,🧱 国内网站
- - DOMAIN-SUFFIX,ucloud.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ucweb.com,🧱 国内网站
  - DOMAIN-SUFFIX,udache.com,🧱 国内网站
  - DOMAIN-SUFFIX,udacity.com,🧱 国内网站
@@ -7515,13 +6972,10 @@ rules:
  - DOMAIN-SUFFIX,umsns.com,🧱 国内网站
  - DOMAIN-SUFFIX,umtrack.com,🧱 国内网站
  - DOMAIN-SUFFIX,un.org,🧱 国内网站
- - DOMAIN-SUFFIX,uncnn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,uni-bielefeld.de,🧱 国内网站
- - DOMAIN-SUFFIX,unihan.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,uning.com,🧱 国内网站
  - DOMAIN-SUFFIX,unionpay.com,🧱 国内网站
  - DOMAIN-SUFFIX,unionpay.net,🧱 国内网站
- - DOMAIN-SUFFIX,unionpayintl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,unionpayintl.com,🧱 国内网站
  - DOMAIN-SUFFIX,unionpaysecure.com,🧱 国内网站
  - DOMAIN-SUFFIX,uniontech.com,🧱 国内网站
@@ -7534,7 +6988,6 @@ rules:
  - DOMAIN-SUFFIX,upcdn.net,🧱 国内网站
  - DOMAIN-SUFFIX,upe.net,🧱 国内网站
  - DOMAIN-SUFFIX,upyun.com,🧱 国内网站
- - DOMAIN-SUFFIX,urlqh.cn,🧱 国内网站
  - DOMAIN-SUFFIX,urselect.com,🧱 国内网站
  - DOMAIN-SUFFIX,urumqi-air.com,🧱 国内网站
  - DOMAIN-SUFFIX,useso.com,🧱 国内网站
@@ -7548,7 +7001,6 @@ rules:
  - DOMAIN-SUFFIX,vamaker.com,🧱 国内网站
  - DOMAIN-SUFFIX,vancl.com,🧱 国内网站
  - DOMAIN-SUFFIX,vanclimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,vanho.cn,🧱 国内网站
  - DOMAIN-SUFFIX,vaptcha.com,🧱 国内网站
  - DOMAIN-SUFFIX,vaptcha.net,🧱 国内网站
  - DOMAIN-SUFFIX,variflight.com,🧱 国内网站
@@ -7564,7 +7016,6 @@ rules:
  - DOMAIN-SUFFIX,vic18.com,🧱 国内网站
  - DOMAIN-SUFFIX,videocc.net,🧱 国内网站
  - DOMAIN-SUFFIX,videojj.com,🧱 国内网站
- - DOMAIN-SUFFIX,videoself.cn,🧱 国内网站
  - DOMAIN-SUFFIX,videoxiaoyouxi.com,🧱 国内网站
  - DOMAIN-SUFFIX,vijos.org,🧱 国内网站
  - DOMAIN-SUFFIX,vip.com,🧱 国内网站
@@ -7582,7 +7033,6 @@ rules:
  - DOMAIN-SUFFIX,wallstreetcn.com,🧱 国内网站
  - DOMAIN-SUFFIX,wamawama.com,🧱 国内网站
  - DOMAIN-SUFFIX,wandoujia.com,🧱 国内网站
- - DOMAIN-SUFFIX,wanfangdata.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wangsu.com,🧱 国内网站
  - DOMAIN-SUFFIX,wangyangyang.vip,🧱 国内网站
  - DOMAIN-SUFFIX,wangyin.com,🧱 国内网站
@@ -7592,10 +7042,8 @@ rules:
  - DOMAIN-SUFFIX,wanwushuo.com,🧱 国内网站
  - DOMAIN-SUFFIX,wanyiwang.com,🧱 国内网站
  - DOMAIN-SUFFIX,wanyx.com,🧱 国内网站
- - DOMAIN-SUFFIX,wbimg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wbimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,wcbygame.com,🧱 国内网站
- - DOMAIN-SUFFIX,wcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wdfok.com,🧱 国内网站
  - DOMAIN-SUFFIX,wdjimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,wdzj.com,🧱 国内网站
@@ -7603,19 +7051,15 @@ rules:
  - DOMAIN-SUFFIX,weand.com,🧱 国内网站
  - DOMAIN-SUFFIX,weather.com,🧱 国内网站
  - DOMAIN-SUFFIX,webgame163.com,🧱 国内网站
- - DOMAIN-SUFFIX,webmasterhome.cn,🧱 国内网站
  - DOMAIN-SUFFIX,webnovel.com,🧱 国内网站
  - DOMAIN-SUFFIX,webofknowledge.com,🧱 国内网站
  - DOMAIN-SUFFIX,webqxs.com,🧱 国内网站
  - DOMAIN-SUFFIX,webterren.com,🧱 国内网站
  - DOMAIN-SUFFIX,wechat.com,🧱 国内网站
  - DOMAIN-SUFFIX,wegame.com,🧱 国内网站
- - DOMAIN-SUFFIX,wegame.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wegamedeveloper.com,🧱 国内网站
  - DOMAIN-SUFFIX,wegameplus.com,🧱 国内网站
- - DOMAIN-SUFFIX,weibo.cn,🧱 国内网站
  - DOMAIN-SUFFIX,weibo.com,🧱 国内网站
- - DOMAIN-SUFFIX,weibo.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,weibocdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,weicaifu.com,🧱 国内网站
  - DOMAIN-SUFFIX,weico.cc,🧱 国内网站
@@ -7630,7 +7074,6 @@ rules:
  - DOMAIN-SUFFIX,wenjuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,wenku8.net,🧱 国内网站
  - DOMAIN-SUFFIX,wenxin-ge.com,🧱 国内网站
- - DOMAIN-SUFFIX,werepository.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,werewolf.53site.com,🧱 国内网站
  - DOMAIN-SUFFIX,west95582.com,🧱 国内网站
  - DOMAIN-SUFFIX,westlaw.com,🧱 国内网站
@@ -7648,7 +7091,6 @@ rules:
  - DOMAIN-SUFFIX,win7china.com,🧱 国内网站
  - DOMAIN-SUFFIX,win8.net,🧱 国内网站
  - DOMAIN-SUFFIX,win8china.com,🧱 国内网站
- - DOMAIN-SUFFIX,wind.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,windows.com,🧱 国内网站
  - DOMAIN-SUFFIX,windows.net,🧱 国内网站
  - DOMAIN-SUFFIX,windows10zj.com,🧱 国内网站
@@ -7659,15 +7101,11 @@ rules:
  - DOMAIN-SUFFIX,winwin7.com,🧱 国内网站
  - DOMAIN-SUFFIX,wishdown.com,🧱 国内网站
  - DOMAIN-SUFFIX,wiwide.com,🧱 国内网站
- - DOMAIN-SUFFIX,wjx.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wjx.com,🧱 国内网站
  - DOMAIN-SUFFIX,wjx.top,🧱 国内网站
  - DOMAIN-SUFFIX,wkcdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,wkzq.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,wlzq.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wmzhe.com,🧱 国内网站
  - DOMAIN-SUFFIX,wnhuifu.com,🧱 国内网站
- - DOMAIN-SUFFIX,wo.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wo1wan.com,🧱 国内网站
  - DOMAIN-SUFFIX,wodingche.com,🧱 国内网站
  - DOMAIN-SUFFIX,wol.tv,🧱 国内网站
@@ -7680,12 +7118,9 @@ rules:
  - DOMAIN-SUFFIX,worktile.com,🧱 国内网站
  - DOMAIN-SUFFIX,worldbank.org,🧱 国内网站
  - DOMAIN-SUFFIX,worldscientific.com,🧱 国内网站
- - DOMAIN-SUFFIX,wostatic.cn,🧱 国内网站
  - DOMAIN-SUFFIX,woyaogexing.com,🧱 国内网站
  - DOMAIN-SUFFIX,woyoo.com,🧱 国内网站
- - DOMAIN-SUFFIX,wps.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wps.com,🧱 国内网站
- - DOMAIN-SUFFIX,wpspdf.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wqiis.com,🧱 国内网站
  - DOMAIN-SUFFIX,wrating.com,🧱 国内网站
  - DOMAIN-SUFFIX,wscdns.com,🧱 国内网站
@@ -7693,11 +7128,8 @@ rules:
  - DOMAIN-SUFFIX,wscdns.org,🧱 国内网站
  - DOMAIN-SUFFIX,wsoso.com,🧱 国内网站
  - DOMAIN-SUFFIX,wtown.com,🧱 国内网站
- - DOMAIN-SUFFIX,wtturl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wukong.com,🧱 国内网站
- - DOMAIN-SUFFIX,wukongwenda.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wukongwenda.com,🧱 国内网站
- - DOMAIN-SUFFIX,wuliujie.cn,🧱 国内网站
  - DOMAIN-SUFFIX,wuliujie.com,🧱 国内网站
  - DOMAIN-SUFFIX,wumii.com,🧱 国内网站
  - DOMAIN-SUFFIX,wuming.com,🧱 国内网站
@@ -7735,7 +7167,6 @@ rules:
  - DOMAIN-SUFFIX,xiaokaxiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,xiaoluyouxuan.com,🧱 国内网站
  - DOMAIN-SUFFIX,xiaoluzhidian.com,🧱 国内网站
- - DOMAIN-SUFFIX,xiaomi.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xiaomi.com,🧱 国内网站
  - DOMAIN-SUFFIX,xiaomi.net,🧱 国内网站
  - DOMAIN-SUFFIX,xiaomicp.com,🧱 国内网站
@@ -7753,7 +7184,6 @@ rules:
  - DOMAIN-SUFFIX,xingjiesj.com,🧱 国内网站
  - DOMAIN-SUFFIX,xingtan001.com,🧱 国内网站
  - DOMAIN-SUFFIX,xinhuanet.com,🧱 国内网站
- - DOMAIN-SUFFIX,xinlingshou.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xinrenxinshi.com,🧱 国内网站
  - DOMAIN-SUFFIX,xinshipu.com,🧱 国内网站
  - DOMAIN-SUFFIX,xishanju.com,🧱 国内网站
@@ -7768,21 +7198,15 @@ rules:
  - DOMAIN-SUFFIX,xjoycity.com,🧱 国内网站
  - DOMAIN-SUFFIX,xmcdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,xmhouse.com,🧱 国内网站
- - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,🧱 国内网站
- - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn,🧱 国内网站
- - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,🧱 国内网站
- - DOMAIN-SUFFIX,xn--owtw8cc49ajfl.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xn--r70as2s.xn--fiqs8s,🧱 国内网站
  - DOMAIN-SUFFIX,xnpic.com,🧱 国内网站
  - DOMAIN-SUFFIX,xoyo.com,🧱 国内网站
  - DOMAIN-SUFFIX,xpgod.com,🧱 国内网站
  - DOMAIN-SUFFIX,xqfunds.com,🧱 国内网站
  - DOMAIN-SUFFIX,xqymuy.com,🧱 国内网站
- - DOMAIN-SUFFIX,xs8.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xsa239.com,🧱 国内网站
- - DOMAIN-SUFFIX,xsdzq.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xslb.net,🧱 国内网站
  - DOMAIN-SUFFIX,xuanchuanyi.com,🧱 国内网站
  - DOMAIN-SUFFIX,xue51.com,🧱 国内网站
@@ -7790,19 +7214,16 @@ rules:
  - DOMAIN-SUFFIX,xuekanba.com,🧱 国内网站
  - DOMAIN-SUFFIX,xueqiu.com,🧱 国内网站
  - DOMAIN-SUFFIX,xuexi365.com,🧱 国内网站
- - DOMAIN-SUFFIX,xuexi365.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xuexi365.net,🧱 国内网站
  - DOMAIN-SUFFIX,xuexicha.com,🧱 国内网站
  - DOMAIN-SUFFIX,xueyuanjun.com,🧱 国内网站
  - DOMAIN-SUFFIX,xundupdf.com,🧱 国内网站
- - DOMAIN-SUFFIX,xunfei.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xunlei.com,🧱 国内网站
  - DOMAIN-SUFFIX,xxsy.net,🧱 国内网站
  - DOMAIN-SUFFIX,xxtmail.com,🧱 国内网站
  - DOMAIN-SUFFIX,xycdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,xycloud.com,🧱 国内网站
  - DOMAIN-SUFFIX,xywy.com,🧱 国内网站
- - DOMAIN-SUFFIX,xyzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,xzking.com,🧱 国内网站
  - DOMAIN-SUFFIX,yach.me,🧱 国内网站
  - DOMAIN-SUFFIX,yahui.cc,🧱 国内网站
@@ -7814,7 +7235,6 @@ rules:
  - DOMAIN-SUFFIX,yccdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,ycgame.com,🧱 国内网站
  - DOMAIN-SUFFIX,ydamc.com,🧱 国内网站
- - DOMAIN-SUFFIX,ydsc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ydstatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,yeah.net,🧱 国内网站
  - DOMAIN-SUFFIX,yeepay.com,🧱 国内网站
@@ -7830,7 +7250,6 @@ rules:
  - DOMAIN-SUFFIX,yfscdn.net,🧱 国内网站
  - DOMAIN-SUFFIX,yh31.com,🧱 国内网站
  - DOMAIN-SUFFIX,yhd.com,🧱 国内网站
- - DOMAIN-SUFFIX,yhfund.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,yicai.com,🧱 国内网站
  - DOMAIN-SUFFIX,yiche.com,🧱 国内网站
  - DOMAIN-SUFFIX,yigao.com,🧱 国内网站
@@ -7864,9 +7283,7 @@ rules:
  - DOMAIN-SUFFIX,ykzq.com,🧱 国内网站
  - DOMAIN-SUFFIX,ylike.net,🧱 国内网站
  - DOMAIN-SUFFIX,ym.run,🧱 国内网站
- - DOMAIN-SUFFIX,ynet.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ynet.com,🧱 国内网站
- - DOMAIN-SUFFIX,ynet.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,ynhr.com,🧱 国内网站
  - DOMAIN-SUFFIX,yo9.com,🧱 国内网站
  - DOMAIN-SUFFIX,yocajr.com,🧱 国内网站
@@ -7902,7 +7319,6 @@ rules:
  - DOMAIN-SUFFIX,yuantiku.com,🧱 国内网站
  - DOMAIN-SUFFIX,yuewen.com,🧱 国内网站
  - DOMAIN-SUFFIX,yufuid.com,🧱 国内网站
- - DOMAIN-SUFFIX,yufuid.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,yufuid.net,🧱 国内网站
  - DOMAIN-SUFFIX,yunaq.com,🧱 国内网站
  - DOMAIN-SUFFIX,yunba.io,🧱 国内网站
@@ -7917,7 +7333,6 @@ rules:
  - DOMAIN-SUFFIX,yunkanpan.com,🧱 国内网站
  - DOMAIN-SUFFIX,yunos-inc.com,🧱 国内网站
  - DOMAIN-SUFFIX,yunos.com,🧱 国内网站
- - DOMAIN-SUFFIX,yunpan.cn,🧱 国内网站
  - DOMAIN-SUFFIX,yunqishi.net,🧱 国内网站
  - DOMAIN-SUFFIX,yunshipei.com,🧱 国内网站
  - DOMAIN-SUFFIX,yunxiao.com,🧱 国内网站
@@ -7930,42 +7345,27 @@ rules:
  - DOMAIN-SUFFIX,yxdmgame.com,🧱 国内网站
  - DOMAIN-SUFFIX,yxdown.com,🧱 国内网站
  - DOMAIN-SUFFIX,yxhhdl.com,🧱 国内网站
- - DOMAIN-SUFFIX,yximg.cn,🧱 国内网站
  - DOMAIN-SUFFIX,yximgs.com,🧱 国内网站
  - DOMAIN-SUFFIX,yxwsgame.com,🧱 国内网站
  - DOMAIN-SUFFIX,yy.com,🧱 国内网站
  - DOMAIN-SUFFIX,yystatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,yytcdn.com,🧱 国内网站
- - DOMAIN-SUFFIX,yzcdn.cn,🧱 国内网站
  - DOMAIN-SUFFIX,yzyxgame.com,🧱 国内网站
  - DOMAIN-SUFFIX,z28j.com,🧱 国内网站
  - DOMAIN-SUFFIX,zaifan.com,🧱 国内网站
- - DOMAIN-SUFFIX,zaifan.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zampda.net,🧱 国内网站
  - DOMAIN-SUFFIX,zampdsp.com,🧱 国内网站
  - DOMAIN-SUFFIX,zastatic.com,🧱 国内网站
  - DOMAIN-SUFFIX,zbjimg.com,🧱 国内网站
  - DOMAIN-SUFFIX,zcjbgame.com,🧱 国内网站
- - DOMAIN-SUFFIX,zcmbc.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zczj.com,🧱 国内网站
  - DOMAIN-SUFFIX,zdfans.com,🧱 国内网站
  - DOMAIN-SUFFIX,zdmimg.com,🧱 国内网站
- - DOMAIN-SUFFIX,zdns.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zdns.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zdns.org.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zdnscloud.biz,🧱 国内网站
- - DOMAIN-SUFFIX,zdnscloud.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zdnscloud.com,🧱 国内网站
- - DOMAIN-SUFFIX,zdnscloud.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zdnscloud.info,🧱 国内网站
  - DOMAIN-SUFFIX,zdnscloud.net,🧱 国内网站
- - DOMAIN-SUFFIX,zdnscloud.net.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zdnscloud.org.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zdzq.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zealer.com,🧱 国内网站
- - DOMAIN-SUFFIX,zggbdszt.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zggbdszt.com.cn,🧱 国内网站
- - DOMAIN-SUFFIX,zggbdszt.net.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zgjm.org,🧱 国内网站
  - DOMAIN-SUFFIX,zgjsks.com,🧱 国内网站
  - DOMAIN-SUFFIX,zglxw.com,🧱 国内网站
@@ -7984,7 +7384,6 @@ rules:
  - DOMAIN-SUFFIX,zhenai.com,🧱 国内网站
  - DOMAIN-SUFFIX,zhfund.com,🧱 国内网站
  - DOMAIN-SUFFIX,zhibo8.cc,🧱 国内网站
- - DOMAIN-SUFFIX,zhiding.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zhidx.com,🧱 国内网站
  - DOMAIN-SUFFIX,zhifang.com,🧱 国内网站
  - DOMAIN-SUFFIX,zhihang100.com,🧱 国内网站
@@ -8016,10 +7415,8 @@ rules:
  - DOMAIN-SUFFIX,ziroomapartment.com,🧱 国内网站
  - DOMAIN-SUFFIX,zixiaomao.com,🧱 国内网站
  - DOMAIN-SUFFIX,zixuntop.com,🧱 国内网站
- - DOMAIN-SUFFIX,zjbyte.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zjcdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,zjstv.com,🧱 国内网站
- - DOMAIN-SUFFIX,zlfund.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zmengzhu.com,🧱 国内网站
  - DOMAIN-SUFFIX,zmz002.com,🧱 国内网站
  - DOMAIN-SUFFIX,zmz2019.com,🧱 国内网站
@@ -8029,14 +7426,11 @@ rules:
  - DOMAIN-SUFFIX,zofund.com,🧱 国内网站
  - DOMAIN-SUFFIX,zongheng.com,🧱 国内网站
  - DOMAIN-SUFFIX,zoom3g.com,🧱 国内网站
- - DOMAIN-SUFFIX,zoomyou.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zpb365.com,🧱 国内网站
- - DOMAIN-SUFFIX,zqrb.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zrblog.net,🧱 国内网站
  - DOMAIN-SUFFIX,zsxq.com,🧱 国内网站
  - DOMAIN-SUFFIX,zszq.com,🧱 国内网站
  - DOMAIN-SUFFIX,ztfsec.com,🧱 国内网站
- - DOMAIN-SUFFIX,zts.com.cn,🧱 国内网站
  - DOMAIN-SUFFIX,zuche.com,🧱 国内网站
  - DOMAIN-SUFFIX,zuchecdn.com,🧱 国内网站
  - DOMAIN-SUFFIX,zuhaowan.com,🧱 国内网站
@@ -8047,7 +7441,6 @@ rules:
  - DOMAIN-SUFFIX,zuoyebang.cc,🧱 国内网站
  - DOMAIN-SUFFIX,zuoyebang.com,🧱 国内网站
  - DOMAIN-SUFFIX,zybang.com,🧱 国内网站
- - DOMAIN-SUFFIX,zygbdszt.net.cn,🧱 国内网站
  - DOMAIN-KEYWORD,-cn,🧱 国内网站
  - DOMAIN-KEYWORD,.tmall.com,🧱 国内网站
  - DOMAIN-KEYWORD,alicdn,🧱 国内网站
@@ -19942,6 +19335,7 @@ rules:
  - DOMAIN-SUFFIX,livingotherwise.com,🚀 节点选择
  - DOMAIN-SUFFIX,livingstream.com,🚀 节点选择
  - DOMAIN-SUFFIX,liwangyang.com,🚀 节点选择
+ - DOMAIN-SUFFIX,liyuans.com,🚀 节点选择
  - DOMAIN-SUFFIX,liyuwiki.com,🚀 节点选择
  - DOMAIN-SUFFIX,lizakii.000webhostapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,lizhizhuangbi.com,🚀 节点选择
