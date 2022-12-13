@@ -6,11 +6,15 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇯🇵 日本_1211025, server: JP-83-35.shoptunnel.live, port: 31990, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_1211003, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
+  - {name: 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: o08.tgfaka.com}}}
+  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40", server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: "🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29", server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28", server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
   - {name: "🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25", server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: jp-bgp.speedaccelerate.com, skip-cert-verify: true}
+  - {name: "🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19", server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}}
+  - {name: 🇨🇳 台湾_1211052, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: 🇨🇳 台湾_1211054, server: f1f3227.v1.glados-config.net, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /s/f1f3227.fm.apple.com:111548, headers: {Host: f1f3227.v1.glados-config.net}}}
-  - {name: 🇨🇳 台湾_1211056, server: 104.29.64.24, port: 80, type: vmess, uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /lXvA0Vse/}}
-  - {name: 🇨🇳 台湾_1211059, server: http.download.yunzhongzhuan.com, port: 8080, type: vmess, uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: http.download.yunzhongzhuan.com}}}
+  - {name: 🇨🇳 台湾_1211058, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: 🇨🇳 台湾_1211060, server: 220.130.80.179, port: 443, type: vmess, uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}}
   - {name: 🇨🇳 台湾_1211061, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_1211062, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
@@ -43,43 +47,36 @@ proxies:
   - {name: 🇨🇳 台湾_1211090, server: tw2.czs1000.com, port: 1001, type: vmess, uuid: 1bd772e1-ce31-4980-9cb7-a4d24873aa1b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_1211093, server: 104.29.64.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
   - {name: 🇨🇳 台湾_1211212, server: 104.29.64.5, port: 443, type: vmess, uuid: a1b16d10-4f43-4dd9-8c4f-52065b2b0910, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/suti/us3?ed=2048", headers: {Host: us3.guolicheng.cyou}}}
-  - {name: 🇨🇳 台湾_1211052, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
+  - {name: 🇸🇬 新加坡_1211003, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}}
   - {name: 🇸🇬 新加坡_1211026, server: sing1.4gsinhvien.me, port: 80, type: vmess, uuid: a1a25b82-2859-490b-97ff-e0ceef4e9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4Gsinhvien.me, headers: {Host: sing1.4gsinhvien.me}}}
   - {name: 🇸🇬 新加坡_1211029, server: 5.44.249.43, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /s/f1f3227.fm.apple.com:111548}}
-  - {name: 🇸🇬 新加坡_1211030, server: 05xjp.mealstream.xyz, port: 15405, type: vmess, uuid: 50f0ee3c-71ed-4334-96b5-d3a589679b48, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_1211031, server: singapore1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: singapore1.csadata4g.me}}}
-  - {name: 🇸🇬 新加坡_1211032, server: 43.156.121.93, port: 34243, type: vmess, uuid: 2b164ad5-6900-4c12-8104-0369a1de84eb, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇺🇸 @SSRSUB-美国V04-付费推荐dlj.tf/ssrsub, server: www.digitalocean.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.asuka.buzz}}}
-  - {name: 🇺🇸 @SSRSUB-美国V06-付费推荐dlj.tf/ssrsub, server: gg1.tanglu.xyz, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.asuka.buzz}}}
   - {name: 🇺🇸 @SSRSUB-美国V11-付费推荐dlj.tf/ssrsub, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: o07.tgfaka.com}}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Washington_34", server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}}
   - {name: 🇺🇸 亚美尼亚_1211001, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
   - {name: 🇺🇸 亚美尼亚_1211002, server: 185.162.228.228, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/SanFrancisco_32", server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 亚美尼亚_1211005, server: 185.162.228.230, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /A2DJOPFT}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13", server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12", server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Los+Angeles_31", server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇨🇦 加拿大_1211007, server: shopify.com, port: 80, type: vmess, uuid: 353bbf5f-a264-4731-e735-984e611c2e01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: tgus.cloudflare.quest}}}
-  - {name: 🇺🇸 @SSRSUB-美国V05-付费推荐dlj.tf/ssrsub, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.asuka.buzz}}}
+  - {name: 🇨🇦 加拿大_1211010, server: 23.227.38.38, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
   - {name: 🇨🇦 加拿大_1211011, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
   - {name: 🇨🇦 加拿大_1211012, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
   - {name: 🇨🇦 加拿大_1211015, server: ca01.v2net.top, port: 443, type: vmess, uuid: 61D52763-487F-4FE4-B0AC-8BB6AD47C917, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray, headers: {Host: ca01.v2net.top}}}
   - {name: 🇨🇦 加拿大_1211016, server: v56.idcloudhost.de, port: 80, type: vmess, uuid: 23007903-f187-4f13-be67-662903a861b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v56.idcloudhost.de}}}
   - {name: 🇨🇦 加拿大_1211017, server: 149.56.95.159, port: 23784, type: vmess, uuid: 1c78909e-18a8-4c7f-f6a0-e092aae6243f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇦 加拿大_1211077, server: us.he.01.nekocloud.cn, port: 19043, type: vmess, uuid: 4ed09c54-c3c6-35dc-9e9d-f023715591b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: us.he.01.nekocloud.cn}}}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13", server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12", server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true}
   - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11", server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1tGK82lU/}}
-  - {name: "🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6", server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}}
-  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: 🇩🇪 德国_1211017, server: 47.91.78.144, port: 80, type: vmess, uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: w1.800876.xyz}}}
-  - {name: 未知_1211007, server: 141.101.114.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 未知_1211014, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 未知_1211009, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: "@SSRSUB-V01-付费推荐suo.yt/ssrsub", server: 106.75.218.112, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
+  - {name: "@SSRSUB-V06-付费推荐suo.yt/ssrsub", server: 155.248.241.52, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: "@SSRSUB-V07-付费推荐suo.yt/ssrsub", server: 1.1808.cf, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: v2.chigua.tk}}}
   - {name: "@SSRSUB-V08-付费推荐suo.yt/ssrsub", server: 146.56.104.236, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: "@SSRSUB-V09-付费推荐suo.yt/ssrsub", server: 146.190.2.54, port: 443, type: vmess, uuid: 2a4918de-adce-4c4e-aa00-88a4227cf6ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 146.190.2.54}}
   - {name: "@SSRSUB-V10-付费推荐suo.yt/ssrsub", server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
   - {name: "@SSRSUB-V12-付费推荐suo.yt/ssrsub", server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
+  - {name: 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐dlj.tf/ssrsub, server: www.digitalocean.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐dlj.tf/ssrsub, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐dlj.tf/ssrsub, server: gg1.tanglu.xyz, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅, server: cdnssr.ssrsub.com, port: 443, type: ss, cipher: aes-256-cfb, password: cdnssr.ssrsub.com}
@@ -88,12 +85,15 @@ proxies:
   - {name: SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub, server: ssr1.ssrsub.com, port: 42471, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub}
   - {name: Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf, server: ssr5.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
+  - {name: "@SSRSUB-T01-付费推荐suo.yt/ssrsub", server: hk2.sanfen001.pics, port: 443, type: trojan, password: 9010950e-8e09-486a-bf96-3b0cf22097b4, sni: hk1.sanfen001.pics, skip-cert-verify: false}
   - {name: "@SSRSUB-T02-付费推荐suo.yt/ssrsub", server: hk1.sanfen001.pics, port: 443, type: trojan, password: 9010950e-8e09-486a-bf96-3b0cf22097b4, sni: hk1.sanfen001.pics, skip-cert-verify: false}
   - {name: "@SSRSUB-T03-付费推荐suo.yt/ssrsub", server: tw1.sanfen001.pics, port: 443, type: trojan, password: 9010950e-8e09-486a-bf96-3b0cf22097b4, sni: tw1.sanfen001.pics, skip-cert-verify: false}
   - {name: "@SSRSUB-T04-付费推荐suo.yt/ssrsub", server: 1024hk02.tfzhc.top, port: 80, type: trojan, password: 6064db30-b46e-432d-bbec-f12b947422a2, skip-cert-verify: false}
   - {name: 🇨🇳 防失效github SubCrawler中国_1211008, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 中国_1211009, server: 111.45.22.139, port: 9001, type: vmess, uuid: 2bb31413-7b35-3eb7-b59a-3f5b11a4e385, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 中国_1211024, server: zfd-moble.gatknqh.cn, port: 16132, type: vmess, uuid: ee867204-3f52-3faf-8de4-6f4180939d7c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国_1211025, server: zfd-moble.gatknqh.cn, port: 16129, type: vmess, uuid: ee867204-3f52-3faf-8de4-6f4180939d7c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国_1211042, server: hkt-detour-06.wallthefool.org, port: 15106, type: vmess, uuid: 82e1bd96-731a-446e-a859-a036cd2cbab8, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -110,11 +110,15 @@ proxy-groups:
     type: select
     proxies:
       - 🇯🇵 日本_1211025
-      - 🇸🇬 新加坡_1211003
+      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
+      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - 🇨🇳 台湾_1211052
       - 🇨🇳 台湾_1211054
-      - 🇨🇳 台湾_1211056
-      - 🇨🇳 台湾_1211059
+      - 🇨🇳 台湾_1211058
       - 🇨🇳 台湾_1211060
       - 🇨🇳 台湾_1211061
       - 🇨🇳 台湾_1211062
@@ -147,43 +151,36 @@ proxy-groups:
       - 🇨🇳 台湾_1211090
       - 🇨🇳 台湾_1211093
       - 🇨🇳 台湾_1211212
-      - 🇨🇳 台湾_1211052
+      - 🇸🇬 新加坡_1211003
       - 🇸🇬 新加坡_1211026
       - 🇸🇬 新加坡_1211029
-      - 🇸🇬 新加坡_1211030
-      - 🇸🇬 新加坡_1211031
-      - 🇸🇬 新加坡_1211032
-      - 🇺🇸 @SSRSUB-美国V04-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 @SSRSUB-美国V06-付费推荐dlj.tf/ssrsub
       - 🇺🇸 @SSRSUB-美国V11-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Washington_34
       - 🇺🇸 亚美尼亚_1211001
       - 🇺🇸 亚美尼亚_1211002
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanFrancisco_32
       - 🇺🇸 亚美尼亚_1211005
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Los+Angeles_31
       - 🇨🇦 加拿大_1211007
-      - 🇺🇸 @SSRSUB-美国V05-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大_1211010
       - 🇨🇦 加拿大_1211011
       - 🇨🇦 加拿大_1211012
       - 🇨🇦 加拿大_1211015
       - 🇨🇦 加拿大_1211016
       - 🇨🇦 加拿大_1211017
       - 🇨🇦 加拿大_1211077
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - US_17
-      - 🇩🇪 德国_1211017
-      - 未知_1211007
-      - 未知_1211014
-      - 未知_1211009
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V07-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐dlj.tf/ssrsub
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
@@ -192,12 +189,15 @@ proxy-groups:
       - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
       - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - "@SSRSUB-T01-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T02-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T03-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T04-付费推荐suo.yt/ssrsub"
       - 🇨🇳 防失效github SubCrawler中国_1211008
       - 🇨🇳 中国_1211009
       - 🇨🇳 中国_1211024
+      - 🇨🇳 中国_1211025
+      - 🇨🇳 中国_1211042
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -249,11 +249,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 日本_1211025
-      - 🇸🇬 新加坡_1211003
+      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
+      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - 🇨🇳 台湾_1211052
       - 🇨🇳 台湾_1211054
-      - 🇨🇳 台湾_1211056
-      - 🇨🇳 台湾_1211059
+      - 🇨🇳 台湾_1211058
       - 🇨🇳 台湾_1211060
       - 🇨🇳 台湾_1211061
       - 🇨🇳 台湾_1211062
@@ -286,43 +290,36 @@ proxy-groups:
       - 🇨🇳 台湾_1211090
       - 🇨🇳 台湾_1211093
       - 🇨🇳 台湾_1211212
-      - 🇨🇳 台湾_1211052
+      - 🇸🇬 新加坡_1211003
       - 🇸🇬 新加坡_1211026
       - 🇸🇬 新加坡_1211029
-      - 🇸🇬 新加坡_1211030
-      - 🇸🇬 新加坡_1211031
-      - 🇸🇬 新加坡_1211032
-      - 🇺🇸 @SSRSUB-美国V04-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 @SSRSUB-美国V06-付费推荐dlj.tf/ssrsub
       - 🇺🇸 @SSRSUB-美国V11-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Washington_34
       - 🇺🇸 亚美尼亚_1211001
       - 🇺🇸 亚美尼亚_1211002
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanFrancisco_32
       - 🇺🇸 亚美尼亚_1211005
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Los+Angeles_31
       - 🇨🇦 加拿大_1211007
-      - 🇺🇸 @SSRSUB-美国V05-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大_1211010
       - 🇨🇦 加拿大_1211011
       - 🇨🇦 加拿大_1211012
       - 🇨🇦 加拿大_1211015
       - 🇨🇦 加拿大_1211016
       - 🇨🇦 加拿大_1211017
       - 🇨🇦 加拿大_1211077
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - US_17
-      - 🇩🇪 德国_1211017
-      - 未知_1211007
-      - 未知_1211014
-      - 未知_1211009
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V07-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐dlj.tf/ssrsub
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
@@ -331,12 +328,15 @@ proxy-groups:
       - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
       - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - "@SSRSUB-T01-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T02-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T03-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T04-付费推荐suo.yt/ssrsub"
       - 🇨🇳 防失效github SubCrawler中国_1211008
       - 🇨🇳 中国_1211009
       - 🇨🇳 中国_1211024
+      - 🇨🇳 中国_1211025
+      - 🇨🇳 中国_1211042
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -344,11 +344,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 日本_1211025
-      - 🇸🇬 新加坡_1211003
+      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
+      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - 🇨🇳 台湾_1211052
       - 🇨🇳 台湾_1211054
-      - 🇨🇳 台湾_1211056
-      - 🇨🇳 台湾_1211059
+      - 🇨🇳 台湾_1211058
       - 🇨🇳 台湾_1211060
       - 🇨🇳 台湾_1211061
       - 🇨🇳 台湾_1211062
@@ -381,43 +385,36 @@ proxy-groups:
       - 🇨🇳 台湾_1211090
       - 🇨🇳 台湾_1211093
       - 🇨🇳 台湾_1211212
-      - 🇨🇳 台湾_1211052
+      - 🇸🇬 新加坡_1211003
       - 🇸🇬 新加坡_1211026
       - 🇸🇬 新加坡_1211029
-      - 🇸🇬 新加坡_1211030
-      - 🇸🇬 新加坡_1211031
-      - 🇸🇬 新加坡_1211032
-      - 🇺🇸 @SSRSUB-美国V04-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 @SSRSUB-美国V06-付费推荐dlj.tf/ssrsub
       - 🇺🇸 @SSRSUB-美国V11-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Washington_34
       - 🇺🇸 亚美尼亚_1211001
       - 🇺🇸 亚美尼亚_1211002
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanFrancisco_32
       - 🇺🇸 亚美尼亚_1211005
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Los+Angeles_31
       - 🇨🇦 加拿大_1211007
-      - 🇺🇸 @SSRSUB-美国V05-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大_1211010
       - 🇨🇦 加拿大_1211011
       - 🇨🇦 加拿大_1211012
       - 🇨🇦 加拿大_1211015
       - 🇨🇦 加拿大_1211016
       - 🇨🇦 加拿大_1211017
       - 🇨🇦 加拿大_1211077
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - US_17
-      - 🇩🇪 德国_1211017
-      - 未知_1211007
-      - 未知_1211014
-      - 未知_1211009
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V07-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐dlj.tf/ssrsub
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
@@ -426,39 +423,41 @@ proxy-groups:
       - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
       - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - "@SSRSUB-T01-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T02-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T03-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T04-付费推荐suo.yt/ssrsub"
       - 🇨🇳 防失效github SubCrawler中国_1211008
       - 🇨🇳 中国_1211009
       - 🇨🇳 中国_1211024
+      - 🇨🇳 中国_1211025
+      - 🇨🇳 中国_1211042
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 @SSRSUB-美国V04-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 @SSRSUB-美国V06-付费推荐dlj.tf/ssrsub
       - 🇺🇸 @SSRSUB-美国V11-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Washington_34
       - 🇺🇸 亚美尼亚_1211001
       - 🇺🇸 亚美尼亚_1211002
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanFrancisco_32
       - 🇺🇸 亚美尼亚_1211005
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Los+Angeles_31
       - 🇨🇦 加拿大_1211007
-      - 🇺🇸 @SSRSUB-美国V05-付费推荐dlj.tf/ssrsub
+      - 🇨🇦 加拿大_1211010
       - 🇨🇦 加拿大_1211011
       - 🇨🇦 加拿大_1211012
       - 🇨🇦 加拿大_1211015
       - 🇨🇦 加拿大_1211016
       - 🇨🇦 加拿大_1211017
       - 🇨🇦 加拿大_1211077
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - US_17
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -466,11 +465,15 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 日本_1211025
-      - 🇸🇬 新加坡_1211003
+      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
+      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
+      - 🇨🇳 台湾_1211052
       - 🇨🇳 台湾_1211054
-      - 🇨🇳 台湾_1211056
-      - 🇨🇳 台湾_1211059
+      - 🇨🇳 台湾_1211058
       - 🇨🇳 台湾_1211060
       - 🇨🇳 台湾_1211061
       - 🇨🇳 台湾_1211062
@@ -503,28 +506,22 @@ proxy-groups:
       - 🇨🇳 台湾_1211090
       - 🇨🇳 台湾_1211093
       - 🇨🇳 台湾_1211212
-      - 🇨🇳 台湾_1211052
+      - 🇸🇬 新加坡_1211003
       - 🇸🇬 新加坡_1211026
       - 🇸🇬 新加坡_1211029
-      - 🇸🇬 新加坡_1211030
-      - 🇸🇬 新加坡_1211031
-      - 🇸🇬 新加坡_1211032
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 德国_1211017
-      - 未知_1211007
-      - 未知_1211014
-      - 未知_1211009
-      - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V07-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
+      - 🇷🇺 @SSRSUB-俄罗斯V01-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V02-付费推荐dlj.tf/ssrsub
       - 🇷🇺 @SSRSUB-俄罗斯V03-付费推荐dlj.tf/ssrsub
       - SSR容易被阻断 追求稳定请更换SS/V2Ray/Trojan订阅
@@ -533,32 +530,33 @@ proxy-groups:
       - SS节点订阅地址https//raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
       - Surge托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Surge.conf
       - Clash托管地址https//raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+      - "@SSRSUB-T01-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T02-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T03-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-T04-付费推荐suo.yt/ssrsub"
       - 🇨🇳 防失效github SubCrawler中国_1211008
       - 🇨🇳 中国_1211009
       - 🇨🇳 中国_1211024
+      - 🇨🇳 中国_1211025
+      - 🇨🇳 中国_1211042
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 @SSRSUB-美国V04-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 @SSRSUB-美国V06-付费推荐dlj.tf/ssrsub
       - 🇺🇸 @SSRSUB-美国V11-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Washington_34
       - 🇺🇸 亚美尼亚_1211001
       - 🇺🇸 亚美尼亚_1211002
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanFrancisco_32
       - 🇺🇸 亚美尼亚_1211005
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Los+Angeles_31
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/Clifton_18
+      - 🇺🇸 [09-26]|openrunner|美国(US)USA/PiscatawayTownship_14
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/SanJose_13
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/Scottsdale_12
-      - 🇺🇸 @SSRSUB-美国V05-付费推荐dlj.tf/ssrsub
       - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_11
-      - 🇺🇸 [09-26]|openrunner|美国(US)USA/LosAngeles_6
-      - US_17
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -566,18 +564,17 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+      - 🇭🇰 [09-26]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 [09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
       - 🇸🇬 新加坡_1211003
       - 🇸🇬 新加坡_1211026
       - 🇸🇬 新加坡_1211029
-      - 🇸🇬 新加坡_1211030
-      - 🇸🇬 新加坡_1211031
-      - 🇸🇬 新加坡_1211032
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -585,6 +582,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 日本_1211025
+      - 🇯🇵 @SSRSUB-日本V08-付费推荐dlj.tf/ssrsub
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Osaka_40
+      - 🇯🇵 [09-26]|openrunner|日本(JP)Japan/Tokyo_29
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -592,9 +592,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 [09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+      - 🇨🇳 台湾_1211052
       - 🇨🇳 台湾_1211054
-      - 🇨🇳 台湾_1211056
-      - 🇨🇳 台湾_1211059
+      - 🇨🇳 台湾_1211058
       - 🇨🇳 台湾_1211060
       - 🇨🇳 台湾_1211061
       - 🇨🇳 台湾_1211062
@@ -627,7 +627,6 @@ proxy-groups:
       - 🇨🇳 台湾_1211090
       - 🇨🇳 台湾_1211093
       - 🇨🇳 台湾_1211212
-      - 🇨🇳 台湾_1211052
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
