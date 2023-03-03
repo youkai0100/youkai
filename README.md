@@ -135,7 +135,7 @@
 
 ### 所有节点
 合并节点总数: `1172`
-[节点链接](https://raw.githubusercontent.com/youkai0100/youkai/master/sub/sub_merge_base64)
+[节点链接](https://raw.githubusercontent.com/youkai0100/youkai/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `71`
