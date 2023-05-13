@@ -6,98 +6,97 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇭🇰 香港_0513018, server: 156.245.8.196, port: 42294, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0513096, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇯🇵 AWS日本1\r", server: jp1.gsjc.cfd, port: 443, type: trojan, password: 39025112-63f3-4e71-ba0d-887fc739f583, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本 11, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本_0513073, server: 45.88.43.133, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 _JP_日本 3, server: 43.206.255.205, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本_0513080, server: 45.88.43.239, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本 4, server: jp3.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
   - {name: 🇯🇵 _JP_日本 8, server: awsjp15-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 005, server: 43.207.172.213, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本 13, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
+  - {name: 🇯🇵 日本_0513096, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本 5, server: awsjp16-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本_0513073, server: 45.88.43.133, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 _JP_日本 9, server: awsjp3-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本_0513078, server: 45.88.43.235, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0513079, server: 45.88.43.237, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 _JP_日本 5, server: awsjp16-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇰🇷 _KR_韩国, server: awskr2-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇸🇬 _SG_新加坡 2, server: awssg15-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本_0513080, server: 45.88.43.239, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本_3_由快嘴科技提供：kkz..., server: T2.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 12008, type: trojan, password: cd886da4-d68e-44b8-b7ef-fb5bc0c6c09c, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true}
+  - {name: "🇭🇰 香港亚马逊1号\r", server: 43.198.96.133, port: 443, type: trojan, password: 7c541f1d-9924-4520-9d27-003da6ccb813, sni: hk1.xn--mes358a9urctx.com, skip-cert-verify: false}
+  - {name: 🇭🇰 _HK_香港 3, server: hk4.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 4, server: awssg1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: 🇸🇬 _SG_新加坡 3, server: awssg17-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 005, server: 43.207.172.213, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
   - {name: 🇯🇵 日本 002, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 _JP_日本_3, server: oci.donpau.com, port: 443, type: vmess, uuid: 3C02DC15-56AE-7889-8936-9A2EA8FF8666, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oci.donpau.com}}}
-  - {name: 🇨🇳 _TW_台湾_由快嘴科技提供：kkzui..., server: bgptw5.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾_0513001, server: CHT.MIFJUN.ORG, port: 8082, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本-东京都-东京-ss-185.172..., server: 185.172.113.182, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇳 _🇹🇼_TW_台湾_分享师_102, server: 1.170.220.46, port: 6745, type: vmess, uuid: 46b4d6b7-7019-48d1-aece-e37fa84990b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /4nSV0D, headers: {Host: ufjdewd.uk}}}
+  - {name: 🇯🇵 日本-东京都-东京-ss-185.172..., server: 185.172.113.182, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由..., server: bgptw1.cnamazon.sbs, port: 443, type: trojan, password: bc2a1eb1-a706-4ee5-95a6-732a6c324142, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
   - {name: 🇨🇳 台湾_0513004, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 _🇸🇬_SG_新加坡_分享师_179, server: 8.219.229.31, port: 443, type: vmess, uuid: cd7b3d8c-d3ee-46a7-fd72-516e5f18bba6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: wo_fr1.739256.xyz}}}
-  - {name: 🇭🇰 github.com/freefq - 香港腾讯云 20, server: jp1.tlz.asia, port: 48686, type: vmess, uuid: 81a56609-204b-44e0-e607-be0466fa12a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.tlz.asia}}}
-  - {name: 🇸🇬 新加坡_0513011, server: 27.124.45.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0513023, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_0513019, server: 143.92.56.218, port: 52333, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技), server: 8.218.236.32, port: 52082, type: ssr, cipher: dummy, password: 34534543r, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇰🇷 韩国_0513001, server: 118.193.69.158, port: 53173, type: vmess, uuid: 3b76d1a8-55fd-465e-aa04-68c39a506175, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0513001, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR 1 → tg@nicevpn123, server: 13.124.151.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 _KR_韩国 4, server: 43.201.6.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
-  - {name: 🇸🇬 _SG_新加坡_3 2, server: azsg2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazonwebservicess.com, skip-cert-verify: true}
-  - {name: 🇸🇬 Singapore(ChatGPT) ...____, server: awssg3-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 004, server: awshk16-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 015, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 002, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true}
-  - {name: 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧, server: 8.214.33.158, port: 80, type: vmess, uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 _SG_新加坡 5 2 2, server: 13.214.211.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_0513796, server: 103.159.64.91, port: 32253, type: vmess, uuid: 1751669b-e73b-45a6-96b1-dafc2894c13e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0513057, server: 8.219.106.254, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}}
   - {name: 🇸🇬 新加坡_0513002, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513304, server: 45.88.176.24, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513274, server: 45.88.176.23, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_05133467, server: 172.67.73.39, port: 80, type: vmess, uuid: b8458948-a630-4e6d-809a-230b2223ff3d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xrayvws, headers: {Host: f.tun4.live}}}
-  - {name: 🇺🇸 美国_0513318, server: 192.74.238.6, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513008, server: 137.175.1.8, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513324, server: 142.4.125.53, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_05131108, server: 107.148.195.24, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513819, server: 142.4.108.22, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_05131122, server: 192.74.231.179, port: 49202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513463, server: 198.2.198.28, port: 41288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513202, server: 45.88.176.22, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_0513019, server: 143.92.56.218, port: 52333, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_0513001, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_0513011, server: 27.124.45.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 Singapore 09 TG@no..., server: azsg2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: 🇸🇬 _🇸🇬_SG_新加坡_分享师_179, server: 8.219.229.31, port: 443, type: vmess, uuid: cd7b3d8c-d3ee-46a7-fd72-516e5f18bba6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudflare, headers: {Host: wo_fr1.739256.xyz}}}
+  - {name: 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港【付费推荐：suo.yt/ssrsub】56, server: 43.154.86.125, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: idnusanet.vpnexecutive.my.id}}}
+  - {name: 🇰🇷 韩国_0513001, server: 118.193.69.158, port: 53173, type: vmess, uuid: 3b76d1a8-55fd-465e-aa04-68c39a506175, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 015, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: 🇸🇬 _SG_新加坡 3, server: awssg17-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇭🇰 github.com/freefq - 香港特别行政区 18, server: 202.81.231.150, port: 80, type: vmess, uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: idnusanet.vpnexecutive.my.id}}}
+  - {name: 🇯🇵 日本_0513109, server: 132.226.5.189, port: 26369, type: vmess, uuid: f5934f6a-6a07-4c7c-bb0f-3af328ea6897, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 _KR_韩国, server: awskr2-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本_0513023, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本 3, server: 43.206.255.205, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本【付费推荐：suo.yt/ssrsub】123, server: jp06-vm0.entry.jpojpoh.art, port: 28787, type: vmess, uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技), server: 8.218.236.164, port: 56044, type: ssr, cipher: dummy, password: 456t5y5y, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇸🇬 新加坡 002, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: 🇸🇬 _SG_新加坡 2, server: awssg15-data.amazon-azure.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazon-azure.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技) 2, server: 8.218.241.212, port: 56077, type: ssr, cipher: dummy, password: 823773rr, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇯🇵 _JP_日本 10, server: jp11.hneko.online, port: 54445, type: vmess, uuid: d7961109-e9f0-4035-8842-166ae4b85916, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp11.hneko.online}}}
+  - {name: 🇺🇸 美国_0513269, server: 107.167.29.37, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131032, server: 172.247.148.82, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131073, server: 192.74.239.4, port: 50242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513276, server: 137.175.5.49, port: 42329, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513446, server: 142.4.97.76, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513468, server: 142.4.97.75, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131094, server: 108.186.116.172, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131093, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513161, server: 192.74.242.156, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131549, server: 142.4.125.1, port: 54102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131606, server: 192.74.242.147, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513109, server: 192.74.242.138, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131587, server: 192.74.239.199, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 062, server: 142.0.132.42, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131062, server: 192.74.230.38, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513927, server: 192.74.230.39, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513208, server: 137.175.18.90, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05131617, server: 142.4.104.193, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513151, server: 45.86.11.144, port: 39182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0513160, server: 192.74.242.155, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513338, server: 38.40.219.180, port: 53362, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513105, server: 107.167.7.19, port: 41654, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513409, server: 104.233.153.193, port: 46712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513085, server: 142.4.119.202, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513061, server: 142.4.126.75, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513229, server: 142.4.100.35, port: 45409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513148, server: 45.86.11.158, port: 39182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513234, server: 142.4.126.77, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513375, server: 137.175.1.6, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_05131609, server: 142.4.114.25, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0513147, server: 45.86.11.157, port: 39182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】88, server: 198.2.204.251, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V02-付费推荐suo.yt/ssrsub 2", server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}}
+  - {name: 🇺🇸 美国_05131031, server: 142.4.125.51, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513466, server: 142.4.97.71, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513040, server: 23.224.15.180, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0513329, server: 38.40.158.247, port: 45002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "|22.04Mb", server: 137.175.41.194, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|11.23Mb", server: 142.4.106.246, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 白嫖-041, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false}
-  - {name: "|21.72Mb", server: 137.175.41.193, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙_0513003, server: 45.15.128.42, port: 40932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 未知_0513140, server: 190.93.246.3, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
   - {name: "|10.62Mb", server: 137.175.18.109, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙_0513002, server: 45.15.128.39, port: 40932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国_0513009, server: 85.159.213.200, port: 2082, type: vmess, uuid: ec5df823-49a1-4eec-b8a3-10a19d565e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws}}
-  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇳🇱 荷兰_0513018, server: 154.85.1.77, port: 49221, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_0513009, server: 51.195.35.150, port: 30812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0513009, server: 154.85.1.16, port: 49506, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇪🇸 西班牙_0513003, server: 45.15.128.42, port: 40932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇪🇸 西班牙_0513001, server: 45.15.128.40, port: 40932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇷 4Iran-995, server: 172.67.13.11, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}}
   - {name: 🇬🇧 英国 009, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: "|13.70Mb", server: 104.18.2.132, port: 2096, type: vmess, uuid: 408e2686-9e0d-4014-841e-7ca5da55a215, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: ho3ino, headers: {Host: h.h3io.co}}}
-  - {name: 塞舌尔_0513002, server: 154.85.0.225, port: 49221, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇳🇱 荷兰_0513011, server: 154.85.1.65, port: 52920, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0513003, server: 154.85.1.67, port: 52920, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
-  - {name: 英属维尔京群岛 001, server: cf6.biger.club, port: 2087, type: vmess, uuid: a0142720-5702-4a4c-8134-1f57bf74adf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us2.biger.club}}}
-  - {name: 🇫🇷 法国_0513001, server: 188.165.170.83, port: 80, type: vmess, uuid: 860a862a-2798-4037-8513-b060e310e7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇳🇱 荷兰_0513015, server: 154.85.1.108, port: 51090, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_0513011, server: 130.61.179.77, port: 20574, type: vmess, uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd, alterId: 0, cipher: auto, tls: false}
   - {name: 🇳🇱 荷兰_0513012, server: 154.85.1.7, port: 51090, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0513009, server: 154.85.1.16, port: 49506, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0513008, server: 154.85.1.32, port: 42294, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
+  - {name: 塞舌尔_0513002, server: 154.85.0.225, port: 49221, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0513015, server: 154.85.1.108, port: 51090, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0513013, server: 154.85.1.20, port: 40298, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0513020, server: 154.85.1.59, port: 40023, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 _NL_荷兰, server: 154.85.1.88, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_0513003, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_0513008, server: 51.195.35.149, port: 30812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_0513017, server: 154.85.1.72, port: 42294, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_0513028, server: aparat.persianmizban.com, port: 4433, type: vmess, uuid: 88790a1b-f059-40c7-9c9d-b7c943b4420b, alterId: 0, cipher: auto, tls: true}
+  - {name: "|13.70Mb", server: 104.18.2.132, port: 2096, type: vmess, uuid: 408e2686-9e0d-4014-841e-7ca5da55a215, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: ho3ino, headers: {Host: h.h3io.co}}}
+  - {name: 🇳🇱 荷兰_0513025, server: 154.85.1.51, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -114,98 +113,97 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 香港_0513018
-      - 🇯🇵 日本_0513096
+      - "🇯🇵 AWS日本1\r"
       - 🇯🇵 _JP_日本 11
-      - 🇯🇵 日本_0513073
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本 4
       - 🇯🇵 _JP_日本 8
-      - 🇯🇵 日本 005
-      - 🇯🇵 _JP_日本 13
+      - 🇯🇵 日本_0513096
+      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 日本_0513073
       - 🇯🇵 _JP_日本 9
       - 🇯🇵 日本_0513078
       - 🇯🇵 日本_0513079
-      - 🇯🇵 _JP_日本 5
-      - 🇰🇷 _KR_韩国
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本_3_由快嘴科技提供：kkz...
+      - "🇭🇰 香港亚马逊1号\r"
+      - 🇭🇰 _HK_香港 3
       - 🇸🇬 _SG_新加坡 4
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 002
-      - 🇯🇵 _JP_日本_3
-      - 🇨🇳 _TW_台湾_由快嘴科技提供：kkzui...
-      - 🇨🇳 台湾_0513001
+      - 🇨🇳 _🇹🇼_TW_台湾_分享师_102
       - 🇯🇵 日本-东京都-东京-ss-185.172...
       - 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由...
       - 🇨🇳 台湾_0513004
-      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
-      - 🇭🇰 github.com/freefq - 香港腾讯云 20
-      - 🇸🇬 新加坡_0513011
-      - 🇯🇵 日本_0513023
-      - 🇭🇰 香港_0513019
-      - 🇸🇬 SG新加坡(youtube阿伟科技)
-      - 🇰🇷 韩国_0513001
-      - 🇸🇬 新加坡_0513001
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 _KR_韩国 4
-      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
-      - 🇸🇬 _SG_新加坡_3 2
-      - 🇸🇬 Singapore(ChatGPT) ...____
-      - 🇭🇰 香港 004
-      - 🇯🇵 日本 015
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 _SG_新加坡 5 2 2
-      - 🇸🇬 新加坡_0513796
-      - 🇸🇬 新加坡_0513057
       - 🇸🇬 新加坡_0513002
-      - 🇺🇸 美国_0513304
-      - 🇺🇸 美国_0513274
-      - 🇺🇸 美国_05133467
-      - 🇺🇸 美国_0513318
-      - 🇺🇸 美国_0513008
-      - 🇺🇸 美国_0513324
-      - 🇺🇸 美国_05131108
-      - 🇺🇸 美国_0513819
-      - 🇺🇸 美国_05131122
-      - 🇺🇸 美国_0513463
-      - 🇺🇸 美国_0513202
+      - 🇭🇰 香港_0513019
+      - 🇸🇬 新加坡_0513001
+      - 🇸🇬 新加坡_0513011
+      - 🇸🇬 Singapore 09 TG@no...
+      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
+      - 🇭🇰 香港【付费推荐：suo.yt/ssrsub】56
+      - 🇰🇷 韩国_0513001
+      - 🇯🇵 日本 015
+      - 🇸🇬 _SG_新加坡 3
+      - 🇭🇰 github.com/freefq - 香港特别行政区 18
+      - 🇯🇵 日本_0513109
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0513023
+      - 🇯🇵 _JP_日本 3
+      - 🇯🇵 日本【付费推荐：suo.yt/ssrsub】123
+      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡 002
+      - 🇸🇬 _SG_新加坡 2
+      - 🇭🇰 HK香港(youtube阿伟科技) 2
+      - 🇯🇵 _JP_日本 10
+      - 🇺🇸 美国_0513269
+      - 🇺🇸 美国_05131032
+      - 🇺🇸 美国_05131073
+      - 🇺🇸 美国_0513276
+      - 🇺🇸 美国_0513446
+      - 🇺🇸 美国_0513468
+      - 🇺🇸 美国_05131094
+      - 🇺🇸 美国_05131093
+      - 🇺🇸 美国_0513161
+      - 🇺🇸 美国_05131549
+      - 🇺🇸 美国_05131606
+      - 🇺🇸 美国_0513109
+      - 🇺🇸 美国_05131587
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国_05131062
+      - 🇺🇸 美国_0513927
+      - 🇺🇸 美国_0513208
+      - 🇺🇸 美国_05131617
+      - 🇺🇸 美国_0513151
       - 🇺🇸 美国_0513160
-      - 🇺🇸 美国_0513338
-      - 🇺🇸 美国_0513105
-      - 🇺🇸 美国_0513409
-      - 🇺🇸 美国_0513085
-      - 🇺🇸 美国_0513061
-      - 🇺🇸 美国_0513229
-      - 🇺🇸 美国_0513148
-      - 🇺🇸 美国_0513234
-      - 🇺🇸 美国_0513375
-      - 🇺🇸 美国_05131609
-      - 🇺🇸 美国_0513147
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】88
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub 2"
+      - 🇺🇸 美国_05131031
+      - 🇺🇸 美国_0513466
+      - 🇺🇸 美国_0513040
+      - 🇺🇸 美国_0513329
       - "|22.04Mb"
+      - "|11.23Mb"
       - 白嫖-041
-      - "|21.72Mb"
-      - 🇪🇸 西班牙_0513003
+      - 未知_0513140
       - "|10.62Mb"
-      - 🇪🇸 西班牙_0513002
-      - 🇬🇧 英国_0513009
-      - GB_07
-      - 🇳🇱 荷兰_0513018
-      - 🇫🇷 法国_0513009
-      - 🇳🇱 荷兰_0513009
+      - 🇪🇸 西班牙_0513003
+      - 🇪🇸 西班牙_0513001
+      - 🇮🇷 4Iran-995
       - 🇬🇧 英国 009
-      - "|13.70Mb"
-      - 塞舌尔_0513002
+      - GB_07
       - 🇳🇱 荷兰_0513011
-      - 🇳🇱 荷兰_0513003
-      - 英属维尔京群岛 001
-      - 🇫🇷 法国_0513001
-      - 🇳🇱 荷兰_0513015
-      - 🇩🇪 德国_0513011
       - 🇳🇱 荷兰_0513012
+      - 🇳🇱 荷兰_0513009
+      - 🇳🇱 荷兰_0513008
+      - 塞舌尔_0513002
+      - 🇳🇱 荷兰_0513015
+      - 🇳🇱 荷兰_0513013
+      - 🇳🇱 荷兰_0513020
+      - 🇳🇱 _NL_荷兰
       - 🇩🇪 德国_0513003
-      - 🇫🇷 法国_0513008
+      - 🇳🇱 荷兰_0513017
+      - 🇩🇪 德国_0513028
+      - "|13.70Mb"
+      - 🇳🇱 荷兰_0513025
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -257,98 +255,97 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 香港_0513018
-      - 🇯🇵 日本_0513096
+      - "🇯🇵 AWS日本1\r"
       - 🇯🇵 _JP_日本 11
-      - 🇯🇵 日本_0513073
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本 4
       - 🇯🇵 _JP_日本 8
-      - 🇯🇵 日本 005
-      - 🇯🇵 _JP_日本 13
+      - 🇯🇵 日本_0513096
+      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 日本_0513073
       - 🇯🇵 _JP_日本 9
       - 🇯🇵 日本_0513078
       - 🇯🇵 日本_0513079
-      - 🇯🇵 _JP_日本 5
-      - 🇰🇷 _KR_韩国
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本_3_由快嘴科技提供：kkz...
+      - "🇭🇰 香港亚马逊1号\r"
+      - 🇭🇰 _HK_香港 3
       - 🇸🇬 _SG_新加坡 4
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 002
-      - 🇯🇵 _JP_日本_3
-      - 🇨🇳 _TW_台湾_由快嘴科技提供：kkzui...
-      - 🇨🇳 台湾_0513001
+      - 🇨🇳 _🇹🇼_TW_台湾_分享师_102
       - 🇯🇵 日本-东京都-东京-ss-185.172...
       - 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由...
       - 🇨🇳 台湾_0513004
-      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
-      - 🇭🇰 github.com/freefq - 香港腾讯云 20
-      - 🇸🇬 新加坡_0513011
-      - 🇯🇵 日本_0513023
-      - 🇭🇰 香港_0513019
-      - 🇸🇬 SG新加坡(youtube阿伟科技)
-      - 🇰🇷 韩国_0513001
-      - 🇸🇬 新加坡_0513001
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 _KR_韩国 4
-      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
-      - 🇸🇬 _SG_新加坡_3 2
-      - 🇸🇬 Singapore(ChatGPT) ...____
-      - 🇭🇰 香港 004
-      - 🇯🇵 日本 015
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 _SG_新加坡 5 2 2
-      - 🇸🇬 新加坡_0513796
-      - 🇸🇬 新加坡_0513057
       - 🇸🇬 新加坡_0513002
-      - 🇺🇸 美国_0513304
-      - 🇺🇸 美国_0513274
-      - 🇺🇸 美国_05133467
-      - 🇺🇸 美国_0513318
-      - 🇺🇸 美国_0513008
-      - 🇺🇸 美国_0513324
-      - 🇺🇸 美国_05131108
-      - 🇺🇸 美国_0513819
-      - 🇺🇸 美国_05131122
-      - 🇺🇸 美国_0513463
-      - 🇺🇸 美国_0513202
+      - 🇭🇰 香港_0513019
+      - 🇸🇬 新加坡_0513001
+      - 🇸🇬 新加坡_0513011
+      - 🇸🇬 Singapore 09 TG@no...
+      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
+      - 🇭🇰 香港【付费推荐：suo.yt/ssrsub】56
+      - 🇰🇷 韩国_0513001
+      - 🇯🇵 日本 015
+      - 🇸🇬 _SG_新加坡 3
+      - 🇭🇰 github.com/freefq - 香港特别行政区 18
+      - 🇯🇵 日本_0513109
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0513023
+      - 🇯🇵 _JP_日本 3
+      - 🇯🇵 日本【付费推荐：suo.yt/ssrsub】123
+      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡 002
+      - 🇸🇬 _SG_新加坡 2
+      - 🇭🇰 HK香港(youtube阿伟科技) 2
+      - 🇯🇵 _JP_日本 10
+      - 🇺🇸 美国_0513269
+      - 🇺🇸 美国_05131032
+      - 🇺🇸 美国_05131073
+      - 🇺🇸 美国_0513276
+      - 🇺🇸 美国_0513446
+      - 🇺🇸 美国_0513468
+      - 🇺🇸 美国_05131094
+      - 🇺🇸 美国_05131093
+      - 🇺🇸 美国_0513161
+      - 🇺🇸 美国_05131549
+      - 🇺🇸 美国_05131606
+      - 🇺🇸 美国_0513109
+      - 🇺🇸 美国_05131587
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国_05131062
+      - 🇺🇸 美国_0513927
+      - 🇺🇸 美国_0513208
+      - 🇺🇸 美国_05131617
+      - 🇺🇸 美国_0513151
       - 🇺🇸 美国_0513160
-      - 🇺🇸 美国_0513338
-      - 🇺🇸 美国_0513105
-      - 🇺🇸 美国_0513409
-      - 🇺🇸 美国_0513085
-      - 🇺🇸 美国_0513061
-      - 🇺🇸 美国_0513229
-      - 🇺🇸 美国_0513148
-      - 🇺🇸 美国_0513234
-      - 🇺🇸 美国_0513375
-      - 🇺🇸 美国_05131609
-      - 🇺🇸 美国_0513147
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】88
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub 2"
+      - 🇺🇸 美国_05131031
+      - 🇺🇸 美国_0513466
+      - 🇺🇸 美国_0513040
+      - 🇺🇸 美国_0513329
       - "|22.04Mb"
+      - "|11.23Mb"
       - 白嫖-041
-      - "|21.72Mb"
-      - 🇪🇸 西班牙_0513003
+      - 未知_0513140
       - "|10.62Mb"
-      - 🇪🇸 西班牙_0513002
-      - 🇬🇧 英国_0513009
-      - GB_07
-      - 🇳🇱 荷兰_0513018
-      - 🇫🇷 法国_0513009
-      - 🇳🇱 荷兰_0513009
+      - 🇪🇸 西班牙_0513003
+      - 🇪🇸 西班牙_0513001
+      - 🇮🇷 4Iran-995
       - 🇬🇧 英国 009
-      - "|13.70Mb"
-      - 塞舌尔_0513002
+      - GB_07
       - 🇳🇱 荷兰_0513011
-      - 🇳🇱 荷兰_0513003
-      - 英属维尔京群岛 001
-      - 🇫🇷 法国_0513001
-      - 🇳🇱 荷兰_0513015
-      - 🇩🇪 德国_0513011
       - 🇳🇱 荷兰_0513012
+      - 🇳🇱 荷兰_0513009
+      - 🇳🇱 荷兰_0513008
+      - 塞舌尔_0513002
+      - 🇳🇱 荷兰_0513015
+      - 🇳🇱 荷兰_0513013
+      - 🇳🇱 荷兰_0513020
+      - 🇳🇱 _NL_荷兰
       - 🇩🇪 德国_0513003
-      - 🇫🇷 法国_0513008
+      - 🇳🇱 荷兰_0513017
+      - 🇩🇪 德国_0513028
+      - "|13.70Mb"
+      - 🇳🇱 荷兰_0513025
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -356,128 +353,127 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇭🇰 香港_0513018
-      - 🇯🇵 日本_0513096
+      - "🇯🇵 AWS日本1\r"
       - 🇯🇵 _JP_日本 11
-      - 🇯🇵 日本_0513073
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本 4
       - 🇯🇵 _JP_日本 8
-      - 🇯🇵 日本 005
-      - 🇯🇵 _JP_日本 13
+      - 🇯🇵 日本_0513096
+      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 日本_0513073
       - 🇯🇵 _JP_日本 9
       - 🇯🇵 日本_0513078
       - 🇯🇵 日本_0513079
-      - 🇯🇵 _JP_日本 5
-      - 🇰🇷 _KR_韩国
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本_3_由快嘴科技提供：kkz...
+      - "🇭🇰 香港亚马逊1号\r"
+      - 🇭🇰 _HK_香港 3
       - 🇸🇬 _SG_新加坡 4
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 002
-      - 🇯🇵 _JP_日本_3
-      - 🇨🇳 _TW_台湾_由快嘴科技提供：kkzui...
-      - 🇨🇳 台湾_0513001
+      - 🇨🇳 _🇹🇼_TW_台湾_分享师_102
       - 🇯🇵 日本-东京都-东京-ss-185.172...
       - 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由...
       - 🇨🇳 台湾_0513004
-      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
-      - 🇭🇰 github.com/freefq - 香港腾讯云 20
-      - 🇸🇬 新加坡_0513011
-      - 🇯🇵 日本_0513023
-      - 🇭🇰 香港_0513019
-      - 🇸🇬 SG新加坡(youtube阿伟科技)
-      - 🇰🇷 韩国_0513001
-      - 🇸🇬 新加坡_0513001
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 _KR_韩国 4
-      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
-      - 🇸🇬 _SG_新加坡_3 2
-      - 🇸🇬 Singapore(ChatGPT) ...____
-      - 🇭🇰 香港 004
-      - 🇯🇵 日本 015
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 _SG_新加坡 5 2 2
-      - 🇸🇬 新加坡_0513796
-      - 🇸🇬 新加坡_0513057
       - 🇸🇬 新加坡_0513002
-      - 🇺🇸 美国_0513304
-      - 🇺🇸 美国_0513274
-      - 🇺🇸 美国_05133467
-      - 🇺🇸 美国_0513318
-      - 🇺🇸 美国_0513008
-      - 🇺🇸 美国_0513324
-      - 🇺🇸 美国_05131108
-      - 🇺🇸 美国_0513819
-      - 🇺🇸 美国_05131122
-      - 🇺🇸 美国_0513463
-      - 🇺🇸 美国_0513202
+      - 🇭🇰 香港_0513019
+      - 🇸🇬 新加坡_0513001
+      - 🇸🇬 新加坡_0513011
+      - 🇸🇬 Singapore 09 TG@no...
+      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
+      - 🇭🇰 香港【付费推荐：suo.yt/ssrsub】56
+      - 🇰🇷 韩国_0513001
+      - 🇯🇵 日本 015
+      - 🇸🇬 _SG_新加坡 3
+      - 🇭🇰 github.com/freefq - 香港特别行政区 18
+      - 🇯🇵 日本_0513109
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0513023
+      - 🇯🇵 _JP_日本 3
+      - 🇯🇵 日本【付费推荐：suo.yt/ssrsub】123
+      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡 002
+      - 🇸🇬 _SG_新加坡 2
+      - 🇭🇰 HK香港(youtube阿伟科技) 2
+      - 🇯🇵 _JP_日本 10
+      - 🇺🇸 美国_0513269
+      - 🇺🇸 美国_05131032
+      - 🇺🇸 美国_05131073
+      - 🇺🇸 美国_0513276
+      - 🇺🇸 美国_0513446
+      - 🇺🇸 美国_0513468
+      - 🇺🇸 美国_05131094
+      - 🇺🇸 美国_05131093
+      - 🇺🇸 美国_0513161
+      - 🇺🇸 美国_05131549
+      - 🇺🇸 美国_05131606
+      - 🇺🇸 美国_0513109
+      - 🇺🇸 美国_05131587
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国_05131062
+      - 🇺🇸 美国_0513927
+      - 🇺🇸 美国_0513208
+      - 🇺🇸 美国_05131617
+      - 🇺🇸 美国_0513151
       - 🇺🇸 美国_0513160
-      - 🇺🇸 美国_0513338
-      - 🇺🇸 美国_0513105
-      - 🇺🇸 美国_0513409
-      - 🇺🇸 美国_0513085
-      - 🇺🇸 美国_0513061
-      - 🇺🇸 美国_0513229
-      - 🇺🇸 美国_0513148
-      - 🇺🇸 美国_0513234
-      - 🇺🇸 美国_0513375
-      - 🇺🇸 美国_05131609
-      - 🇺🇸 美国_0513147
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】88
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub 2"
+      - 🇺🇸 美国_05131031
+      - 🇺🇸 美国_0513466
+      - 🇺🇸 美国_0513040
+      - 🇺🇸 美国_0513329
       - "|22.04Mb"
+      - "|11.23Mb"
       - 白嫖-041
-      - "|21.72Mb"
-      - 🇪🇸 西班牙_0513003
+      - 未知_0513140
       - "|10.62Mb"
-      - 🇪🇸 西班牙_0513002
-      - 🇬🇧 英国_0513009
-      - GB_07
-      - 🇳🇱 荷兰_0513018
-      - 🇫🇷 法国_0513009
-      - 🇳🇱 荷兰_0513009
+      - 🇪🇸 西班牙_0513003
+      - 🇪🇸 西班牙_0513001
+      - 🇮🇷 4Iran-995
       - 🇬🇧 英国 009
-      - "|13.70Mb"
-      - 塞舌尔_0513002
+      - GB_07
       - 🇳🇱 荷兰_0513011
-      - 🇳🇱 荷兰_0513003
-      - 英属维尔京群岛 001
-      - 🇫🇷 法国_0513001
-      - 🇳🇱 荷兰_0513015
-      - 🇩🇪 德国_0513011
       - 🇳🇱 荷兰_0513012
+      - 🇳🇱 荷兰_0513009
+      - 🇳🇱 荷兰_0513008
+      - 塞舌尔_0513002
+      - 🇳🇱 荷兰_0513015
+      - 🇳🇱 荷兰_0513013
+      - 🇳🇱 荷兰_0513020
+      - 🇳🇱 _NL_荷兰
       - 🇩🇪 德国_0513003
-      - 🇫🇷 法国_0513008
+      - 🇳🇱 荷兰_0513017
+      - 🇩🇪 德国_0513028
+      - "|13.70Mb"
+      - 🇳🇱 荷兰_0513025
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_0513304
-      - 🇺🇸 美国_0513274
-      - 🇺🇸 美国_05133467
-      - 🇺🇸 美国_0513318
-      - 🇺🇸 美国_0513008
-      - 🇺🇸 美国_0513324
-      - 🇺🇸 美国_05131108
-      - 🇺🇸 美国_0513819
-      - 🇺🇸 美国_05131122
-      - 🇺🇸 美国_0513463
-      - 🇺🇸 美国_0513202
+      - 🇺🇸 美国_0513269
+      - 🇺🇸 美国_05131032
+      - 🇺🇸 美国_05131073
+      - 🇺🇸 美国_0513276
+      - 🇺🇸 美国_0513446
+      - 🇺🇸 美国_0513468
+      - 🇺🇸 美国_05131094
+      - 🇺🇸 美国_05131093
+      - 🇺🇸 美国_0513161
+      - 🇺🇸 美国_05131549
+      - 🇺🇸 美国_05131606
+      - 🇺🇸 美国_0513109
+      - 🇺🇸 美国_05131587
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国_05131062
+      - 🇺🇸 美国_0513927
+      - 🇺🇸 美国_0513208
+      - 🇺🇸 美国_05131617
+      - 🇺🇸 美国_0513151
       - 🇺🇸 美国_0513160
-      - 🇺🇸 美国_0513338
-      - 🇺🇸 美国_0513105
-      - 🇺🇸 美国_0513409
-      - 🇺🇸 美国_0513085
-      - 🇺🇸 美国_0513061
-      - 🇺🇸 美国_0513229
-      - 🇺🇸 美国_0513148
-      - 🇺🇸 美国_0513234
-      - 🇺🇸 美国_0513375
-      - 🇺🇸 美国_05131609
-      - 🇺🇸 美国_0513147
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】88
+      - 🇺🇸 美国_05131031
+      - 🇺🇸 美国_0513466
+      - 🇺🇸 美国_0513040
+      - 🇺🇸 美国_0513329
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -485,111 +481,110 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 香港_0513018
-      - 🇯🇵 日本_0513096
+      - "🇯🇵 AWS日本1\r"
       - 🇯🇵 _JP_日本 11
-      - 🇯🇵 日本_0513073
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本 4
       - 🇯🇵 _JP_日本 8
-      - 🇯🇵 日本 005
-      - 🇯🇵 _JP_日本 13
+      - 🇯🇵 日本_0513096
+      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 日本_0513073
       - 🇯🇵 _JP_日本 9
       - 🇯🇵 日本_0513078
       - 🇯🇵 日本_0513079
-      - 🇯🇵 _JP_日本 5
-      - 🇰🇷 _KR_韩国
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本_3_由快嘴科技提供：kkz...
+      - "🇭🇰 香港亚马逊1号\r"
+      - 🇭🇰 _HK_香港 3
       - 🇸🇬 _SG_新加坡 4
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 002
-      - 🇯🇵 _JP_日本_3
-      - 🇨🇳 _TW_台湾_由快嘴科技提供：kkzui...
-      - 🇨🇳 台湾_0513001
+      - 🇨🇳 _🇹🇼_TW_台湾_分享师_102
       - 🇯🇵 日本-东京都-东京-ss-185.172...
       - 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由...
       - 🇨🇳 台湾_0513004
-      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
-      - 🇭🇰 github.com/freefq - 香港腾讯云 20
-      - 🇸🇬 新加坡_0513011
-      - 🇯🇵 日本_0513023
-      - 🇭🇰 香港_0513019
-      - 🇸🇬 SG新加坡(youtube阿伟科技)
-      - 🇰🇷 韩国_0513001
-      - 🇸🇬 新加坡_0513001
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 _KR_韩国 4
-      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
-      - 🇸🇬 _SG_新加坡_3 2
-      - 🇸🇬 Singapore(ChatGPT) ...____
-      - 🇭🇰 香港 004
-      - 🇯🇵 日本 015
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 _SG_新加坡 5 2 2
-      - 🇸🇬 新加坡_0513796
-      - 🇸🇬 新加坡_0513057
       - 🇸🇬 新加坡_0513002
+      - 🇭🇰 香港_0513019
+      - 🇸🇬 新加坡_0513001
+      - 🇸🇬 新加坡_0513011
+      - 🇸🇬 Singapore 09 TG@no...
+      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
+      - 🇭🇰 香港【付费推荐：suo.yt/ssrsub】56
+      - 🇰🇷 韩国_0513001
+      - 🇯🇵 日本 015
+      - 🇸🇬 _SG_新加坡 3
+      - 🇭🇰 github.com/freefq - 香港特别行政区 18
+      - 🇯🇵 日本_0513109
+      - 🇰🇷 _KR_韩国
+      - 🇯🇵 日本_0513023
+      - 🇯🇵 _JP_日本 3
+      - 🇯🇵 日本【付费推荐：suo.yt/ssrsub】123
+      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇸🇬 新加坡 002
+      - 🇸🇬 _SG_新加坡 2
+      - 🇭🇰 HK香港(youtube阿伟科技) 2
+      - 🇯🇵 _JP_日本 10
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 Singapore(ChatGPT) ...____
-      - "@SSRSUB-V02-付费推荐suo.yt/ssrsub 2"
+      - 🇸🇬 Singapore 09 TG@no...
       - "|22.04Mb"
+      - "|11.23Mb"
       - 白嫖-041
-      - "|21.72Mb"
-      - 🇪🇸 西班牙_0513003
+      - 未知_0513140
       - "|10.62Mb"
-      - 🇪🇸 西班牙_0513002
-      - 🇬🇧 英国_0513009
-      - GB_07
-      - 🇳🇱 荷兰_0513018
-      - 🇫🇷 法国_0513009
-      - 🇳🇱 荷兰_0513009
+      - 🇪🇸 西班牙_0513003
+      - 🇪🇸 西班牙_0513001
+      - 🇮🇷 4Iran-995
       - 🇬🇧 英国 009
-      - "|13.70Mb"
-      - 塞舌尔_0513002
+      - GB_07
       - 🇳🇱 荷兰_0513011
-      - 🇳🇱 荷兰_0513003
-      - 英属维尔京群岛 001
-      - 🇫🇷 法国_0513001
-      - 🇳🇱 荷兰_0513015
-      - 🇩🇪 德国_0513011
       - 🇳🇱 荷兰_0513012
+      - 🇳🇱 荷兰_0513009
+      - 🇳🇱 荷兰_0513008
+      - 塞舌尔_0513002
+      - 🇳🇱 荷兰_0513015
+      - 🇳🇱 荷兰_0513013
+      - 🇳🇱 荷兰_0513020
+      - 🇳🇱 _NL_荷兰
       - 🇩🇪 德国_0513003
-      - 🇫🇷 法国_0513008
+      - 🇳🇱 荷兰_0513017
+      - 🇩🇪 德国_0513028
+      - "|13.70Mb"
+      - 🇳🇱 荷兰_0513025
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_0513304
-      - 🇺🇸 美国_0513274
-      - 🇺🇸 美国_05133467
-      - 🇺🇸 美国_0513318
-      - 🇺🇸 美国_0513008
-      - 🇺🇸 美国_0513324
-      - 🇺🇸 美国_05131108
-      - 🇺🇸 美国_0513819
-      - 🇺🇸 美国_05131122
-      - 🇺🇸 美国_0513463
-      - 🇺🇸 美国_0513202
+      - 🇺🇸 美国_0513269
+      - 🇺🇸 美国_05131032
+      - 🇺🇸 美国_05131073
+      - 🇺🇸 美国_0513276
+      - 🇺🇸 美国_0513446
+      - 🇺🇸 美国_0513468
+      - 🇺🇸 美国_05131094
+      - 🇺🇸 美国_05131093
+      - 🇺🇸 美国_0513161
+      - 🇺🇸 美国_05131549
+      - 🇺🇸 美国_05131606
+      - 🇺🇸 美国_0513109
+      - 🇺🇸 美国_05131587
+      - 🇺🇸 美国 062
+      - 🇺🇸 美国_05131062
+      - 🇺🇸 美国_0513927
+      - 🇺🇸 美国_0513208
+      - 🇺🇸 美国_05131617
+      - 🇺🇸 美国_0513151
       - 🇺🇸 美国_0513160
-      - 🇺🇸 美国_0513338
-      - 🇺🇸 美国_0513105
-      - 🇺🇸 美国_0513409
-      - 🇺🇸 美国_0513085
-      - 🇺🇸 美国_0513061
-      - 🇺🇸 美国_0513229
-      - 🇺🇸 美国_0513148
-      - 🇺🇸 美国_0513234
-      - 🇺🇸 美国_0513375
-      - 🇺🇸 美国_05131609
-      - 🇺🇸 美国_0513147
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】88
+      - 🇺🇸 美国_05131031
+      - 🇺🇸 美国_0513466
+      - 🇺🇸 美国_0513040
+      - 🇺🇸 美国_0513329
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -597,63 +592,64 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 香港_0513018
-      - 🇭🇰 github.com/freefq - 香港腾讯云 20
+      - "🇭🇰 香港亚马逊1号\r"
+      - 🇭🇰 _HK_香港 3
       - 🇭🇰 香港_0513019
-      - 🇭🇰 香港 004
+      - 🇭🇰 香港【付费推荐：suo.yt/ssrsub】56
+      - 🇭🇰 github.com/freefq - 香港特别行政区 18
+      - 🇭🇰 HK香港(youtube阿伟科技)
+      - 🇭🇰 HK香港(youtube阿伟科技) 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 4
-      - 🇸🇬 _SG_新加坡 3
       - 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由...
-      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
-      - 🇸🇬 新加坡_0513011
-      - 🇸🇬 SG新加坡(youtube阿伟科技)
-      - 🇸🇬 新加坡_0513001
-      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
-      - 🇸🇬 _SG_新加坡_3 2
-      - 🇸🇬 Singapore(ChatGPT) ...____
-      - 🇸🇬 新加坡 002
-      - 🇸🇬 中国-vmess-8.214.33.15880-被墙-直连-解锁新加坡地区NF非自制剧
-      - 🇸🇬 _SG_新加坡 5 2 2
-      - 🇸🇬 新加坡_0513796
-      - 🇸🇬 新加坡_0513057
       - 🇸🇬 新加坡_0513002
+      - 🇸🇬 新加坡_0513001
+      - 🇸🇬 新加坡_0513011
+      - 🇸🇬 Singapore 09 TG@no...
+      - 🇸🇬 _🇸🇬_SG_新加坡_分享师_179
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】29
+      - 🇸🇬 _SG_新加坡 3
+      - 🇸🇬 新加坡 002
+      - 🇸🇬 _SG_新加坡 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本_0513096
+      - "🇯🇵 AWS日本1\r"
       - 🇯🇵 _JP_日本 11
-      - 🇯🇵 日本_0513073
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本 4
       - 🇯🇵 _JP_日本 8
-      - 🇯🇵 日本 005
-      - 🇯🇵 _JP_日本 13
+      - 🇯🇵 日本_0513096
+      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 日本_0513073
       - 🇯🇵 _JP_日本 9
       - 🇯🇵 日本_0513078
       - 🇯🇵 日本_0513079
-      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 日本_0513080
+      - 🇯🇵 _JP_日本_3_由快嘴科技提供：kkz...
+      - 🇯🇵 日本 005
       - 🇯🇵 日本 002
-      - 🇯🇵 _JP_日本_3
       - 🇯🇵 日本-东京都-东京-ss-185.172...
-      - 🇯🇵 日本_0513023
       - 🇯🇵 日本 015
+      - 🇯🇵 日本_0513109
+      - 🇯🇵 日本_0513023
+      - 🇯🇵 _JP_日本 3
+      - 🇯🇵 日本【付费推荐：suo.yt/ssrsub】123
+      - 🇯🇵 _JP_日本 10
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 _TW_台湾_由快嘴科技提供：kkzui...
-      - 🇨🇳 台湾_0513001
+      - 🇨🇳 _🇹🇼_TW_台湾_分享师_102
       - 🇨🇳 _TW_台湾->🇸🇬_SG_新加坡_2由...
       - 🇨🇳 台湾_0513004
   - name: 韩国
@@ -662,10 +658,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国
       - 🇰🇷 韩国_0513001
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 _KR_韩国 4
+      - 🇰🇷 _KR_韩国
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -1941,7 +1935,6 @@ rules:
  - DOMAIN-SUFFIX,app-store.wang,🍎 苹果服务
  - DOMAIN-SUFFIX,appe-store.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-appstore.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-itunes.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-pay.rs,🍎 苹果服务
@@ -1952,7 +1945,6 @@ rules:
  - DOMAIN-SUFFIX,appleappstore.tv,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appledarwin.net,🍎 苹果服务
- - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-applemx.us,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid-iclou.com,🍎 苹果服务
@@ -1961,7 +1953,6 @@ rules:
  - DOMAIN-SUFFIX,appleid.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hamburg,🍎 苹果服务
  - DOMAIN-SUFFIX,appleid.hk,🍎 苹果服务
- - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.audio,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.blog,🍎 苹果服务
  - DOMAIN-SUFFIX,appleone.chat,🍎 苹果服务
@@ -2009,49 +2000,7 @@ rules:
  - DOMAIN-SUFFIX,darwinsource.com,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsource.org,🍎 苹果服务
  - DOMAIN-SUFFIX,darwinsourcecode.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
- - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
- - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ids-apple.com,🍎 苹果服务
- - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itun.es,🍎 苹果服务
  - DOMAIN-SUFFIX,itunbes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,ituneas.com,🍎 苹果服务
@@ -2085,12 +2034,8 @@ rules:
  - DOMAIN-SUFFIX,itunesu.com,🍎 苹果服务
  - DOMAIN-SUFFIX,itunesu.net,🍎 苹果服务
  - DOMAIN-SUFFIX,iutunes.com,🍎 苹果服务
- - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,myappleid.com,🍎 苹果服务
- - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
- - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
  - DOMAIN-SUFFIX,tvappstore.net,🍎 苹果服务
- - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,wwwitunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplestore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,aplleipods.com,🍎 苹果服务
@@ -2359,9 +2304,58 @@ rules:
  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,digicert.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-icloud.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-livephotoskit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,appleicloud.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,applemx-icloud.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apzones.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-apple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud-isupport.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ch,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ee,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fi,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.fr,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.hu,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ie,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.is,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.jp,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.lv,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.net.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.om,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.org,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.pt,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.ro,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.se,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.si,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.sk,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.vn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudads.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudapple.cn,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbox.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudbrowser.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloude.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudhome.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmail.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudmusic.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudnet.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudo.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.de,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudos.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudpay.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsecure.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloudsetup.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,ios-icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,me.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,myicloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,mylcloud.net,🍎 苹果服务
+ - DOMAIN-SUFFIX,wwwicloud.com,🍎 苹果服务
  - DOMAIN-KEYWORD,apple-support.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.akadns.net,🍎 苹果服务
  - DOMAIN-KEYWORD,apple.com.edgekey.net,🍎 苹果服务
